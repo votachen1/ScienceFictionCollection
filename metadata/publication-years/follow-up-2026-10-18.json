@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "checkedOn": "2026-10-18",
   "baselineCommit": "8eeec8d2c82192003ff54224712217cbec684692",
-  "scope": "仅追查上一轮8个待核条目；优先使用本地保存的原帖/作者落款、作者授权年表、作者供稿本研究、国家图书馆规范记录和早期版本原文。",
+  "scope": "僅追查上一輪8個待核條目；優先使用本地儲存的原帖/作者落款、作者授權年表、作者供稿本研究、國家圖書館規範記錄和早期版本原文。",
   "summary": {
     "reviewed": 8,
     "resolved": 3,
@@ -12,109 +12,109 @@
   },
   "sources": {
     "burn-local-primary": {
-      "label": "本地文件保存的小姬原帖署名、2012-01-01 00:40:27时间戳及作者完稿落款",
+      "label": "本地檔案儲存的小姬原帖署名、2012-01-01 00:40:27時間戳及作者完稿落款",
       "kind": "preserved-primary-post",
-      "path": "001 - 刘慈欣(Cixin Liu)/[2012]《烧火工》.txt",
+      "path": "001 - 劉慈欣(Cixin Liu)/[2012]《燒火工》.txt",
       "originalUrl": "https://www.guokr.com/blog/83809/",
-      "availability": "原URL在本次核对时返回404；本地完整转录仍在，外部书目亦引用2012-01-01。"
+      "availability": "原URL在本次核對時返回404；本地完整轉錄仍在，外部書目亦引用2012-01-01。"
     },
     "burn-citation": {
-      "label": "外部书目对小姬原帖日期2012-01-01的引用（补充核对）",
+      "label": "外部書目對小姬原帖日期2012-01-01的引用（補充核對）",
       "kind": "secondary-bibliography",
-      "url": "https://zh.wikipedia.org/wiki/%E5%88%98%E6%85%88%E6%AC%A3"
+      "url": "https://zh.wikipedia.org/wiki/%E5%8A%89%E6%85%88%E6%AC%A3"
     },
     "liu-author-bibliography": {
-      "label": "作者本人整理、作者授权发布的创作年表，海德堡大学DACHS保存本",
+      "label": "作者本人整理、作者授權釋出的創作年表，海德堡大學DACHS儲存本",
       "kind": "author-authorized-source",
       "url": "https://project.zo.uni-heidelberg.de/DACHS_Leiden/archive/leiden/poetry/20040712/white-collar.net/01-author/l/60-liu_cx/031.htm"
     },
     "supernova-author-correspondence": {
-      "label": "张泰旗《历史转轨与不断重释的“新纪元”》：据刘慈欣提供的各稿及回复邮件辨认版本，原载《中国现代文学研究丛刊》2021年第2期，作者支持的全文转载",
+      "label": "張泰旗《歷史轉軌與不斷重釋的“新紀元”》：據劉慈欣提供的各稿及回覆郵件辨認版本，原載《中國現代文學研究叢刊》2021年第2期，作者支援的全文轉載",
       "kind": "research-with-author-provided-manuscripts",
       "url": "https://www.wyzxwk.com/Article/wenyi/2021/04/433152.html"
     },
     "supernova-journal-index": {
-      "label": "《中国现代文学研究丛刊》2021年第2期原刊书目与摘要",
+      "label": "《中國現代文學研究叢刊》2021年第2期原刊書目與摘要",
       "kind": "journal-catalogue",
       "url": "https://m.fx361.com/news/2021/0417/21635669.html"
     },
     "verne-bnf-authority": {
-      "label": "法国国家图书馆作品规范记录：1889英文首刊、1891法文版及1910文集",
+      "label": "法國國家圖書館作品規範記錄：1889英文首刊、1891法文版及1910文集",
       "kind": "national-library-authority",
       "url": "https://catalogue.bnf.fr/ark:/12148/cb18020962q"
     },
     "verne-1910-primary": {
-      "label": "Hetzel《Hier et demain》1910年版，第219–248页：经原书校读的全文",
+      "label": "Hetzel《Hier et demain》1910年版，第219–248頁：經原書校讀的全文",
       "kind": "primary-edition-transcription",
       "url": "https://fr.wikisource.org/wiki/Au_XXIXe_si%C3%A8cle"
     },
     "verne-1891-primary": {
-      "label": "1891年法文《La Journée d’un journaliste américain en 2890》转录：平均寿命58岁，与1910版68岁不同",
+      "label": "1891年法文《La Journée d’un journaliste américain en 2890》轉錄：平均壽命58歲，與1910版68歲不同",
       "kind": "primary-text-transcription",
       "url": "https://www.ic.unicamp.br/~stolfi/realwork/translations/seculo-29/version-jules-1890.pdf"
     },
     "verne-1889-primary": {
-      "label": "The Forum 1889英文文本：Fritz Napoleon Smith、9月25日及平均寿命52岁",
+      "label": "The Forum 1889英文文字：Fritz Napoleon Smith、9月25日及平均壽命52歲",
       "kind": "primary-text-transcription",
       "url": "https://www.gutenberg.org/cache/epub/19362/pg19362-images.html"
     },
     "sea-primary-background": {
-      "label": "《科普创作评论》：确认《海水高山》2003获奖及《山》的扩写关系，未证明其首刊年份",
+      "label": "《科普創作評論》：確認《海水高山》2003獲獎及《山》的擴寫關係，未證明其首刊年份",
       "kind": "research-periodical",
       "url": "https://sw.kpcswa.org.cn/Catalog/201804/review/2018/1215/192.html"
     },
     "sea-earlier-online-lead": {
-      "label": "书评称找到2005年7月网络版本；未提供可独立复核的首发原帖，不能作首刊定年依据",
+      "label": "書評稱找到2005年7月網路版本；未提供可獨立複核的首發原帖，不能作首刊定年依據",
       "kind": "unverified-secondary-lead",
       "url": "https://book.douban.com/review/15958239/"
     },
     "ghost-conflicting-copy": {
-      "label": "与本地同文的韩松署名转载，仅作为冲突线索，不能据此改作者",
+      "label": "與本地同文的韓松署名轉載，僅作為衝突線索，不能據此改作者",
       "kind": "conflicting-secondary-copy",
       "url": "https://higrid.net/show/bk8/460.html"
     },
     "ghost-asimov-copy": {
-      "label": "中文科幻同文署名阿西莫夫，未列原刊和时间",
+      "label": "中文科幻同文署名阿西莫夫，未列原刊和時間",
       "kind": "secondary-copy-without-original-citation",
       "url": "https://chinasf.com/main/noveldetail.php?ChapterID=-8&NovelID=1025"
     },
     "doyle-translator-lead": {
-      "label": "同文二次转载标张荣华译，但同时误署阿西莫夫；无原刊或版权页，译者及版本年份均不据此确定",
+      "label": "同文二次轉載標張榮華譯，但同時誤署阿西莫夫；無原刊或版權頁，譯者及版本年份均不據此確定",
       "kind": "unverified-secondary-lead",
       "url": "https://www.211cn.ca/book/foreign-sci-fi-1000/?c=107"
     },
     "genesis-platform-catalogue": {
-      "label": "番茄小说官方《创世纪》合集目录：刘慈欣，13章，目录含单篇《创世纪》；全书19.7万字不等于该单篇长度",
+      "label": "番茄小說官方《創世紀》合集目錄：劉慈欣，13章，目錄含單篇《創世紀》；全書19.7萬字不等於該單篇長度",
       "kind": "platform-edition-catalogue",
       "url": "https://fanqienovel.com/page/7363514084773350462"
     },
     "genesis-platform-copyright": {
-      "label": "番茄小说《创世纪》版权页；仅作平台版本出处，不构成向本仓库再分发的许可",
+      "label": "番茄小說《創世紀》版權頁；僅作平臺版本出處，不構成向本倉庫再分發的許可",
       "kind": "platform-copyright-page",
       "url": "https://fanqienovel.com/reader/7363514115861531673"
     },
     "genesis-original-placeholder": {
-      "label": "仓库首次收录时的“仅有链接”占位记录，提交010a887；不是正文存档",
+      "label": "倉庫首次收錄時的“僅有連結”佔位記錄，提交010a887；不是正文存檔",
       "kind": "repository-history-reference",
       "url": "http://book.km.com/chapterlist/1564342.html",
-      "availability": "2026-10-18浏览工具无法访问，未确认其当前内容。"
+      "availability": "2026-10-18瀏覽工具無法訪問，未確認其當前內容。"
     }
   },
   "searchLimitations": [
-    "果壳原帖https://www.guokr.com/blog/83809/本次直接访问返回404，旧存档入口未能取得；采用本地保存的署名原帖时间戳并交叉核对书目日期。",
-    "《东方少年》2003获奖稿、《科幻大王》2004年12期/2005年1期和两篇中文译文的可核实原刊扫描未找到；书目或二次转载不能替代本地版本核对。",
-    "未联系作者、译者、出版社或期刊编辑部；未绕过登录、付费或馆藏访问限制。"
+    "果殼原帖https://www.guokr.com/blog/83809/本次直接訪問返回404，舊存檔入口未能取得；採用本地儲存的署名原帖時間戳並交叉核對書目日期。",
+    "《東方少年》2003獲獎稿、《科幻大王》2004年12期/2005年1期和兩篇中文譯文的可核實原刊掃描未找到；書目或二次轉載不能替代本地版本核對。",
+    "未聯絡作者、譯者、出版社或期刊編輯部；未繞過登入、付費或館藏訪問限制。"
   ],
   "entries": [
     {
       "bookId": "001-d61cc2118e13",
       "authorId": "001",
-      "title": "中国2185",
-      "path": "001 - 刘慈欣(Cixin Liu)/[1989]《中国2185》.txt",
+      "title": "中國2185",
+      "path": "001 - 劉慈欣(Cixin Liu)/[1989]《中國2185》.txt",
       "outcome": "resolved",
       "year": 1989,
       "yearBasis": "creation-year-only",
-      "conclusion": "已核实1989是创作年份：本地作者落款为1989.2.15，作者本人整理并授权发布的年表亦列1989且注明未发表。保留1989作创作年，不声称是初刊年；未找到正式出版记录。",
+      "conclusion": "已核實1989是創作年份：本地作者落款為1989.2.15，作者本人整理並授權釋出的年表亦列1989且註明未發表。保留1989作創作年，不聲稱是初刊年；未找到正式出版記錄。",
       "sourceIds": [
         "liu-author-bibliography"
       ]
@@ -122,12 +122,12 @@
     {
       "bookId": "001-cfd761fe0618",
       "authorId": "001",
-      "title": "超新星纪元（1991年二稿·网络整理本）",
-      "path": "001 - 刘慈欣(Cixin Liu)/[1991-1]《超新星纪元》(1991年二稿-网络整理本).txt",
+      "title": "超新星紀元（1991年二稿·網路整理本）",
+      "path": "001 - 劉慈欣(Cixin Liu)/[1991-1]《超新星紀元》(1991年二稿-網路整理本).txt",
       "outcome": "still-unresolved",
       "year": 1991,
       "yearBasis": "draft-completion-year-only",
-      "conclusion": "据作者提供稿本的版本研究及本地FG、糖城、对日战争和交换国土等特征，对应1991年二稿；本文件还附有2002年后记，属于网络整理本，不称最终完整版。首次公开时间待考。",
+      "conclusion": "據作者提供稿本的版本研究及本地FG、糖城、對日戰爭和交換國土等特徵，對應1991年二稿；本檔案還附有2002年後記，屬於網路整理本，不稱最終完整版。首次公開時間待考。",
       "sourceIds": [
         "supernova-author-correspondence",
         "supernova-journal-index"
@@ -137,11 +137,11 @@
       "bookId": "001-58df442a4ae1",
       "authorId": "001",
       "title": "海水高山",
-      "path": "001 - 刘慈欣(Cixin Liu)/[2003-2]《海水高山》.txt",
+      "path": "001 - 劉慈欣(Cixin Liu)/[2003-2]《海水高山》.txt",
       "outcome": "still-unresolved",
       "year": 2003,
       "yearBasis": null,
-      "conclusion": "原刊/作者资料能确认2003征文获奖和后来扩写为《山》；尚未找到获奖稿的首发原刊。年表列2014年重刊，另有2005年网络版本的二手线索，故不能把2014认定为首发，也不以2003获奖年充当已确认的发表年。保留原文件与2003标记。",
+      "conclusion": "原刊/作者資料能確認2003徵文獲獎和後來擴寫為《山》；尚未找到獲獎稿的首發原刊。年表列2014年重刊，另有2005年網路版本的二手線索，故不能把2014認定為首發，也不以2003獲獎年充當已確認的發表年。保留原檔案與2003標記。",
       "sourceIds": [
         "sea-primary-background",
         "sea-earlier-online-lead"
@@ -150,12 +150,12 @@
     {
       "bookId": "001-06a912a96d1b",
       "authorId": "001",
-      "title": "创世纪",
-      "path": "001 - 刘慈欣(Cixin Liu)/[2005]《创世纪》（超新星纪元中篇版）.txt",
+      "title": "創世紀",
+      "path": "001 - 劉慈欣(Cixin Liu)/[2005]《創世紀》（超新星紀元中篇版）.txt",
       "outcome": "still-unresolved",
       "year": 2005,
       "yearBasis": null,
-      "conclusion": "《创世纪》为《超新星纪元》前半部的缩写，书目记载连载于《科幻大王》2004年12期至2005年1期，后来以《超新星纪元》之名收入短篇集。已找到番茄小说官方《创世纪》合集目录及版权页，但尚未取得可核实的原刊扫描或可再分发正文，不能确认平台篇目与原刊逐字一致。本地文件仍为0字节，保留2005标记及待核状态。",
+      "conclusion": "《創世紀》為《超新星紀元》前半部的縮寫，書目記載連載於《科幻大王》2004年12期至2005年1期，後來以《超新星紀元》之名收入短篇集。已找到番茄小說官方《創世紀》合集目錄及版權頁，但尚未取得可核實的原刊掃描或可再分發正文，不能確認平臺篇目與原刊逐字一致。本地檔案仍為0位元組，保留2005標記及待核狀態。",
       "sourceIds": [
         "supernova-author-correspondence",
         "supernova-journal-index",
@@ -167,22 +167,22 @@
         "checkedOn": "2026-10-18",
         "result": "source-found-text-not-imported",
         "localFileBytes": 0,
-        "gitHistoryCheck": "首次加入文件的提交010a887中为123字节“仅有链接”占位文件；现为空文件。历史记录未发现该中篇正文。",
-        "editionCheck": "研究确认缩写及后来的恢复题名；官方合集目录确认收录《创世纪》，尚未核对原刊与平台文本差异。",
-        "reasonNotImported": "未找到可再分发的开放许可正文；未复制受版权保护的整篇作品。",
-        "nextEvidenceNeeded": "用户提供的正文或原刊扫描，或可核实的开放许可文本。",
+        "gitHistoryCheck": "首次加入檔案的提交010a887中為123位元組“僅有連結”佔位檔案；現為空檔案。歷史記錄未發現該中篇正文。",
+        "editionCheck": "研究確認縮寫及後來的恢復題名；官方合集目錄確認收錄《創世紀》，尚未核對原刊與平臺文字差異。",
+        "reasonNotImported": "未找到可再分發的開放許可正文；未複製受版權保護的整篇作品。",
+        "nextEvidenceNeeded": "使用者提供的正文或原刊掃描，或可核實的開放許可文字。",
         "originalPlaceholderUrl": "http://book.km.com/chapterlist/1564342.html"
       }
     },
     {
       "bookId": "001-311b35f4d7d9",
       "authorId": "001",
-      "title": "烧火工",
-      "path": "001 - 刘慈欣(Cixin Liu)/[2012]《烧火工》.txt",
+      "title": "燒火工",
+      "path": "001 - 劉慈欣(Cixin Liu)/[2012]《燒火工》.txt",
       "outcome": "resolved",
       "year": 2012,
       "yearBasis": "first-online-publication",
-      "conclusion": "本地完整保留小姬原帖《刘慈欣写给我的童话》，含2012-01-01 00:40:27发布时间、2012-01-01零点收到作者邮件的说明，以及2011-12-28完稿落款；外部书目引用日期一致。确认2012为网络首发年，原文件名正确。",
+      "conclusion": "本地完整保留小姬原帖《劉慈欣寫給我的童話》，含2012-01-01 00:40:27釋出時間、2012-01-01零點收到作者郵件的說明，以及2011-12-28完稿落款；外部書目引用日期一致。確認2012為網路首發年，原檔案名正確。",
       "sourceIds": [
         "burn-local-primary",
         "burn-citation"
@@ -191,12 +191,12 @@
     {
       "bookId": "003-c056bb6968f0",
       "authorId": "013",
-      "title": "被遗忘的世界",
-      "path": "013 - Arthur Conan Doyle(亚瑟·柯南·道尔)/被遗忘的世界.txt",
+      "title": "被遺忘的世界",
+      "path": "013 - Arthur Conan Doyle(亞瑟·柯南·道爾)/被遺忘的世界.txt",
       "outcome": "still-unresolved",
       "year": null,
       "yearBasis": null,
-      "conclusion": "原作归属及1912年已确认。相同节写文本的二次转载出现“张荣华译”线索，但这些转载也沿用错误的阿西莫夫署名，且未提供原刊、版权页或节写者资料，不能据此确定译者或版本年份。保留正文、柯南·道尔归属和无年份文件名。",
+      "conclusion": "原作歸屬及1912年已確認。相同節寫文字的二次轉載出現“張榮華譯”線索，但這些轉載也沿用錯誤的阿西莫夫署名，且未提供原刊、版權頁或節寫者資料，不能據此確定譯者或版本年份。保留正文、柯南·道爾歸屬和無年份檔案名。",
       "sourceIds": [
         "doyle-translator-lead"
       ]
@@ -205,11 +205,11 @@
       "bookId": "003-dc2adbecdeca",
       "authorId": "003",
       "title": "鬼扯",
-      "path": "003 - Isaac Asimov(艾萨克·阿西莫夫)/鬼扯.txt",
+      "path": "003 - Isaac Asimov(艾薩克·阿西莫夫)/鬼扯.txt",
       "outcome": "still-unresolved",
       "year": null,
       "yearBasis": null,
-      "conclusion": "未找到能消除阿西莫夫/韩松同文异署名冲突的原刊、作者或出版社记录；中文二次转载不独立构成署名证据。检索摘要中的1995年10期与相邻《黑鳏夫酒家的聚餐会》条目有关，不能移用为《鬼扯》日期。保留原文件及原署名，初刊年继续空缺。",
+      "conclusion": "未找到能消除阿西莫夫/韓松同文異署名衝突的原刊、作者或出版社記錄；中文二次轉載不獨立構成署名證據。檢索摘要中的1995年10期與相鄰《黑鰥夫酒家的聚餐會》條目有關，不能移用為《鬼扯》日期。保留原檔案及原署名，初刊年繼續空缺。",
       "sourceIds": [
         "ghost-asimov-copy",
         "ghost-conflicting-copy"
@@ -218,12 +218,12 @@
     {
       "bookId": "004-b0d170dc43ae",
       "authorId": "004",
-      "title": "2889年一个美国新闻界巨子的一天（1910年修订版）",
-      "path": "004 - Jules Gabriel Verne(儒勒·加布里埃尔·凡尔纳)/[1910]《2889年一个美国新闻界巨子的一天》.txt",
+      "title": "2889年一個美國新聞界鉅子的一天（1910年修訂版）",
+      "path": "004 - Jules Gabriel Verne(儒勒·加布裡埃爾·凡爾納)/[1910]《2889年一個美國新聞界鉅子的一天》.txt",
       "outcome": "resolved",
       "year": 1910,
       "yearBasis": "identified-revised-edition",
-      "conclusion": "本地平均寿命68岁、Francis Benett／萨姆医生、中心城及2889年7月等版本特征对应1910修订文本；区别于1889英文首刊和1891法文文本。米歇尔·凡尔纳参与原作和1910年修订，原作通常以儒勒·凡尔纳名义发表。",
+      "conclusion": "本地平均壽命68歲、Francis Benett／薩姆醫生、中心城及2889年7月等版本特徵對應1910修訂文字；區別於1889英文首刊和1891法文文字。米歇爾·凡爾納參與原作和1910年修訂，原作通常以儒勒·凡爾納名義發表。",
       "sourceIds": [
         "verne-bnf-authority",
         "verne-1910-primary",

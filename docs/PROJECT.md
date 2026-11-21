@@ -1,38 +1,38 @@
-[返回仓库首页](../README.md) · [完整作品目录](../CATALOG.md)
+[返回倉庫首頁](../README.md) · [完整作品目錄](../CATALOG.md)
 
-# 科幻小说作品集
+# 科幻小說作品集
 
-收集科幻小说原文，并集中维护在线阅读所需的作者、作品与版本元信息。
+收集科幻小說原文，並集中維護線上閱讀所需的作者、作品與版本元資訊。
 
-**[在线阅读](https://veejaliu.github.io/ScienceFictionCollection-Web/)** · **[阅读器 Web 仓库](https://github.com/VeejaLiu/ScienceFictionCollection-Web)** · **[元信息维护指南](../metadata/README.md)**
+**[線上閱讀](https://veejaliu.github.io/ScienceFictionCollection-Web/)** · **[閱讀器 Web 倉庫](https://github.com/VeejaLiu/ScienceFictionCollection-Web)** · **[元資訊維護指南](../metadata/README.md)**
 
-## 两个仓库的分工
+## 兩個倉庫的分工
 
-| 项目 | 负责内容 |
+| 專案 | 負責內容 |
 | --- | --- |
-| [ScienceFictionCollection](https://github.com/VeejaLiu/ScienceFictionCollection)（本仓库） | 作者与系列目录中的小说原文，以及 `metadata/` 中的姓名、简介、语言版本、头像和封面 |
-| [ScienceFictionCollection-Web](https://github.com/VeejaLiu/ScienceFictionCollection-Web) | 书架与列表、在线阅读、语言与版本切换、阅读进度、SEO 和 GitHub Pages 发布 |
+| [ScienceFictionCollection](https://github.com/VeejaLiu/ScienceFictionCollection)（本倉庫） | 作者與系列目錄中的小說原文，以及 `metadata/` 中的姓名、簡介、語言版本、頭像和封面 |
+| [ScienceFictionCollection-Web](https://github.com/VeejaLiu/ScienceFictionCollection-Web) | 書架與列表、線上閱讀、語言與版本切換、閱讀進度、SEO 和 GitHub Pages 釋出 |
 
-当前登记 **17 位作者、1种期刊、224组小说作品、2期期刊、228个阅读文件**。网页通过 metadata 中的 `directory`、`path` 绑定文件，内部 ID 保持稳定，对外使用可读的 slug。截至2026年10月18日，已逐项核对全部作品文件，累计修正30个年份标注、1个版本名称，并将误署名阿西莫夫的《被遗忘的世界》节写本按原作归入柯南·道尔目录；不同译本和版本均保留。[核对来源、年份口径及5个待核条目](../metadata/publication-years/verification.json) 单独登记，[本轮8项追查记录](../metadata/publication-years/follow-up-2026-10-18.json) 包括已查明事实和未决原因。
+當前登記 **17 位作者、1種期刊、224組小說作品、2期期刊、228個閱讀檔案**。網頁透過 metadata 中的 `directory`、`path` 繫結檔案，內部 ID 保持穩定，對外使用可讀的 slug。截至2026年10月18日，已逐項核對全部作品檔案，累計修正30個年份標註、1個版本名稱，並將誤署名阿西莫夫的《被遺忘的世界》節寫本按原作歸入柯南·道爾目錄；不同譯本和版本均保留。[核對來源、年份口徑及5個待核條目](../metadata/publication-years/verification.json) 單獨登記，[本輪8項追查記錄](../metadata/publication-years/follow-up-2026-10-18.json) 包括已查明事實和未決原因。
 
-《创世纪》的空文件尚未补入正文：已登记[番茄小说官方合集目录](https://fanqienovel.com/page/7363514084773350462)及版权页，但平台篇目与2004—2005年原刊尚未比对，也未查到可再分发的开放许可文本。目录明确标注正文缺失；其余待核条目保留原状。
+《創世紀》的空檔案尚未補入正文：已登記[番茄小說官方合集目錄](https://fanqienovel.com/page/7363514084773350462)及版權頁，但平臺篇目與2004—2005年原刊尚未比對，也未查到可再分發的開放許可文字。目錄明確標註正文缺失；其餘待核條目保留原狀。
 
-## 在线阅读与语言版本
+## 線上閱讀與語言版本
 
-阅读器支持简体中文、繁体中文、英文、法语、德语、俄语、日语和韩语界面。界面翻译不等于正文翻译：当前正文以中文为主，简繁体按文件登记；《火星纪事》EPUB 已核对为繁体。其他语言版本需要收录真实文件，并通过相同的 `workId` 关联。
+閱讀器支援簡體中文、繁體中文、英文、法語、德語、俄語、日語和韓語介面。介面翻譯不等於正文翻譯：當前正文以中文為主，簡繁體按檔案登記；《火星紀事》EPUB 已核對為繁體。其他語言版本需要收錄真實檔案，並透過相同的 `workId` 關聯。
 
-每本书优先选择当前界面语言，其次英文，最后选择一个已有语言版本；书架、列表与阅读页均保留版本切换。TXT/Markdown 打开后按需加载正文并保存本机阅读进度；EPUB 支持浏览器内阅读、目录跳转、翻页和位置恢复；PDF 提供原始文件入口。目录及网站构建只读取元信息和图片，不批量读取或打包小说正文。
+每本書優先選擇當前介面語言，其次英文，最後選擇一個已有語言版本；書架、列表與閱讀頁均保留版本切換。TXT/Markdown 開啟後按需載入正文並儲存本機閱讀進度；EPUB 支援瀏覽器內閱讀、目錄跳轉、翻頁和位置恢復；PDF 提供原始檔案入口。目錄及網站構建只讀取元資訊和圖片，不批次讀取或打包小說正文。
 
-## 元信息与图片
+## 元資訊與圖片
 
-- `metadata/authors.json`：作者 ID、slug、真实目录、多语言姓名、简介和资料来源。
-- `metadata/books/<作者slug>.json`：文件 ID、作品 `workId`、slug、正文路径、语言、格式、系列和封面。
-- `metadata/avatars/`、`metadata/covers/`：WebP 头像和封面；头像最长边 160 像素，封面不超过 600 × 900 像素。
-- [封面整理清单](../metadata/covers/catalog.json)：现有228条阅读文件记录，其中78条引用76张封面；图片按作者、作品、版本归档，期刊按刊名、年份、期号归档。来源编号、版本说明和图片摘要保留在清单中；未引用的旧示例图已清理，没有封面的作品由阅读器即时绘制替代图。
+- `metadata/authors.json`：作者 ID、slug、真實目錄、多語言姓名、簡介和資料來源。
+- `metadata/books/<作者slug>.json`：檔案 ID、作品 `workId`、slug、正文路徑、語言、格式、系列和封面。
+- `metadata/avatars/`、`metadata/covers/`：WebP 頭像和封面；頭像最長邊 160 畫素，封面不超過 600 × 900 畫素。
+- [封面整理清單](../metadata/covers/catalog.json)：現有228條閱讀檔案記錄，其中78條引用76張封面；圖片按作者、作品、版本歸檔，期刊按刊名、年份、期號歸檔。來源編號、版本說明和圖片摘要保留在清單中；未引用的舊示例圖已清理，沒有封面的作品由閱讀器即時繪製替代圖。
 
-## 维护与更新
+## 維護與更新
 
-在本仓库根目录执行：
+在本倉庫根目錄執行：
 
 ```bash
 python3 metadata/sync.py
@@ -40,19 +40,19 @@ python3 metadata/sync.py --check
 python3 script.py
 ```
 
-作者清单由 `authors.json` 的 `booksFile` 明确指定，例如 `books/liu-cixin.json`；ID保留在JSON内容中。同步脚本只读取文件名、路径和文件大小，保留已有元信息字段；移动文件时先更新 `path`，保留文件 ID、作品 `workId` 和 slug。新增作者或翻译版本的字段说明见 [metadata/README.md](../metadata/README.md)。
+作者清單由 `authors.json` 的 `booksFile` 明確指定，例如 `books/liu-cixin.json`；ID保留在JSON內容中。同步指令碼只讀取檔案名、路徑和檔案大小，保留已有元資訊欄位；移動檔案時先更新 `path`，保留檔案 ID、作品 `workId` 和 slug。新增作者或翻譯版本的欄位說明見 [metadata/README.md](../metadata/README.md)。
 
-README 首页与完整作品目录由 `script.py` 自动生成；本说明文档单独维护。
+README 首頁與完整作品目錄由 `script.py` 自動生成；本說明文件單獨維護。
 
-2026年10月21日新增的用户文件包括太空漫游四部曲拆分EPUB、《2061》TXT、《海中山》及《科幻世界》2026年第5、6期，新增7组作品、8份文件；来源、广告清理及完整性核对见 [元信息维护指南](../metadata/README.md#本轮用户提供的小说与期刊2026年10月21日)。期刊在独立的“期刊”分类中按刊名、年份及期号登记，保留整期文章署名。
+2026年10月21日新增的使用者檔案包括太空漫遊四部曲拆分EPUB、《2061》TXT、《海中山》及《科幻世界》2026年第5、6期，新增7組作品、8份檔案；來源、廣告清理及完整性核對見 [元資訊維護指南](../metadata/README.md#本輪使用者提供的小說與期刊2026年10月21日)。期刊在獨立的“期刊”分類中按刊名、年份及期號登記，保留整期文章署名。
 
-Web 主分支更新后由 GitHub Actions 自动发布。仅修改本仓库元信息时，在 [Web 的 Pages 发布工作流](https://github.com/VeejaLiu/ScienceFictionCollection-Web/actions/workflows/pages.yml) 选择 **Run workflow** 即可重新构建网站；发布会读取本仓库 `master` 的 metadata，正文则在阅读时从本仓库按需获取。
+Web 主分支更新後由 GitHub Actions 自動釋出。僅修改本倉庫元資訊時，在 [Web 的 Pages 釋出工作流](https://github.com/VeejaLiu/ScienceFictionCollection-Web/actions/workflows/pages.yml) 選擇 **Run workflow** 即可重新構建網站；釋出會讀取本倉庫 `master` 的 metadata，正文則在閱讀時從本倉庫按需獲取。
 
-## 来源与权利记录
+## 來源與權利記錄
 
-详见 [授权范围](../LICENSE-SCOPE.md)；现有 [MIT LICENSE](../LICENSE) 保留原文。
+詳見 [授權範圍](../LICENSE-SCOPE.md)；現有 [MIT LICENSE](../LICENSE) 保留原文。
 
-小说正文、作者头像、出版社封面与应用代码分别保留各自的权利归属。书目或封面来源链接不代表获得开放许可；封面出处与版本匹配说明见整理清单，阅读器自有代码及第三方素材的授权记录见 [Web 仓库说明](https://github.com/VeejaLiu/ScienceFictionCollection-Web/blob/master/docs/PROJECT.md#上游来源与应用授权)。
+小說正文、作者頭像、出版社封面與應用程式碼分別保留各自的權利歸屬。書目或封面來源連結不代表獲得開放許可；封面出處與版本匹配說明見整理清單，閱讀器自有程式碼及第三方素材的授權記錄見 [Web 倉庫說明](https://github.com/VeejaLiu/ScienceFictionCollection-Web/blob/master/docs/PROJECT.md#上游來源與應用授權)。
 
 ## Star History
 

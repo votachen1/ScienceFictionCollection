@@ -4,14 +4,14 @@
   "books": [
     {
       "id": "005-75babcff9dfd",
-      "path": "[1818]《弗兰肯斯坦》(Frankenstein).txt",
-      "title": "弗兰肯斯坦",
+      "path": "[1818]《弗蘭肯斯坦》(Frankenstein).txt",
+      "title": "弗蘭肯斯坦",
       "format": "txt",
       "size": 438819,
       "language": "zh-CN",
       "series": "",
-      "cover": "covers/works/mary-shelley/弗兰肯斯坦/reference-edition.webp",
-      "slug": "弗兰肯斯坦",
+      "cover": "covers/works/mary-shelley/弗蘭肯斯坦/reference-edition.webp",
+      "slug": "弗蘭肯斯坦",
       "coverStyle": "full",
       "coverSource": {
         "label": "Open Library",

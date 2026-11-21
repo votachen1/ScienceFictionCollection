@@ -4,14 +4,14 @@
   "books": [
     {
       "id": "007-936a59a9494a",
-      "path": "[1985]《安德的游戏》.txt",
-      "title": "安德的游戏",
+      "path": "[1985]《安德的遊戲》.txt",
+      "title": "安德的遊戲",
       "format": "txt",
       "size": 608862,
       "language": "zh-CN",
       "series": "",
-      "cover": "covers/works/orson-scott-card/安德的游戏/reference-edition.webp",
-      "slug": "安德的游戏",
+      "cover": "covers/works/orson-scott-card/安德的遊戲/reference-edition.webp",
+      "slug": "安德的遊戲",
       "coverStyle": "full",
       "coverSource": {
         "label": "Open Library",
@@ -32,7 +32,7 @@
       "coverStyle": "full",
       "coverSource": {
         "label": "EPUB",
-        "url": "https://github.com/VeejaLiu/ScienceFictionCollection/blob/master/007%20-%20Orson%20Scott%20Card%28%E5%A5%A5%E6%A3%AE%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9%C2%B7%E5%8D%A1%E5%BE%B7%29/%5B1986%5D%E3%80%8A%E6%AD%BB%E8%80%85%E4%BB%A3%E8%A8%80%E4%BA%BA%E3%80%8B.epub"
+        "url": "https://github.com/VeejaLiu/ScienceFictionCollection/blob/master/007%20-%20Orson%20Scott%20Card%28%E5%A5%A7%E6%A3%AE%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9%C2%B7%E5%8D%A1%E5%BE%B7%29/%5B1986%5D%E3%80%8A%E6%AD%BB%E8%80%85%E4%BB%A3%E8%A8%80%E4%BA%BA%E3%80%8B.epub"
       },
       "workId": "007-ea10556baf6b"
     },
@@ -55,18 +55,18 @@
     },
     {
       "id": "007-6f8dbb15af20",
-      "path": "[1991]《外星屠异》.epub",
-      "title": "外星屠异",
+      "path": "[1991]《外星屠異》.epub",
+      "title": "外星屠異",
       "format": "epub",
       "size": 538251,
       "language": "zh-CN",
       "series": "",
-      "cover": "covers/works/orson-scott-card/外星屠异/zh-cn-epub-cover.webp",
-      "slug": "外星屠异",
+      "cover": "covers/works/orson-scott-card/外星屠異/zh-cn-epub-cover.webp",
+      "slug": "外星屠異",
       "coverStyle": "full",
       "coverSource": {
         "label": "EPUB",
-        "url": "https://github.com/VeejaLiu/ScienceFictionCollection/blob/master/007%20-%20Orson%20Scott%20Card%28%E5%A5%A5%E6%A3%AE%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9%C2%B7%E5%8D%A1%E5%BE%B7%29/%5B1991%5D%E3%80%8A%E5%A4%96%E6%98%9F%E5%B1%A0%E5%BC%82%E3%80%8B.epub"
+        "url": "https://github.com/VeejaLiu/ScienceFictionCollection/blob/master/007%20-%20Orson%20Scott%20Card%28%E5%A5%A7%E6%A3%AE%C2%B7%E6%96%AF%E7%A7%91%E7%89%B9%C2%B7%E5%8D%A1%E5%BE%B7%29/%5B1991%5D%E3%80%8A%E5%A4%96%E6%98%9F%E5%B1%A0%E7%95%B0%E3%80%8B.epub"
       },
       "workId": "007-6f8dbb15af20"
     },

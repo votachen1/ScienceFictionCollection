@@ -19,9 +19,9 @@
         "firstPublicationDate": "1930",
         "sourceUrl": "https://www.gutenberg.org/ebooks/79003",
         "editionYear": null,
-        "note": "原作书版年1930；PG目录另列Penguin后出印本信息，数字版发布于2026-07-02。保留完整16章、序言、引言和时间尺度图；不是MIT Press 2026年节写版。"
+        "note": "原作書版年1930；PG目錄另列Penguin後出印本資訊，數字版釋出於2026-07-02。保留完整16章、序言、引言和時間尺度圖；不是MIT Press 2026年節寫版。"
       },
-      "editionNote": "原作书版年1930；PG目录另列Penguin后出印本信息，数字版发布于2026-07-02。保留完整16章、序言、引言和时间尺度图；不是MIT Press 2026年节写版。",
+      "editionNote": "原作書版年1930；PG目錄另列Penguin後出印本資訊，數字版釋出於2026-07-02。保留完整16章、序言、引言和時間尺度圖；不是MIT Press 2026年節寫版。",
       "textSource": {
         "kind": "public-domain-digital-edition",
         "label": "Project Gutenberg ebook 79003",
@@ -30,7 +30,7 @@
         "textSha256": "1e335ea4679b79130f8ec17178d00552d7246d37ea81d9e3cf164dc9a0497951",
         "textBytes": 415137,
         "acquisitionReview": "acquisition/classics-2026-10-21.json",
-        "review": "验证EPUB容器、16章及序言/引言、760段正文顺序、75个目录链接和97个嵌入资源引用，保留4张时间尺度图（共5个尺度）。源文件及内含许可逐字节保留。",
+        "review": "驗證EPUB容器、16章及序言/引言、760段正文順序、75個目錄連結和97個嵌入資源引用，保留4張時間尺度圖（共5個尺度）。源檔案及內含許可逐位元組保留。",
         "sourceTextUrl": "https://www.gutenberg.org/cache/epub/79003/pg79003.txt",
         "sourceTxtSha256": "696322ceaa13f157e8e6ed26a25195a8165a047747d668c71d850c3129421df5",
         "sourceHtmlUrl": "https://www.gutenberg.org/cache/epub/79003/pg79003-images.html",
@@ -48,18 +48,18 @@
         ],
         "globalPublicDomain": false,
         "reviewedOn": "2026-10-21",
-        "basis": "古登堡作品目录和实际文件的美国公版说明；威尔斯及斯塔普尔顿原作的发表年份另作交叉核对。",
+        "basis": "古登堡作品目錄和實際檔案的美國公版說明；威爾斯及斯塔普爾頓原作的發表年份另作交叉核對。",
         "sourceUrls": [
           "https://www.gutenberg.org/ebooks/79003",
           "https://www.gutenberg.org/policy/license.html",
           "https://www.copyright.gov/circs/circ15a.pdf"
         ],
-        "scope": "仅针对所列完整英文EPUB及内含原作时间尺度图在美国的来源公版依据；不涵盖未经核查的译文、新导读或其他地区。",
-        "redistribution": "原样保留源EPUB、来源署名及完整古登堡许可；没有修改或删除其许可。"
+        "scope": "僅針對所列完整英文EPUB及內含原作時間尺度圖在美國的來源公版依據；不涵蓋未經核查的譯文、新導讀或其他地區。",
+        "redistribution": "原樣保留源EPUB、來源署名及完整古登堡許可；沒有修改或刪除其許可。"
       },
       "coverStyle": "full",
       "coverSource": {
-        "label": "当前EPUB内嵌出版封面",
+        "label": "當前EPUB內嵌出版封面",
         "url": "https://www.gutenberg.org/ebooks/79003"
       }
     }

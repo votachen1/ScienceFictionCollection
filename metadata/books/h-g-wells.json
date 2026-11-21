@@ -19,9 +19,9 @@
         "firstPublicationDate": "1895",
         "sourceUrl": "https://www.gutenberg.org/ebooks/35",
         "editionYear": null,
-        "note": "文件名年份指原作书版年，所收为所列古登堡数字版本；未将数字版本发布日期或具体纸本版次当作原作年份。"
+        "note": "檔案名年份指原作書版年，所收為所列古登堡數字版本；未將數字版本釋出日期或具體紙本版次當作原作年份。"
       },
-      "editionNote": "文件名年份指原作书版年，所收为所列古登堡数字版本；未将数字版本发布日期或具体纸本版次当作原作年份。",
+      "editionNote": "檔案名年份指原作書版年，所收為所列古登堡數字版本；未將數字版本釋出日期或具體紙本版次當作原作年份。",
       "textSource": {
         "kind": "public-domain-digital-edition",
         "label": "Project Gutenberg ebook 35",
@@ -30,7 +30,7 @@
         "textSha256": "f0bc21ac4e9ac715efc586dab598eebdafc362f90abb6df8b2038fd90d504280",
         "textBytes": 180915,
         "acquisitionReview": "acquisition/classics-2026-10-21.json",
-        "review": "对照同站HTML和TXT核查章节及首尾；全部叙事段落逐一顺序匹配，并验证整段正文的字母数字序列一致。不是逐页原刊影像校勘。",
+        "review": "對照同站HTML和TXT核查章節及首尾；全部敘事段落逐一順序匹配，並驗證整段正文的字母數字序列一致。不是逐頁原刊影像校勘。",
         "sourceTextUrl": "https://www.gutenberg.org/cache/epub/35/pg35.txt",
         "sourceTxtSha256": "2892e919000e17c83e1dac51b30f4675db50536b644d7579fe8a89bb399a9bdc",
         "sourceHtmlUrl": "https://www.gutenberg.org/cache/epub/35/pg35-images.html",
@@ -50,11 +50,11 @@
           }
         ],
         "excluded": [
-          "古登堡页首页尾和许可包装（来源另在metadata中致谢）",
-          "重复印刷目录",
-          "图片占位及编辑宣传导语"
+          "古登堡頁首頁尾和許可包裝（來源另在metadata中致謝）",
+          "重影印刷目錄",
+          "圖片佔位及編輯宣傳導語"
         ],
-        "normalization": "从正文结构提取章节标题、正文段落与场景分隔；仅归一化段内空白，不改写用词。"
+        "normalization": "從正文結構提取章節標題、正文段落與場景分隔；僅歸一化段內空白，不改寫用詞。"
       },
       "rights": {
         "status": "public-domain-US-supported",
@@ -63,14 +63,14 @@
         ],
         "globalPublicDomain": false,
         "reviewedOn": "2026-10-21",
-        "basis": "古登堡作品目录和实际文件的美国公版说明；威尔斯及斯塔普尔顿原作的发表年份另作交叉核对。",
+        "basis": "古登堡作品目錄和實際檔案的美國公版說明；威爾斯及斯塔普爾頓原作的發表年份另作交叉核對。",
         "sourceUrls": [
           "https://www.gutenberg.org/ebooks/35",
           "https://www.gutenberg.org/policy/license.html",
           "https://www.copyright.gov/circs/circ15a.pdf"
         ],
-        "scope": "仅针对所列英文数字版本在美国的收录依据；不适用于未经核查的译本、新导读、插图或其他地区。",
-        "redistribution": "依据古登堡许可1.C及说明，正文中去除古登堡包装和商标引用；在来源记录中保留带链接的致谢。"
+        "scope": "僅針對所列英文數字版本在美國的收錄依據；不適用於未經核查的譯本、新導讀、插圖或其他地區。",
+        "redistribution": "依據古登堡許可1.C及說明，正文中去除古登堡包裝和商標引用；在來源記錄中保留帶連結的致謝。"
       },
       "chapterTitleCorrections": [
         {
@@ -101,9 +101,9 @@
         "firstPublicationDate": "1897",
         "sourceUrl": "https://www.gutenberg.org/ebooks/5230",
         "editionYear": null,
-        "note": "文件名年份指原作书版年，所收为所列古登堡数字版本；未将数字版本发布日期或具体纸本版次当作原作年份。"
+        "note": "檔案名年份指原作書版年，所收為所列古登堡數字版本；未將數字版本釋出日期或具體紙本版次當作原作年份。"
       },
-      "editionNote": "文件名年份指原作书版年，所收为所列古登堡数字版本；未将数字版本发布日期或具体纸本版次当作原作年份。",
+      "editionNote": "檔案名年份指原作書版年，所收為所列古登堡數字版本；未將數字版本釋出日期或具體紙本版次當作原作年份。",
       "textSource": {
         "kind": "public-domain-digital-edition",
         "label": "Project Gutenberg ebook 5230",
@@ -112,7 +112,7 @@
         "textSha256": "bc3289fbaaa82399dceb7e437df71d5547c125f516208922a89d5b928a9c009a",
         "textBytes": 279492,
         "acquisitionReview": "acquisition/classics-2026-10-21.json",
-        "review": "对照同站HTML和TXT核查章节及首尾；全部叙事段落逐一顺序匹配，并验证整段正文的字母数字序列一致。不是逐页原刊影像校勘。",
+        "review": "對照同站HTML和TXT核查章節及首尾；全部敘事段落逐一順序匹配，並驗證整段正文的字母數字序列一致。不是逐頁原刊影像校勘。",
         "sourceTextUrl": "https://www.gutenberg.org/cache/epub/5230/pg5230.txt",
         "sourceTxtSha256": "28c70e3809ce945efbe5f8681532916a2c4253fee5cca6e1a191707af22280d3",
         "sourceHtmlUrl": "https://www.gutenberg.org/cache/epub/5230/pg5230-images.html",
@@ -123,11 +123,11 @@
         "completeNarrativeAlphanumericSha256": "886b1d34702e3c91cade4c204ae04fec00a202057f12440536edba3236bc0a18",
         "formatDifferences": [],
         "excluded": [
-          "古登堡页首页尾和许可包装（来源另在metadata中致谢）",
-          "重复印刷目录",
-          "图片占位及编辑宣传导语"
+          "古登堡頁首頁尾和許可包裝（來源另在metadata中致謝）",
+          "重影印刷目錄",
+          "圖片佔位及編輯宣傳導語"
         ],
-        "normalization": "从正文结构提取章节标题、正文段落与场景分隔；仅归一化段内空白，不改写用词。"
+        "normalization": "從正文結構提取章節標題、正文段落與場景分隔；僅歸一化段內空白，不改寫用詞。"
       },
       "rights": {
         "status": "public-domain-US-supported",
@@ -136,14 +136,14 @@
         ],
         "globalPublicDomain": false,
         "reviewedOn": "2026-10-21",
-        "basis": "古登堡作品目录和实际文件的美国公版说明；威尔斯及斯塔普尔顿原作的发表年份另作交叉核对。",
+        "basis": "古登堡作品目錄和實際檔案的美國公版說明；威爾斯及斯塔普爾頓原作的發表年份另作交叉核對。",
         "sourceUrls": [
           "https://www.gutenberg.org/ebooks/5230",
           "https://www.gutenberg.org/policy/license.html",
           "https://www.copyright.gov/circs/circ15a.pdf"
         ],
-        "scope": "仅针对所列英文数字版本在美国的收录依据；不适用于未经核查的译本、新导读、插图或其他地区。",
-        "redistribution": "依据古登堡许可1.C及说明，正文中去除古登堡包装和商标引用；在来源记录中保留带链接的致谢。"
+        "scope": "僅針對所列英文數字版本在美國的收錄依據；不適用於未經核查的譯本、新導讀、插圖或其他地區。",
+        "redistribution": "依據古登堡許可1.C及說明，正文中去除古登堡包裝和商標引用；在來源記錄中保留帶連結的致謝。"
       },
       "chapterTitleCorrections": [
         {
@@ -174,10 +174,10 @@
         "firstPublicationDate": "1897",
         "sourceUrl": "https://www.gutenberg.org/ebooks/36",
         "editionYear": null,
-        "note": "1897年连载，1898年书版；文件名1898采用原作书版年。此数字转录的具体纸本底本未核定。",
+        "note": "1897年連載，1898年書版；檔案名1898採用原作書版年。此數字轉錄的具體紙本底本未核定。",
         "serialPublicationYear": 1897
       },
-      "editionNote": "1897年连载，1898年书版；文件名1898采用原作书版年。此数字转录的具体纸本底本未核定。",
+      "editionNote": "1897年連載，1898年書版；檔案名1898採用原作書版年。此數字轉錄的具體紙本底本未核定。",
       "textSource": {
         "kind": "public-domain-digital-edition",
         "label": "Project Gutenberg ebook 36",
@@ -186,7 +186,7 @@
         "textSha256": "fd571bd755abfc18cb771031f005bb149a4b0e8f6d129dc6870734d6416d6de7",
         "textBytes": 339438,
         "acquisitionReview": "acquisition/classics-2026-10-21.json",
-        "review": "对照同站HTML和TXT核查章节及首尾；全部叙事段落逐一顺序匹配，并验证整段正文的字母数字序列一致。不是逐页原刊影像校勘。",
+        "review": "對照同站HTML和TXT核查章節及首尾；全部敘事段落逐一順序匹配，並驗證整段正文的字母數字序列一致。不是逐頁原刊影像校勘。",
         "sourceTextUrl": "https://www.gutenberg.org/cache/epub/36/pg36.txt",
         "sourceTxtSha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
         "sourceHtmlUrl": "https://www.gutenberg.org/cache/epub/36/pg36-images.html",
@@ -197,11 +197,11 @@
         "completeNarrativeAlphanumericSha256": "2452c1d2ecebadb243f8f5ca30b28413a5df8ab2fba5030f6d35668905a39357",
         "formatDifferences": [],
         "excluded": [
-          "古登堡页首页尾和许可包装（来源另在metadata中致谢）",
-          "重复印刷目录",
-          "图片占位及编辑宣传导语"
+          "古登堡頁首頁尾和許可包裝（來源另在metadata中致謝）",
+          "重影印刷目錄",
+          "圖片佔位及編輯宣傳導語"
         ],
-        "normalization": "从正文结构提取章节标题、正文段落与场景分隔；仅归一化段内空白，不改写用词。"
+        "normalization": "從正文結構提取章節標題、正文段落與場景分隔；僅歸一化段內空白，不改寫用詞。"
       },
       "rights": {
         "status": "public-domain-US-supported",
@@ -210,14 +210,14 @@
         ],
         "globalPublicDomain": false,
         "reviewedOn": "2026-10-21",
-        "basis": "古登堡作品目录和实际文件的美国公版说明；威尔斯及斯塔普尔顿原作的发表年份另作交叉核对。",
+        "basis": "古登堡作品目錄和實際檔案的美國公版說明；威爾斯及斯塔普爾頓原作的發表年份另作交叉核對。",
         "sourceUrls": [
           "https://www.gutenberg.org/ebooks/36",
           "https://www.gutenberg.org/policy/license.html",
           "https://www.copyright.gov/circs/circ15a.pdf"
         ],
-        "scope": "仅针对所列英文数字版本在美国的收录依据；不适用于未经核查的译本、新导读、插图或其他地区。",
-        "redistribution": "依据古登堡许可1.C及说明，正文中去除古登堡包装和商标引用；在来源记录中保留带链接的致谢。"
+        "scope": "僅針對所列英文數字版本在美國的收錄依據；不適用於未經核查的譯本、新導讀、插圖或其他地區。",
+        "redistribution": "依據古登堡許可1.C及說明，正文中去除古登堡包裝和商標引用；在來源記錄中保留帶連結的致謝。"
       },
       "coverStyle": "full",
       "coverSource": {

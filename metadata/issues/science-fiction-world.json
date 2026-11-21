@@ -13,8 +13,8 @@
       "cover": "covers/journals/science-fiction-world/2026/issue-05-zh-cn-epub.webp",
       "coverStyle": "full",
       "coverSource": {
-        "label": "用户提供 EPUB 内置封面",
-        "url": "https://github.com/VeejaLiu/ScienceFictionCollection/blob/master/018%20-%20Science%20Fiction%20World%28%E7%A7%91%E5%B9%BB%E4%B8%96%E7%95%8C%E6%9D%82%E5%BF%97%E7%A4%BE%29/2026/%E3%80%8A%E7%A7%91%E5%B9%BB%E4%B8%96%E7%95%8C%E3%80%8B%EF%BC%882026%E5%B9%B4%E7%AC%AC5%E6%9C%9F%EF%BC%89.epub"
+        "label": "使用者提供 EPUB 內建封面",
+        "url": "https://github.com/VeejaLiu/ScienceFictionCollection/blob/master/018%20-%20Science%20Fiction%20World%28%E7%A7%91%E5%B9%BB%E4%B8%96%E7%95%8C%E9%9B%9C%E8%AA%8C%E7%A4%BE%29/2026/%E3%80%8A%E7%A7%91%E5%B9%BB%E4%B8%96%E7%95%8C%E3%80%8B%EF%BC%882026%E5%B9%B4%E7%AC%AC5%E6%9C%9F%EF%BC%89.epub"
       },
       "slug": "科幻世界-2026-5",
       "workId": "018-521ad1f3a823",
@@ -26,14 +26,14 @@
         "editionYear": 2026,
         "issueYear": 2026,
         "issueNumber": 5,
-        "publisher": "四川科幻世界杂志社",
-        "source": "用户提供EPUB内的书名与版权信息页",
-        "note": "按期刊整期收录；杂志社为出版机构，不作为各篇作品的个人作者。"
+        "publisher": "四川科幻世界雜誌社",
+        "source": "使用者提供EPUB內的書名與版權資訊頁",
+        "note": "按期刊整期收錄；雜誌社為出版機構，不作為各篇作品的個人作者。"
       },
-      "editionNote": "整期杂志保留，按2026年第5期登记；清理下载来源推广，不将各篇小说统一署名给杂志社。",
+      "editionNote": "整期雜誌保留，按2026年第5期登記；清理下載來源推廣，不將各篇小說統一署名給雜誌社。",
       "textSource": {
         "kind": "user-provided-file",
-        "label": "用户提供的本地EPUB",
+        "label": "使用者提供的本地EPUB",
         "originalFilename": "科幻世界（2026年第5期）.epub",
         "sourceSha256": "ec3b07227552ecd95eed6cc54b57a1f2fd112c31dd60c24e0986ea503405822a",
         "sourceBytes": 5980539,
@@ -42,7 +42,7 @@
         "importedOn": "2026-10-21",
         "spineDocuments": 16,
         "navigationEntries": 14,
-        "review": "验证ZIP、阅读顺序及目录；保留整期文章署名，未与纸书逐页校勘。 已按用户要求清理来源广告，当前文件不再与原始EPUB逐字节一致。 另规范EPUB3导航、JPEG资源名及脚注引用；逐文档验证文字不变。",
+        "review": "驗證ZIP、閱讀順序及目錄；保留整期文章署名，未與紙書逐頁校勘。 已按使用者要求清理來源廣告，當前檔案不再與原始EPUB逐位元組一致。 另規範EPUB3導航、JPEG資源名及腳註引用；逐文件驗證文字不變。",
         "acquisitionReview": "acquisition/user-provided-2026-10-21.json",
         "adCleanup": {
           "reviewedOn": "2026-10-21",
@@ -55,7 +55,7 @@
           },
           "review": "acquisition/ad-cleanup-2026-10-21.json"
         },
-        "normalization": "移除下载来源推广段落、二维码及推广元数据后重新打包；其余内容保留。",
+        "normalization": "移除下載來源推廣段落、二維碼及推廣後設資料後重新打包；其餘內容保留。",
         "compatibilityReview": "acquisition/epub-compatibility-2026-10-21.json"
       }
     },
@@ -70,8 +70,8 @@
       "cover": "covers/journals/science-fiction-world/2026/issue-06-zh-cn-epub.webp",
       "coverStyle": "full",
       "coverSource": {
-        "label": "用户提供 EPUB 内置封面",
-        "url": "https://github.com/VeejaLiu/ScienceFictionCollection/blob/master/018%20-%20Science%20Fiction%20World%28%E7%A7%91%E5%B9%BB%E4%B8%96%E7%95%8C%E6%9D%82%E5%BF%97%E7%A4%BE%29/2026/%E3%80%8A%E7%A7%91%E5%B9%BB%E4%B8%96%E7%95%8C%E3%80%8B%EF%BC%882026%E5%B9%B4%E7%AC%AC6%E6%9C%9F%EF%BC%89.epub"
+        "label": "使用者提供 EPUB 內建封面",
+        "url": "https://github.com/VeejaLiu/ScienceFictionCollection/blob/master/018%20-%20Science%20Fiction%20World%28%E7%A7%91%E5%B9%BB%E4%B8%96%E7%95%8C%E9%9B%9C%E8%AA%8C%E7%A4%BE%29/2026/%E3%80%8A%E7%A7%91%E5%B9%BB%E4%B8%96%E7%95%8C%E3%80%8B%EF%BC%882026%E5%B9%B4%E7%AC%AC6%E6%9C%9F%EF%BC%89.epub"
       },
       "slug": "科幻世界-2026-6",
       "workId": "018-ca7701582aeb",
@@ -82,24 +82,24 @@
         "editionYear": 2026,
         "issueYear": 2026,
         "issueNumber": 6,
-        "publisher": "四川科幻世界杂志社",
-        "source": "用户提供EPUB内的书名与版权信息页",
-        "note": "按期刊整期收录；杂志社为出版机构，不作为各篇作品的个人作者。"
+        "publisher": "四川科幻世界雜誌社",
+        "source": "使用者提供EPUB內的書名與版權資訊頁",
+        "note": "按期刊整期收錄；雜誌社為出版機構，不作為各篇作品的個人作者。"
       },
-      "editionNote": "整期杂志原样保留，按2026年第6期登记；不将各篇小说统一署名给杂志社。",
+      "editionNote": "整期雜誌原樣保留，按2026年第6期登記；不將各篇小說統一署名給雜誌社。",
       "textSource": {
         "kind": "user-provided-file",
-        "label": "用户提供的本地EPUB",
+        "label": "使用者提供的本地EPUB",
         "originalFilename": "科幻世界（2026年第6期）.epub",
         "sourceSha256": "bb1833561d691589aade13b6f878b76c0a3639f0c8b890e76aaf49f901ffa285",
         "sourceBytes": 4855981,
         "textSha256": "80d4722f8ea82aa8a0644e779d1ee2e5511e38fe68aae05a9941ea1c2f6bb84b",
         "textBytes": 4106356,
         "importedOn": "2026-10-21",
-        "normalization": "移除下载来源推广段落、二维码及推广元数据后重新打包；其余内容保留。",
+        "normalization": "移除下載來源推廣段落、二維碼及推廣後設資料後重新打包；其餘內容保留。",
         "spineDocuments": 23,
         "navigationEntries": 13,
-        "review": "验证ZIP完整性、OPF清单、阅读顺序及NCX目录目标；核对文件内版权信息页，未与纸书逐页校勘。 已按用户要求清理来源广告，当前文件不再与原始EPUB逐字节一致。 另规范EPUB3导航、JPEG资源名及脚注引用；逐文档验证文字不变。",
+        "review": "驗證ZIP完整性、OPF清單、閱讀順序及NCX目錄目標；核對檔案內版權資訊頁，未與紙書逐頁校勘。 已按使用者要求清理來源廣告，當前檔案不再與原始EPUB逐位元組一致。 另規範EPUB3導航、JPEG資源名及腳註引用；逐文件驗證文字不變。",
         "acquisitionReview": "acquisition/user-provided-2026-10-21.json",
         "adCleanup": {
           "reviewedOn": "2026-10-21",

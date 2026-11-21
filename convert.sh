@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# 用法：bash convert.sh [文件或目录 ...]
-# 默认递归处理当前目录的 *.txt；仅将严格可逆的 GBK 转为 UTF-8。
-# 已是 UTF-8 的文件保持原样；无法解码的文件报错且不覆盖。
+# 用法：bash convert.sh [檔案或目錄 ...]
+# 預設遞迴處理當前目錄的 *.txt；僅將嚴格可逆的 GBK 轉為 UTF-8。
+# 已是 UTF-8 的檔案保持原樣；無法解碼的檔案報錯且不覆蓋。
 set -euo pipefail
 
 exec python3 - "$@" <<'PY'
@@ -24,7 +24,7 @@ def find_text_files(path):
         if path.suffix.lower() == '.txt':
             yield path
     else:
-        raise ValueError(f'路径不存在或不是普通文件：{path}')
+        raise ValueError(f'路徑不存在或不是普通檔案：{path}')
 
 
 def convert(path):
@@ -35,16 +35,16 @@ def convert(path):
     except UnicodeDecodeError:
         pass
 
-    # 严格解码，不忽略错误、不替换字符、不规范化换行。
+    # 嚴格解碼，不忽略錯誤、不替換字元、不規範化換行。
     text = original.decode('gbk')
     if text.encode('gbk') != original:
-        raise ValueError('GBK 编码无法逐字节还原，已跳过')
+        raise ValueError('GBK 編碼無法逐位元組還原，已跳過')
     converted = text.encode('utf-8')
     if converted.decode('utf-8').encode('gbk') != original:
-        raise ValueError('转换校验失败，已跳过')
+        raise ValueError('轉換校驗失敗，已跳過')
 
     mode = stat.S_IMODE(path.stat().st_mode)
-    # 每个文件使用独立的临时文件；只有写入和校验成功才原子替换。
+    # 每個檔案使用獨立的臨時檔案；只有寫入和校驗成功才原子替換。
     with tempfile.NamedTemporaryFile(dir=path.parent, prefix='.convert-', delete=False) as file:
         temporary = Path(file.name)
         try:
@@ -57,13 +57,13 @@ def convert(path):
             raise
     try:
         if temporary.read_bytes() != converted:
-            raise ValueError('临时文件校验失败，原文件保持不变')
+            raise ValueError('臨時檔案校驗失敗，原檔案保持不變')
         if path.read_bytes() != original:
-            raise ValueError('处理期间原文件发生变化，已取消替换')
+            raise ValueError('處理期間原檔案發生變化，已取消替換')
         os.replace(temporary, path)
     finally:
         temporary.unlink(missing_ok=True)
-    print(f'[已转换] {path}')
+    print(f'[已轉換] {path}')
     return True
 
 
@@ -85,11 +85,11 @@ for argument in sys.argv[1:] or ['.']:
                     skipped_count += 1
             except (OSError, UnicodeError, ValueError) as error:
                 errors += 1
-                print(f'[失败，保留原文件] {path}: {error}', file=sys.stderr)
+                print(f'[失敗，保留原檔案] {path}: {error}', file=sys.stderr)
     except (OSError, ValueError) as error:
         errors += 1
-        print(f'[失败] {argument}: {error}', file=sys.stderr)
+        print(f'[失敗] {argument}: {error}', file=sys.stderr)
 
-print(f'完成：转换 {converted_count}，跳过 UTF-8 文件 {skipped_count}，失败 {errors}。')
+print(f'完成：轉換 {converted_count}，跳過 UTF-8 檔案 {skipped_count}，失敗 {errors}。')
 sys.exit(1 if errors else 0)
 PY

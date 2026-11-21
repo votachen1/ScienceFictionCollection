@@ -6,9 +6,9 @@ import stat
 import tempfile
 from pathlib import Path
 
-HEADER = """# 科幻小说作品集
+HEADER = """# 科幻小說作品集
 
-## 贡献者 Contributors
+## 貢獻者 Contributors
 
 [![Contributors](https://contrib.rocks/image?repo=VeejaLiu/ScienceFictionCollection)](https://github.com/VeejaLiu/ScienceFictionCollection/graphs/contributors)
 
@@ -33,9 +33,9 @@ def get_file_size(file_path):
 
 
 def add_books_from_directory(path, indent_level=0):
-    """递归生成目录内容；不跟随符号链接或收录隐藏文件。"""
+    """遞迴生成目錄內容；不跟隨符號連結或收錄隱藏檔案。"""
     markdown = ""
-    indent = " " * 2 * indent_level  # 生成缩进
+    indent = " " * 2 * indent_level  # 生成縮排
 
     directories = []
     files = []
@@ -48,13 +48,13 @@ def add_books_from_directory(path, indent_level=0):
         elif entry.is_file():
             files.append(entry.name)
 
-    # 先写目录，再写文件
+    # 先寫目錄，再寫檔案
     for directory in sorted(directories):
         markdown += f"{indent}- {directory}\n"
         markdown += add_books_from_directory(os.path.join(path, directory), indent_level + 1)
     for file in sorted(files):
         book_size = get_file_size(os.path.join(path, file))
-        missing_note = " **（空文件，正文缺失）**" if os.path.getsize(os.path.join(path, file)) == 0 else ""
+        missing_note = " **（空檔案，正文缺失）**" if os.path.getsize(os.path.join(path, file)) == 0 else ""
         markdown += f"{indent}- {file} _[{book_size}]_{missing_note}\n"
     return markdown
 
@@ -95,7 +95,7 @@ def generate_readme(root):
     return markdown + """
 ## 更多
 
-[在线阅读](https://veejaliu.github.io/ScienceFictionCollection-Web/) · [项目说明](docs/PROJECT.md) · [授权范围](LICENSE-SCOPE.md) · [Web 仓库](https://github.com/VeejaLiu/ScienceFictionCollection-Web)
+[線上閱讀](https://veejaliu.github.io/ScienceFictionCollection-Web/) · [專案說明](docs/PROJECT.md) · [授權範圍](LICENSE-SCOPE.md) · [Web 倉庫](https://github.com/VeejaLiu/ScienceFictionCollection-Web)
 
 ## Star History
 
@@ -105,7 +105,7 @@ def generate_readme(root):
 
 def generate_catalog(root):
     authors = author_directories(root)
-    markdown = '# 完整作品目录\n\n[返回仓库首页](README.md) · [在线阅读](https://veejaliu.github.io/ScienceFictionCollection-Web/)\n\n由 `script.py` 根据目录和文件大小生成，不读取小说正文。\n\n## 作者索引\n\n'
+    markdown = '# 完整作品目錄\n\n[返回倉庫首頁](README.md) · [線上閱讀](https://veejaliu.github.io/ScienceFictionCollection-Web/)\n\n由 `script.py` 根據目錄和檔案大小生成，不讀取小說正文。\n\n## 作者索引\n\n'
     for author in authors:
         anchor = re.sub(r'[^\w\s-]', '', author.lower()).strip()
         anchor = re.sub(r'\s+', '-', anchor)

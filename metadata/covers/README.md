@@ -1,15 +1,15 @@
-# 封面目录与命名
+# 封面目錄與命名
 
-[返回元信息说明](../README.md)
+[返回元資訊說明](../README.md)
 
-封面以“作者／作品／版本”归档。文件名说明实际用途或已确认的版次，不再使用来源平台编号、作品ID或哈希作为图片文件名。来源编号、ISBN、原图摘要、当前图片摘要及权利说明保留在 [catalog.json](catalog.json) 中。
+封面以“作者／作品／版本”歸檔。檔案名說明實際用途或已確認的版次，不再使用來源平臺編號、作品ID或雜湊作為圖片檔案名。來源編號、ISBN、原圖摘要、當前圖片摘要及權利說明保留在 [catalog.json](catalog.json) 中。
 
-## 当前目录
+## 當前目錄
 
 ```text
 covers/
-  works/<作者slug>/<作品名称slug>/<版本说明>.webp
-  journals/<刊物slug>/<年份>/issue-<期号>-<版本说明>.webp
+  works/<作者slug>/<作品名稱slug>/<版本說明>.webp
+  journals/<刊物slug>/<年份>/issue-<期號>-<版本說明>.webp
   catalog.json
   title-aliases.json
   README.md
@@ -18,37 +18,37 @@ covers/
 例如：
 
 ```text
-works/liu-cixin/三体/reference-edition.webp
-works/arthur-c-clarke/2061-太空漫游/2019-zh-cn-epub-cover.webp
+works/liu-cixin/三體/reference-edition.webp
+works/arthur-c-clarke/2061-太空漫遊/2019-zh-cn-epub-cover.webp
 works/orson-scott-card/死者代言人/zh-cn-epub-cover.webp
 works/orson-scott-card/死者代言人/reference-edition.webp
 works/philip-k-dick/the-variable-man/1953-09-original-magazine.webp
 journals/science-fiction-world/2026/issue-05-zh-cn-epub.webp
 ```
 
-作品目录采用可读书名；同一作品的不同格式、译本或参考封面放在一起。期刊目录中的 `issue-05` 表示第5期，不推测为5月刊。期号补零便于按文件名排列，清单中的期号仍使用整数。
+作品目錄採用可讀書名；同一作品的不同格式、譯本或參考封面放在一起。期刊目錄中的 `issue-05` 表示第5期，不推測為5月刊。期號補零便於按檔案名排列，清單中的期號仍使用整數。
 
-## 版本说明
+## 版本說明
 
-| 名称 | 含义 |
+| 名稱 | 含義 |
 | --- | --- |
-| `reference-edition` | 出版参考版封面，不能据此认定与正文的译本或纸本版次一致 |
-| `1895-reference-edition` | 已有来源支持1895年参考封面，不以正文原作年份代替封面版次 |
-| `zh-cn-epub-cover`、`zh-tw-epub-cover`、`en-epub-cover` | 对应所收录EPUB版本的封面，语言标记来自该正文版本 |
-| `2019-zh-cn-epub-cover` | 已明确登记2019年中文版本的EPUB封面 |
-| `上册-zh-cn-epub-cover` | 上册EPUB的封面，卷册信息作为版本说明保留 |
-| `1953-09-original-magazine` | 原作首发刊期的封面素材，不冒充独立单行本封面 |
+| `reference-edition` | 出版參考版封面，不能據此認定與正文的譯本或紙本版次一致 |
+| `1895-reference-edition` | 已有來源支援1895年參考封面，不以正文原作年份代替封面版次 |
+| `zh-cn-epub-cover`、`zh-tw-epub-cover`、`en-epub-cover` | 對應所收錄EPUB版本的封面，語言標記來自該正文版本 |
+| `2019-zh-cn-epub-cover` | 已明確登記2019年中文版本的EPUB封面 |
+| `上冊-zh-cn-epub-cover` | 上冊EPUB的封面，卷冊資訊作為版本說明保留 |
+| `1953-09-original-magazine` | 原作首發刊期的封面素材，不冒充獨立單行本封面 |
 
-只有有来源依据的年份、语言或卷册信息才进入版本名；未知信息不推测补写。同一张封面若服务于多个版本，只保存一份，由各自清单明确引用；共享参考封面不表示这些正文版本相同。
+只有有來源依據的年份、語言或卷冊資訊才進入版本名；未知資訊不推測補寫。同一張封面若服務於多個版本，只儲存一份，由各自清單明確引用；共享參考封面不表示這些正文版本相同。
 
-## 清单与维护
+## 清單與維護
 
-- 各作者作品清单、期刊分期清单中的 `cover` 是当前使用关系；文件路径相对于 metadata。
-- `catalog.json` 的 `entries` 按 `bookId` 保存匹配记录，`asset` 指向当前图片；`source` 保留来源编号、原始链接、ISBN、版本与权利信息。
-- `sha256` 是当前WebP图片摘要，`sourceSha256` 是原始图像摘要；重命名不改变这些摘要。
-- `assetVersion` 记录可读版本名，`storage` 统计当前图片数量与字节数；旧批量压缩统计保存在 `historicalCompressionBatch`，不冒充本次迁移统计。
-- `title-aliases.json` 只用于书名检索，不生成封面图片。
+- 各作者作品清單、期刊分期清單中的 `cover` 是當前使用關係；檔案路徑相對於 metadata。
+- `catalog.json` 的 `entries` 按 `bookId` 儲存匹配記錄，`asset` 指向當前圖片；`source` 保留來源編號、原始連結、ISBN、版本與權利資訊。
+- `sha256` 是當前WebP圖片摘要，`sourceSha256` 是原始圖像摘要；重新命名不改變這些摘要。
+- `assetVersion` 記錄可讀版本名，`storage` 統計當前圖片數量與位元組數；舊批次壓縮統計儲存在 `historicalCompressionBatch`，不冒充本次遷移統計。
+- `title-aliases.json` 只用於書名檢索，不生成封面圖片。
 
-新增图片先按上述结构命名，再登记来源和作品引用。删除图片前，以现有小说和期刊清单的 `cover` 引用确定是否仍在使用；引用中的图片保留，未引用的旧图、示例图及其废弃生成附件可以清理。没有封面的作品使用阅读器内的即时绘制逻辑，不需要存放示例图片。
+新增圖片先按上述結構命名，再登記來源和作品引用。刪除圖片前，以現有小說和期刊清單的 `cover` 引用確定是否仍在使用；引用中的圖片保留，未引用的舊圖、示例圖及其廢棄生成附件可以清理。沒有封面的作品使用閱讀器內的即時繪製邏輯，不需要存放示例圖片。
 
-2026年10月21日共迁移76张在用封面，删除3张未引用示例WebP及其3份SVG，并移除只用于这些示例的生成脚本和旧说明文件。在用图片未重编码，78个阅读文件继续使用这些封面。逐项旧路径、新路径、摘要与清理原因见 [封面整理记录](../acquisition/cover-organization-2026-10-21.json)；其中旧路径只用于历史追溯，不表示文件仍应存在。
+2026年10月21日共遷移76張在用封面，刪除3張未引用示例WebP及其3份SVG，並移除只用於這些示例的生成指令碼和舊說明檔案。在用圖片未重編碼，78個閱讀檔案繼續使用這些封面。逐項舊路徑、新路徑、摘要與清理原因見 [封面整理記錄](../acquisition/cover-organization-2026-10-21.json)；其中舊路徑只用於歷史追溯，不表示檔案仍應存在。

@@ -26,7 +26,7 @@
       "created": "1920",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:H.G._Wells_by_Beresford_(cropped).jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/9/98/H.G._Wells_by_Beresford_%28cropped%29.jpg",
-      "rights": "Commons标为公版；原作1920年，摄影者1938年去世。来源页另记NPG对复制品的部分地域主张，不宣称全球无争议。",
+      "rights": "Commons標為公版；原作1920年，攝影者1938年去世。來源頁另記NPG對複製品的部分地域主張，不宣稱全球無爭議。",
       "checkedOn": "2026-10-21",
       "sourceSha256": "c567ff3718936f297db0b7ac04a9bebd385327fb32e1bbad770a56e34d834439",
       "sourceBytes": 234990,
@@ -46,7 +46,7 @@
         "maxHeight": 160,
         "quality": 85
       },
-      "review": "已查看原图并确认人物；仅按比例缩小并转为WebP，不绘制、不生成替代人像。",
+      "review": "已檢視原圖並確認人物；僅按比例縮小並轉為WebP，不繪製、不生成替代人像。",
       "replaces": "avatars/014.webp"
     },
     {
@@ -57,7 +57,7 @@
       "created": null,
       "sourcePage": "https://digitalheritagelab.liverpool.ac.uk/olaf-stapledon-archive-1",
       "sourceImage": "https://static.quartexcollections.com/liverpool/media-file/bfa2e353-fd3c-45f8-8f11-264cd6f51ce7-original.jpg",
-      "rights": "大学作者档案页明确标注William Olaf Stapledon肖像，用于小尺寸作者识别并链接致谢；未见单独开放许可，不标成公版。",
+      "rights": "大學作者檔案頁明確標註William Olaf Stapledon肖像，用於小尺寸作者識別並連結致謝；未見單獨開放許可，不標成公版。",
       "checkedOn": "2026-10-21",
       "sourceSha256": "d641194abf64cd5c7fb3330ba2d0d5de3553d72db80a5fe8214ef302663f4a8b",
       "sourceBytes": 84942,
@@ -77,7 +77,7 @@
         "maxHeight": 160,
         "quality": 85
       },
-      "review": "已查看原图并确认人物；仅按比例缩小并转为WebP，不绘制、不生成替代人像。",
+      "review": "已檢視原圖並確認人物；僅按比例縮小並轉為WebP，不繪製、不生成替代人像。",
       "replaces": "avatars/015.webp"
     },
     {
@@ -88,7 +88,7 @@
       "created": "1962 or earlier",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Philip_K_Dick_in_early_1960s_(photo_by_Arthur_Knight)_(cropped).jpg",
       "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/3/36/Philip_K_Dick_in_early_1960s_%28photo_by_Arthur_Knight%29_%28cropped%29.jpg",
-      "rights": "Commons记此照首次刊于1962年The Man in the High Castle护封背面、无单独版权声明，标为美国公版；不外推其他地域。",
+      "rights": "Commons記此照首次刊於1962年The Man in the High Castle護封背面、無單獨版權宣告，標為美國公版；不外推其他地域。",
       "checkedOn": "2026-10-21",
       "sourceSha256": "f28da6229d52ff28a4bfa99fcd1a620de0da5cc97163323bf049e4fccc547c9b",
       "sourceBytes": 1427890,
@@ -108,7 +108,7 @@
         "maxHeight": 160,
         "quality": 85
       },
-      "review": "已查看原图并确认人物；仅按比例缩小并转为WebP，不绘制、不生成替代人像。",
+      "review": "已檢視原圖並確認人物；僅按比例縮小並轉為WebP，不繪製、不生成替代人像。",
       "replaces": "avatars/016.webp"
     },
     {
@@ -117,7 +117,7 @@
       "kind": "generated-monogram",
       "creator": "This project",
       "initials": "RN",
-      "rights": "本项目生成的姓名或机构缩写占位图，不是肖像或官方标志。",
+      "rights": "本專案生成的姓名或機構縮寫佔點陣圖，不是肖像或官方標誌。",
       "sha256": "32262947c1e4fa8701d3ba1b1e91e9d239df8ac166543ed521b25963a255556c",
       "encoding": {
         "format": "webp",
@@ -137,7 +137,7 @@
       "kind": "generated-monogram",
       "creator": "This project",
       "initials": "SFW",
-      "rights": "本项目生成的姓名或机构缩写占位图，不是肖像或官方标志。",
+      "rights": "本專案生成的姓名或機構縮寫佔點陣圖，不是肖像或官方標誌。",
       "sha256": "67c6bb1b126862db909c534a348d0976cbe5dccfd2e1824bd586d9f4c5d2f5ed",
       "encoding": {
         "format": "webp",

@@ -3,7 +3,7 @@
   "authorId": "012",
   "checkedOn": "2026-10-20",
   "issue": "https://github.com/VeejaLiu/ScienceFictionCollection/issues/5",
-  "scope": "本轮覆盖原作者汇总的23项，补入时间奥德赛的两部续作，并将1953年同名短篇与1967年短篇集分开；共26项。不是克拉克全部著作或全部短篇的完整书目。",
+  "scope": "本輪覆蓋原作者彙總的23項，補入時間奧德賽的兩部續作，並將1953年同名短篇與1967年短篇集分開；共26項。不是克拉克全部著作或全部短篇的完整書目。",
   "status": "partial-import-with-user-provided-files",
   "catalogSnapshot": {
     "commit": "28417e0",
@@ -37,11 +37,11 @@
     "userProvidedChineseFilesImported": 5
   },
   "conventions": {
-    "priority": "0=已收录；1=代表作与太空漫游/拉玛系列优先；2=后续独立作品与中短篇；3=合集、相关资料及时间奥德赛后续。",
-    "publication": "长篇、文集以原文书版年为基准，中短篇以可核实的原文初刊年为基准；版次冲突不自动强定首发年。",
-    "chineseSearchTitles": "中文检索名主要沿用旧汇总；9个优先项另记出版方在豆瓣阅读提供的中文版本资料，属于平台元信息核对，不替代实物版权页与正文完整性核对。未核定译名的条目使用null。",
-    "sourceUse": "来源只支持书目、版次或获取渠道的相关事实；销售、试读、借阅、已有网络转录均不自动代表获准公开再分发。",
-    "catalogBoundary": "这里只记候选项；不在books/arthur-c-clarke.json创建无正文记录，不创建空小说文件，不改动现有ID、slug、workId或正文。"
+    "priority": "0=已收錄；1=代表作與太空漫遊/拉瑪系列優先；2=後續獨立作品與中短篇；3=合集、相關資料及時間奧德賽後續。",
+    "publication": "長篇、文集以原文書版年為基準，中短篇以可核實的原文初刊年為基準；版次衝突不自動強定首發年。",
+    "chineseSearchTitles": "中文檢索名主要沿用舊彙總；9個優先項另記出版方在豆瓣閱讀提供的中文版本資料，屬於平臺元資訊核對，不替代實物版權頁與正文完整性核對。未核定譯名的條目使用null。",
+    "sourceUse": "來源只支援書目、版次或獲取渠道的相關事實；銷售、試讀、借閱、已有網路轉錄均不自動代表獲准公開再分發。",
+    "catalogBoundary": "這裡只記候選項；不在books/arthur-c-clarke.json建立無正文記錄，不建立空小說檔案，不改動現有ID、slug、workId或正文。"
   },
   "sources": [
     {
@@ -53,14 +53,14 @@
     },
     {
       "id": "uip",
-      "label": "University of Illinois Press：Gary Westfahl 扩展书目",
+      "label": "University of Illinois Press：Gary Westfahl 擴展書目",
       "url": "https://www.press.uillinois.edu/books/?id=p083594",
       "kind": "bibliography",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "foundation",
-      "label": "The Arthur C. Clarke Foundation：作者与作品",
+      "label": "The Arthur C. Clarke Foundation：作者與作品",
       "url": "https://clarkefoundation.org/arthur-c-clarke-biography/",
       "kind": "author-bibliography",
       "checkedOn": "2026-10-20"
@@ -144,7 +144,7 @@
     },
     {
       "id": "hachette-city-history",
-      "label": "Hachette / Stephen Baxter：The City and the Stars 版本来历",
+      "label": "Hachette / Stephen Baxter：The City and the Stars 版本來歷",
       "url": "https://www.hachette.co.uk/sfx-book-club/2014/01/08/sf-masterwork-of-the-week-the-city-and-the-stars/",
       "kind": "publisher-article",
       "checkedOn": "2026-10-20"
@@ -172,28 +172,28 @@
     },
     {
       "id": "ol-2061",
-      "label": "Open Library：2061，美国精装版记录",
+      "label": "Open Library：2061，美國精裝版記錄",
       "url": "https://openlibrary.org/books/OL9529121M/2061",
       "kind": "edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "wiki-2061",
-      "label": "Wikipedia：2061，1987年首发线索",
+      "label": "Wikipedia：2061，1987年首發線索",
       "url": "https://en.wikipedia.org/wiki/2061%3A_Odyssey_Three",
       "kind": "secondary-lead",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "ol-songs",
-      "label": "Open Library：The Songs of Distant Earth，1986年长篇",
+      "label": "Open Library：The Songs of Distant Earth，1986年長篇",
       "url": "https://openlibrary.org/books/OL2545014M/The_songs_of_distant_earth",
       "kind": "edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "openroad-rosetta",
-      "label": "Open Road Media：RosettaBooks 书目",
+      "label": "Open Road Media：RosettaBooks 書目",
       "url": "https://openroadmedia.com/publisher/RosettaBooks",
       "kind": "publisher-catalog",
       "checkedOn": "2026-10-20"
@@ -207,112 +207,112 @@
     },
     {
       "id": "ws-author",
-      "label": "英文维基文库：Arthur C. Clarke 作者页",
+      "label": "英文維基文庫：Arthur C. Clarke 作者頁",
       "url": "https://en.wikisource.org/wiki/Author:Arthur_C._Clarke",
       "kind": "author-index",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "ws-pacifist",
-      "label": "英文维基文库：The Pacifist，1956年10月",
+      "label": "英文維基文庫：The Pacifist，1956年10月",
       "url": "https://en.wikisource.org/wiki/Fantastic_Universe/Volume_08/Number_3/The_Pacifist",
       "kind": "transcription",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "ws-encounter",
-      "label": "英文维基文库：Encounter in the Dawn，缺失条目",
+      "label": "英文維基文庫：Encounter in the Dawn，缺失條目",
       "url": "https://en.wikisource.org/wiki/Amazing_Stories/Volume_27/Number_05/Encounter_in_the_Dawn",
       "kind": "missing-transcription",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "ws-before",
-      "label": "英文维基文库：Before Eden，缺失条目",
+      "label": "英文維基文庫：Before Eden，缺失條目",
       "url": "https://en.wikisource.org/wiki/Amazing_Stories/Volume_35/Number_06/Before_Eden",
       "kind": "missing-transcription",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "pg-search",
-      "label": "Project Gutenberg 作者查询：Arthur C. Clarke",
+      "label": "Project Gutenberg 作者查詢：Arthur C. Clarke",
       "url": "https://www.gutenberg.org/ebooks/authors/search/?query=arthur+c+clarke",
       "kind": "catalog-search",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-childhood",
-      "label": "豆瓣阅读／读客文化：童年的终结",
+      "label": "豆瓣閱讀／讀客文化：童年的終結",
       "url": "https://read.douban.com/ebook/422239789/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-city",
-      "label": "豆瓣阅读／科幻世界：城市与群星",
+      "label": "豆瓣閱讀／科幻世界：城市與群星",
       "url": "https://read.douban.com/ebook/128014366/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-fountains",
-      "label": "豆瓣阅读／科幻世界：天堂的喷泉",
+      "label": "豆瓣閱讀／科幻世界：天堂的噴泉",
       "url": "https://read.douban.com/ebook/128019714/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-songs",
-      "label": "豆瓣阅读／读客文化：遥远地球之歌",
+      "label": "豆瓣閱讀／讀客文化：遙遠地球之歌",
       "url": "https://read.douban.com/ebook/13311536/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-2001",
-      "label": "豆瓣阅读／读客文化：2001：太空漫游",
+      "label": "豆瓣閱讀／讀客文化：2001：太空漫遊",
       "url": "https://read.douban.com/ebook/111202668/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-2010",
-      "label": "豆瓣阅读／读客文化：2010：太空漫游",
+      "label": "豆瓣閱讀／讀客文化：2010：太空漫遊",
       "url": "https://read.douban.com/ebook/118109549/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-2061",
-      "label": "豆瓣阅读／读客文化：2061：太空漫游",
+      "label": "豆瓣閱讀／讀客文化：2061：太空漫遊",
       "url": "https://read.douban.com/ebook/118109463/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-3001",
-      "label": "豆瓣阅读／读客文化：3001：太空漫游",
+      "label": "豆瓣閱讀／讀客文化：3001：太空漫遊",
       "url": "https://read.douban.com/ebook/118109344/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-nine-billion-cn",
-      "label": "豆瓣阅读／读客文化：《神的九十亿个名字》中文18篇选集",
+      "label": "豆瓣閱讀／讀客文化：《神的九十億個名字》中文18篇選集",
       "url": "https://read.douban.com/ebook/13311329/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "db-rama-cn",
-      "label": "豆瓣阅读／读客文化：与罗摩相会",
+      "label": "豆瓣閱讀／讀客文化：與羅摩相會",
       "url": "https://read.douban.com/ebook/53650733/",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "dedao-collected-cn",
-      "label": "得到／读客文化：阿瑟·克拉克科幻短篇全集（全三册）",
+      "label": "得到／讀客文化：阿瑟·克拉克科幻短篇全集（全三冊）",
       "url": "https://www.dedao.cn/ebook/detail?id=AnKgjNlArlXVNGKD1yL2Ek6YaogQv0YpmEwbZ4RBn7j589zJpMxmdPeqOYDxqL4y",
       "kind": "chinese-edition-catalog",
       "checkedOn": "2026-10-20"
@@ -340,35 +340,35 @@
     },
     {
       "id": "commons-pacifist-issue",
-      "label": "Wikimedia Commons：1956年10月 Fantastic Universe 文件说明与删页记录",
+      "label": "Wikimedia Commons：1956年10月 Fantastic Universe 檔案說明與刪頁記錄",
       "url": "https://commons.wikimedia.org/wiki/File:Fantastic_Universe_(1956-10;_vol._8,_no._3).djvu",
       "kind": "scan-provenance-and-rights-claim",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "upenn-fantastic-renewals",
-      "label": "University of Pennsylvania：Fantastic Universe 续展记录汇总",
+      "label": "University of Pennsylvania：Fantastic Universe 續展記錄彙總",
       "url": "https://onlinebooks.library.upenn.edu/webbin/cinfo/fantasticuniv",
       "kind": "renewal-research-summary",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "upenn-amazing-renewals",
-      "label": "University of Pennsylvania：Amazing Stories 续展记录汇总",
+      "label": "University of Pennsylvania：Amazing Stories 續展記錄彙總",
       "url": "https://onlinebooks.library.upenn.edu/webbin/cinfo/amazingstories",
       "kind": "renewal-research-summary",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "dha-clarke",
-      "label": "David Higham Associates：Arthur C. Clarke 作者与代理页",
+      "label": "David Higham Associates：Arthur C. Clarke 作者與代理頁",
       "url": "https://davidhigham.co.uk/authors-dh/arthur-c-clarke/",
       "kind": "rights-agency",
       "checkedOn": "2026-10-20"
     },
     {
       "id": "dha-about",
-      "label": "David Higham Associates：代理历史与遗产代理说明",
+      "label": "David Higham Associates：代理歷史與遺產代理說明",
       "url": "https://davidhigham.co.uk/about/",
       "kind": "rights-agency",
       "checkedOn": "2026-10-20"
@@ -382,7 +382,7 @@
     },
     {
       "id": "dha-permissions",
-      "label": "David Higham Associates：许可问询说明",
+      "label": "David Higham Associates：許可問詢說明",
       "url": "https://davidhigham.co.uk/permissions/",
       "kind": "permissions-process",
       "checkedOn": "2026-10-20"
@@ -403,119 +403,119 @@
     },
     {
       "id": "shuqi-clarke-five",
-      "label": "书旗：阿瑟·克拉克至高科幻经典（五册），平台数字版权说明",
+      "label": "書旗：阿瑟·克拉克至高科幻經典（五冊），平臺數字版權說明",
       "url": "https://t.shuqi.com/book/8655182.html",
       "kind": "platform-scoped-license-notice",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "zhiqiang-clarke-star",
-      "label": "阅微堂：克拉克的《星》全文",
+      "label": "閱微堂：克拉克的《星》全文",
       "url": "https://zhiqiang.org/resource/the-star-arthur-c-clarke.html",
       "kind": "third-party-chinese-transcription",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "zhiqiang-clarke-nine",
-      "label": "阅微堂：《神的九十亿个名字》全文",
+      "label": "閱微堂：《神的九十億個名字》全文",
       "url": "https://zhiqiang.org/resource/the-nine-billion-names-of-god-arthur-c-clarke.html",
       "kind": "third-party-chinese-transcription",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "kehuanstory-clarke-nine",
-      "label": "科幻STORY：《神的九十亿个名字》，译者署名线索",
+      "label": "科幻STORY：《神的九十億個名字》，譯者署名線索",
       "url": "https://www.kehuanstory.com/a/771",
       "kind": "third-party-chinese-transcription",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "csw-bigsf-permissions",
-      "label": "九九藏书转载：《科幻之书1·窃星》授权致谢页",
+      "label": "九九藏書轉載：《科幻之書1·竊星》授權致謝頁",
       "url": "https://www.99csw.com/book/10131/364637.htm",
       "kind": "reproduced-anthology-permissions",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "jiumo-2010",
-      "label": "鸠摩搜书：《2010：太空漫游》下载索引及格式状态",
+      "label": "鳩摩搜書：《2010：太空漫遊》下載索引及格式狀態",
       "url": "https://jiumo-diary.com/book/145229",
       "kind": "unverified-download-index",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "cc-faq",
-      "label": "Creative Commons：许可权属与第三方材料说明",
+      "label": "Creative Commons：許可權屬與第三方材料說明",
       "url": "https://creativecommons.org/faq/",
       "kind": "licensing-reference",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-ebook-prelude-to-space",
-      "label": "Hachette：Prelude to Space 英文电子版",
+      "label": "Hachette：Prelude to Space 英文電子版",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/prelude-to-space/9780575121812/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-ebook-childhoods-end",
-      "label": "Hachette：Childhood’s End 英文电子版",
+      "label": "Hachette：Childhood’s End 英文電子版",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/childhoods-end/9780575121744/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-ebook-the-city-and-the-stars",
-      "label": "Hachette：The City and the Stars 英文电子版",
+      "label": "Hachette：The City and the Stars 英文電子版",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/the-city-and-the-stars/9780575098794/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-ebook-the-fountains-of-paradise",
-      "label": "Hachette：The Fountains of Paradise 英文电子版",
+      "label": "Hachette：The Fountains of Paradise 英文電子版",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/the-fountains-of-paradise/9780575121768/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-ebook-rendezvous-with-rama",
-      "label": "Hachette：Rendezvous with Rama 英文电子版",
+      "label": "Hachette：Rendezvous with Rama 英文電子版",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/rendezvous-with-rama/9780575088009/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-ebook-the-garden-of-rama",
-      "label": "Hachette：The Garden of Rama 英文电子版",
+      "label": "Hachette：The Garden of Rama 英文電子版",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/the-garden-of-rama/9780575121669/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-ebook-rama-revealed",
-      "label": "Hachette：Rama Revealed 英文电子版",
+      "label": "Hachette：Rama Revealed 英文電子版",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/rama-revealed/9780575121683/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-ebook-the-collected-stories-of-arthur-c-clarke",
-      "label": "Hachette：The Collected Stories of Arthur C. Clarke 英文电子版",
+      "label": "Hachette：The Collected Stories of Arthur C. Clarke 英文電子版",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/the-collected-stories-of-arthur-c-clarke/9780575098770/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-prh-2001",
-      "label": "PRH：2001 纸书及电子版",
+      "label": "PRH：2001 紙書及電子版",
       "url": "https://www.penguinrandomhouse.com/books/325356/2001-a-space-odyssey-by-arthur-c-clarke/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
     },
     {
       "id": "en-rama-ii-format",
-      "label": "Hachette：Rama II 格式选择页",
+      "label": "Hachette：Rama II 格式選擇頁",
       "url": "https://www.hachette.co.uk/titles/arthur-c-clarke/rama-ii/9780575077225/",
       "kind": "publisher-edition",
       "checkedOn": "2026-10-21"
@@ -543,7 +543,7 @@
     },
     {
       "id": "ia-prelude-restricted-mirror",
-      "label": "Internet Archive：另一份受限太空序曲扫描",
+      "label": "Internet Archive：另一份受限太空序曲掃描",
       "url": "https://archive.org/details/galaxy_novel_number_03_prelude_to_space",
       "kind": "restricted-source",
       "checkedOn": "2026-10-21"
@@ -571,7 +571,7 @@
     },
     {
       "id": "upenn-startling-renewals",
-      "label": "UPenn：Startling Stories续展汇总",
+      "label": "UPenn：Startling Stories續展彙總",
       "url": "https://onlinebooks.library.upenn.edu/webbin/cinfo/startlingstories",
       "kind": "copyright-reference",
       "checkedOn": "2026-10-21"
@@ -597,7 +597,7 @@
         "sfe",
         "uip"
       ],
-      "note": "原文书版年；现有中文正文的具体译本及对应英文修订版未在本轮重新核定。",
+      "note": "原文書版年；現有中文正文的具體譯本及對應英文修訂版未在本輪重新核定。",
       "catalogId": "012-6f8d83cf5dbb",
       "path": "[1951]《太空序曲》.txt"
     },
@@ -623,7 +623,7 @@
     },
     {
       "key": "islands-in-the-sky",
-      "chineseSearchTitle": "空中列岛",
+      "chineseSearchTitle": "空中列島",
       "originalTitle": "Islands in the Sky",
       "kind": "novel",
       "authors": [
@@ -643,7 +643,7 @@
     },
     {
       "key": "childhoods-end",
-      "chineseSearchTitle": "童年的终结",
+      "chineseSearchTitle": "童年的終結",
       "originalTitle": "Childhood's End",
       "kind": "novel",
       "authors": [
@@ -662,17 +662,17 @@
         "prh-childhood",
         "db-childhood"
       ],
-      "note": "出版社当前页面列出的是后出版本，不能将2001年版次日期替代原作书版年。",
+      "note": "出版社當前頁面列出的是後出版本，不能將2001年版次日期替代原作書版年。",
       "chineseEditionLeads": [
         {
-          "title": "童年的终结",
-          "publisher": "江苏凤凰文艺出版社",
+          "title": "童年的終結",
+          "publisher": "江蘇鳳凰文藝出版社",
           "date": "2018-09",
           "translators": [
-            "于大卫"
+            "於大衛"
           ],
           "isbn": "9787539983493",
-          "provider": "读客文化",
+          "provider": "讀客文化",
           "sourceId": "db-childhood",
           "verification": "platform-metadata-only",
           "textAcquired": false,
@@ -699,11 +699,11 @@
         "sfe",
         "uip"
       ],
-      "note": "此处为1955年扩写长篇；1951年期刊中篇另行区分。中文名为检索用别名，须按实际译本确认。"
+      "note": "此處為1955年擴寫長篇；1951年期刊中篇另行區分。中文名為檢索用別名，須按實際譯本確認。"
     },
     {
       "key": "city-and-the-stars",
-      "chineseSearchTitle": "城市与群星",
+      "chineseSearchTitle": "城市與群星",
       "originalTitle": "The City and the Stars",
       "kind": "novel",
       "authors": [
@@ -723,14 +723,14 @@
         "hachette-city-history",
         "db-city"
       ],
-      "note": "不要与1948年中篇及1953年书版 Against the Fall of Night 合并为同一文本版本。",
+      "note": "不要與1948年中篇及1953年書版 Against the Fall of Night 合併為同一文字版本。",
       "chineseEditionLeads": [
         {
-          "title": "城市与群星",
-          "publisher": "四川科学技术出版社",
+          "title": "城市與群星",
+          "publisher": "四川科學技術出版社",
           "date": "2018-11",
           "translators": [
-            "周晓贤"
+            "周曉賢"
           ],
           "isbn": "9787536491359",
           "provider": "科幻世界",
@@ -743,7 +743,7 @@
     },
     {
       "key": "deep-range-novel",
-      "chineseSearchTitle": "深海牧场",
+      "chineseSearchTitle": "深海牧場",
       "originalTitle": "The Deep Range",
       "kind": "novel",
       "authors": [
@@ -760,11 +760,11 @@
         "sfe",
         "uip"
       ],
-      "note": "长篇为1957年；1954年同名短篇及中文短篇集中的译文不能代替本长篇。"
+      "note": "長篇為1957年；1954年同名短篇及中文短篇集中的譯文不能代替本長篇。"
     },
     {
       "key": "fall-of-moondust",
-      "chineseSearchTitle": "月海沉船／月球历险记",
+      "chineseSearchTitle": "月海沉船／月球歷險記",
       "originalTitle": "A Fall of Moondust",
       "kind": "novel",
       "authors": [
@@ -781,11 +781,11 @@
         "sfe",
         "uip"
       ],
-      "note": "中文检索名保留旧汇总的两种译名；未指定某一中文译本。"
+      "note": "中文檢索名保留舊彙總的兩種譯名；未指定某一中文譯本。"
     },
     {
       "key": "dolphin-island",
-      "chineseSearchTitle": "海豚岛",
+      "chineseSearchTitle": "海豚島",
       "originalTitle": "Dolphin Island",
       "kind": "novel",
       "authors": [
@@ -802,11 +802,11 @@
         "sfe",
         "uip"
       ],
-      "note": "作者条目和学术书目均列1963年；旧汇总的1962年修正为1963年。SFE的Dolphins主题条目仍有1962年异说，本轮未采用该主题条目的年份。"
+      "note": "作者條目和學術書目均列1963年；舊彙總的1962年修正為1963年。SFE的Dolphins主題條目仍有1962年異說，本輪未採用該主題條目的年份。"
     },
     {
       "key": "nine-billion-collection",
-      "chineseSearchTitle": "神的九十亿个名字（英文短篇集）",
+      "chineseSearchTitle": "神的九十億個名字（英文短篇集）",
       "originalTitle": "The Nine Billion Names of God: The Best Short Stories of Arthur C. Clarke",
       "kind": "collection",
       "authors": [
@@ -824,11 +824,11 @@
         "uip",
         "db-nine-billion-cn"
       ],
-      "note": "此处为1967年英文短篇集；不是1953年同名短篇。旧汇总所指2013年中文书的选篇对应关系仍需核对。 已找到读客文化在豆瓣阅读提供的18篇中文选集，另记于chineseCollectionLeads，未视为1967年英文集的确定译本。"
+      "note": "此處為1967年英文短篇集；不是1953年同名短篇。舊彙總所指2013年中文書的選篇對應關係仍需核對。 已找到讀客文化在豆瓣閱讀提供的18篇中文選集，另記於chineseCollectionLeads，未視為1967年英文集的確定譯本。"
     },
     {
       "key": "2001-space-odyssey",
-      "chineseSearchTitle": "2001：太空漫游",
+      "chineseSearchTitle": "2001：太空漫遊",
       "originalTitle": "2001: A Space Odyssey",
       "kind": "novel",
       "authors": [
@@ -851,17 +851,17 @@
         "key": "space-odyssey",
         "sequence": 1
       },
-      "note": "小说署名 Arthur C. Clarke；与 Stanley Kubrick 合作的电影剧本信息不能直接移作小说合著署名。 2026年10月21日收录用户提供2019年四部曲合集的对应拆分EPUB，保留序言、附录和彩插。",
+      "note": "小說署名 Arthur C. Clarke；與 Stanley Kubrick 合作的電影劇本資訊不能直接移作小說合著署名。 2026年10月21日收錄使用者提供2019年四部曲合集的對應拆分EPUB，保留序言、附錄和彩插。",
       "chineseEditionLeads": [
         {
-          "title": "2001：太空漫游",
-          "publisher": "上海文艺出版社",
+          "title": "2001：太空漫遊",
+          "publisher": "上海文藝出版社",
           "date": "2019-04",
           "translators": [
-            "郝明义"
+            "郝明義"
           ],
           "isbn": "9787532170692",
-          "provider": "读客文化",
+          "provider": "讀客文化",
           "sourceId": "db-2001",
           "verification": "platform-metadata-only",
           "textAcquired": false,
@@ -870,12 +870,12 @@
       ],
       "importedOn": "2026-10-21",
       "catalogId": "012-d539f49f2c6b",
-      "path": "太空漫游/[1968]《2001：太空漫游》.epub",
+      "path": "太空漫遊/[1968]《2001：太空漫遊》.epub",
       "catalogIds": [
         "012-d539f49f2c6b"
       ],
       "paths": [
-        "太空漫游/[1968]《2001：太空漫游》.epub"
+        "太空漫遊/[1968]《2001：太空漫遊》.epub"
       ],
       "workId": "012-d539f49f2c6b",
       "importSource": "user-provided-collection-split"
@@ -898,11 +898,11 @@
       "sourceIds": [
         "uip"
       ],
-      "note": "包含电影创作记录及未采用的虚构片段；作为相关资料候选，不登记为太空漫游系列的第五部长篇。"
+      "note": "包含電影創作記錄及未採用的虛構片段；作為相關資料候選，不登記為太空漫遊系列的第五部長篇。"
     },
     {
       "key": "rendezvous-with-rama",
-      "chineseSearchTitle": "与拉玛相会／与罗摩相会",
+      "chineseSearchTitle": "與拉瑪相會／與羅摩相會",
       "originalTitle": "Rendezvous with Rama",
       "kind": "novel",
       "authors": [
@@ -925,17 +925,17 @@
         "key": "rama",
         "sequence": 1
       },
-      "note": "第一部作者为 Clarke；后三部的 Gentry Lee 合著信息另记。 本轮按“与罗摩相会”别名找到读客文化提供的中文电子版入口，不将不同译名误作不同作品。",
+      "note": "第一部作者為 Clarke；後三部的 Gentry Lee 合著資訊另記。 本輪按“與羅摩相會”別名找到讀客文化提供的中文電子版入口，不將不同譯名誤作不同作品。",
       "chineseEditionLeads": [
         {
-          "title": "与罗摩相会",
-          "publisher": "江苏凤凰文艺出版社",
+          "title": "與羅摩相會",
+          "publisher": "江蘇鳳凰文藝出版社",
           "date": "2018-05",
           "translators": [
-            "刘壮"
+            "劉壯"
           ],
           "isbn": "9787559416551",
-          "provider": "读客文化",
+          "provider": "讀客文化",
           "sourceId": "db-rama-cn",
           "verification": "platform-metadata-only",
           "textAcquired": false,
@@ -945,7 +945,7 @@
     },
     {
       "key": "meeting-with-medusa",
-      "chineseSearchTitle": "会见梅杜莎",
+      "chineseSearchTitle": "會見梅杜莎",
       "originalTitle": "A Meeting with Medusa",
       "kind": "novella",
       "authors": [
@@ -962,11 +962,11 @@
         "sfe",
         "uip"
       ],
-      "note": "1971年12月刊出；1972年获星云奖不是其初刊年。"
+      "note": "1971年12月刊出；1972年獲星雲獎不是其初刊年。"
     },
     {
       "key": "fountains-of-paradise",
-      "chineseSearchTitle": "天堂的喷泉",
+      "chineseSearchTitle": "天堂的噴泉",
       "originalTitle": "The Fountains of Paradise",
       "kind": "novel",
       "authors": [
@@ -985,14 +985,14 @@
         "overdrive-fountains",
         "db-fountains"
       ],
-      "note": "OverDrive 是借阅/版本入口；其中2001年发行信息是后出版本，不是原作初版年，也不是正文再分发许可。",
+      "note": "OverDrive 是借閱/版本入口；其中2001年發行資訊是後出版本，不是原作初版年，也不是正文再分發許可。",
       "chineseEditionLeads": [
         {
-          "title": "天堂的喷泉",
-          "publisher": "四川科学技术出版社",
+          "title": "天堂的噴泉",
+          "publisher": "四川科學技術出版社",
           "date": "2018-11",
           "translators": [
-            "陈经华",
+            "陳經華",
             "江昭明"
           ],
           "isbn": "9787536491335",
@@ -1006,7 +1006,7 @@
     },
     {
       "key": "2010-odyssey-two",
-      "chineseSearchTitle": "2010：太空漫游",
+      "chineseSearchTitle": "2010：太空漫遊",
       "originalTitle": "2010: Odyssey Two",
       "kind": "novel",
       "authors": [
@@ -1031,14 +1031,14 @@
       },
       "chineseEditionLeads": [
         {
-          "title": "2010：太空漫游",
-          "publisher": "上海文艺出版社",
+          "title": "2010：太空漫遊",
+          "publisher": "上海文藝出版社",
           "date": "2019-04",
           "translators": [
-            "张启阳"
+            "張啟陽"
           ],
           "isbn": "9787532170708",
-          "provider": "读客文化",
+          "provider": "讀客文化",
           "sourceId": "db-2010",
           "verification": "platform-metadata-only",
           "textAcquired": false,
@@ -1047,20 +1047,20 @@
       ],
       "importedOn": "2026-10-21",
       "catalogId": "012-c28f9e19543e",
-      "path": "太空漫游/[1982]《2010：太空漫游》.epub",
+      "path": "太空漫遊/[1982]《2010：太空漫遊》.epub",
       "catalogIds": [
         "012-c28f9e19543e"
       ],
       "paths": [
-        "太空漫游/[1982]《2010：太空漫游》.epub"
+        "太空漫遊/[1982]《2010：太空漫遊》.epub"
       ],
       "workId": "012-c28f9e19543e",
       "importSource": "user-provided-collection-split",
-      "note": " 2026年10月21日收录用户提供2019年四部曲合集的对应拆分EPUB，保留序言、附录和彩插。"
+      "note": " 2026年10月21日收錄使用者提供2019年四部曲合集的對應拆分EPUB，保留序言、附錄和彩插。"
     },
     {
       "key": "songs-of-distant-earth-novel",
-      "chineseSearchTitle": "遥远地球之歌",
+      "chineseSearchTitle": "遙遠地球之歌",
       "originalTitle": "The Songs of Distant Earth",
       "kind": "novel",
       "authors": [
@@ -1080,17 +1080,17 @@
         "openroad-rosetta",
         "db-songs"
       ],
-      "note": "此处为1986年长篇；1958年同名短篇、1981年电影梗概和1996年英语改写读物需要分别识别。",
+      "note": "此處為1986年長篇；1958年同名短篇、1981年電影梗概和1996年英語改寫讀物需要分別識別。",
       "chineseEditionLeads": [
         {
-          "title": "遥远地球之歌",
-          "publisher": "江苏文艺出版社",
+          "title": "遙遠地球之歌",
+          "publisher": "江蘇文藝出版社",
           "date": "2013-05",
           "translators": [
             "高天羽"
           ],
           "isbn": "9787539955681",
-          "provider": "读客文化",
+          "provider": "讀客文化",
           "sourceId": "db-songs",
           "verification": "platform-metadata-only",
           "textAcquired": false,
@@ -1100,7 +1100,7 @@
     },
     {
       "key": "2061-odyssey-three",
-      "chineseSearchTitle": "2061：太空漫游",
+      "chineseSearchTitle": "2061：太空漫遊",
       "originalTitle": "2061: Odyssey Three",
       "kind": "novel",
       "authors": [
@@ -1143,17 +1143,17 @@
         "key": "space-odyssey",
         "sequence": 3
       },
-      "note": "1988年英美书版可核；1987年最早首发线索仍待核。按用户最终选择，保留经广告清理的TXT及2019年合集拆分EPUB；旧版独立EPUB不收录，两个保留版本的译文未逐段比对。",
+      "note": "1988年英美書版可核；1987年最早首發線索仍待核。按使用者最終選擇，保留經廣告清理的TXT及2019年合集拆分EPUB；舊版獨立EPUB不收錄，兩個保留版本的譯文未逐段比對。",
       "chineseEditionLeads": [
         {
-          "title": "2061：太空漫游",
-          "publisher": "上海文艺出版社",
+          "title": "2061：太空漫遊",
+          "publisher": "上海文藝出版社",
           "date": "2019-04",
           "translators": [
-            "张启阳"
+            "張啟陽"
           ],
           "isbn": "9787532170791",
-          "provider": "读客文化",
+          "provider": "讀客文化",
           "sourceId": "db-2061",
           "verification": "platform-metadata-only",
           "textAcquired": false,
@@ -1161,14 +1161,14 @@
         }
       ],
       "catalogId": "012-0adb36efb819",
-      "path": "太空漫游/《2061：太空漫游》.txt",
+      "path": "太空漫遊/《2061：太空漫遊》.txt",
       "catalogIds": [
         "012-0adb36efb819",
         "012-c983a66bb98a"
       ],
       "paths": [
-        "太空漫游/《2061：太空漫游》.txt",
-        "太空漫游/《2061：太空漫游》.epub"
+        "太空漫遊/《2061：太空漫遊》.txt",
+        "太空漫遊/《2061：太空漫遊》.epub"
       ],
       "workId": "012-0adb36efb819",
       "importedOn": "2026-10-21",
@@ -1176,7 +1176,7 @@
     },
     {
       "key": "rama-ii",
-      "chineseSearchTitle": "拉玛2号",
+      "chineseSearchTitle": "拉瑪2號",
       "originalTitle": "Rama II",
       "kind": "novel",
       "authors": [
@@ -1200,11 +1200,11 @@
         "key": "rama",
         "sequence": 2
       },
-      "note": "PRH产品页标题虽只显示Clarke，SFE、学术书目及系列/作者资料支持两人合著，后续入库必须保留Gentry Lee。"
+      "note": "PRH產品頁標題雖只顯示Clarke，SFE、學術書目及系列/作者資料支援兩人合著，後續入庫必須保留Gentry Lee。"
     },
     {
       "key": "garden-of-rama",
-      "chineseSearchTitle": "拉玛迷境",
+      "chineseSearchTitle": "拉瑪迷境",
       "originalTitle": "The Garden of Rama",
       "kind": "novel",
       "authors": [
@@ -1227,11 +1227,11 @@
         "key": "rama",
         "sequence": 3
       },
-      "note": "中文名沿用旧汇总作为检索名；原名是单数 Garden。"
+      "note": "中文名沿用舊彙總作為檢索名；原名是單數 Garden。"
     },
     {
       "key": "rama-revealed",
-      "chineseSearchTitle": "拉玛真相",
+      "chineseSearchTitle": "拉瑪真相",
       "originalTitle": "Rama Revealed",
       "kind": "novel",
       "authors": [
@@ -1257,7 +1257,7 @@
     },
     {
       "key": "3001-final-odyssey",
-      "chineseSearchTitle": "3001：太空漫游",
+      "chineseSearchTitle": "3001：太空漫遊",
       "originalTitle": "3001: The Final Odyssey",
       "kind": "novel",
       "authors": [
@@ -1282,15 +1282,15 @@
       },
       "chineseEditionLeads": [
         {
-          "title": "3001：太空漫游",
-          "publisher": "上海文艺出版社",
+          "title": "3001：太空漫遊",
+          "publisher": "上海文藝出版社",
           "date": "2019-04",
           "translators": [
-            "钟慧元",
-            "叶李华"
+            "鍾慧元",
+            "葉李華"
           ],
           "isbn": "9787532170807",
-          "provider": "读客文化",
+          "provider": "讀客文化",
           "sourceId": "db-3001",
           "verification": "platform-metadata-only",
           "textAcquired": false,
@@ -1299,20 +1299,20 @@
       ],
       "importedOn": "2026-10-21",
       "catalogId": "012-bfae6d156e5e",
-      "path": "太空漫游/[1997]《3001：太空漫游》.epub",
+      "path": "太空漫遊/[1997]《3001：太空漫遊》.epub",
       "catalogIds": [
         "012-bfae6d156e5e"
       ],
       "paths": [
-        "太空漫游/[1997]《3001：太空漫游》.epub"
+        "太空漫遊/[1997]《3001：太空漫遊》.epub"
       ],
       "workId": "012-bfae6d156e5e",
       "importSource": "user-provided-collection-split",
-      "note": " 2026年10月21日收录用户提供2019年四部曲合集的对应拆分EPUB，保留序言、附录和彩插。"
+      "note": " 2026年10月21日收錄使用者提供2019年四部曲合集的對應拆分EPUB，保留序言、附錄和彩插。"
     },
     {
       "key": "times-eye",
-      "chineseSearchTitle": "时间之眼",
+      "chineseSearchTitle": "時間之眼",
       "originalTitle": "Time's Eye",
       "kind": "novel",
       "authors": [
@@ -1353,7 +1353,7 @@
         "key": "a-time-odyssey",
         "sequence": 1
       },
-      "note": "SFE及学术书目列2004年纸书；PRH另列2003-12-16电子书。保留两种版次日期，不将旧汇总的2003年简单改判为错误，也不未经核定认定全球首发年。"
+      "note": "SFE及學術書目列2004年紙書；PRH另列2003-12-16電子書。保留兩種版次日期，不將舊彙總的2003年簡單改判為錯誤，也不未經核定認定全球首發年。"
     },
     {
       "key": "sunstorm",
@@ -1379,7 +1379,7 @@
         "key": "a-time-odyssey",
         "sequence": 2
       },
-      "note": "PRH列2005-03-29电子书；UI Press书目列2007年版本，此处不采用该后出版本年作为最早书版年。中文译名待具体译本确认。"
+      "note": "PRH列2005-03-29電子書；UI Press書目列2007年版本，此處不採用該後出版本年作為最早書版年。中文譯名待具體譯本確認。"
     },
     {
       "key": "firstborn",
@@ -1405,11 +1405,11 @@
         "key": "a-time-odyssey",
         "sequence": 3
       },
-      "note": "PRH列2007-12-26电子书及2008-10-28平装本；按2007年书版记录，不将2008年平装年作首版年。中文译名待具体译本确认。"
+      "note": "PRH列2007-12-26電子書及2008-10-28平裝本；按2007年書版記錄，不將2008年平裝年作首版年。中文譯名待具體譯本確認。"
     },
     {
       "key": "nine-billion-short-story",
-      "chineseSearchTitle": "神的九十亿个名字（短篇）",
+      "chineseSearchTitle": "神的九十億個名字（短篇）",
       "originalTitle": "The Nine Billion Names of God",
       "kind": "short-story",
       "authors": [
@@ -1425,7 +1425,7 @@
       "sourceIds": [
         "uip"
       ],
-      "note": "发表于Frederik Pohl编的 Star Science Fiction Stories；与1967年同名短篇集分开。"
+      "note": "發表於Frederik Pohl編的 Star Science Fiction Stories；與1967年同名短篇集分開。"
     }
   ],
   "textSourceChecks": [
@@ -1442,7 +1442,7 @@
       ],
       "result": "original-story-proofread-and-imported",
       "publicImport": "supported-US-only",
-      "note": "当前已按原刊完整范围逐页核对并导入英文TXT，详见englishImportReview；公版判断仅针对美国，不代表全球许可。此前阶段性说明保存在历史轮次。",
+      "note": "當前已按原刊完整範圍逐頁核對並匯入英文TXT，詳見englishImportReview；公版判斷僅針對美國，不代表全球許可。此前階段性說明儲存在歷史輪次。",
       "previousResult": "transcription-present",
       "scanEvidence": {
         "archiveIdentifier": "Fantastic_Universe_v06n03_1956-10",
@@ -1457,7 +1457,7 @@
         "originalNumber": 3,
         "issueDate": "1956-10",
         "printedStoryStart": 4,
-        "visualReview": "逐页对照相关扫描图像，检查正文首尾、双栏顺序、跨页衔接和续页；修正OCR错字、合并断行断词、统一引号及空白。保留可辨的原刊用词和拼写，不混入后出版本。",
+        "visualReview": "逐頁對照相關掃描圖像，檢查正文首尾、雙欄順序、跨頁銜接和續頁；修正OCR錯字、合併斷行斷詞、統一引號及空白。保留可辨的原刊用詞和拼寫，不混入後出版本。",
         "printedStoryRanges": [
           [
             4,
@@ -1483,7 +1483,7 @@
       ],
       "result": "original-story-proofread-and-imported",
       "publicImport": "supported-US-only",
-      "note": "当前已按原刊完整范围逐页核对并导入英文TXT，详见englishImportReview；公版判断仅针对美国，不代表全球许可。此前阶段性说明保存在历史轮次。",
+      "note": "當前已按原刊完整範圍逐頁核對並匯入英文TXT，詳見englishImportReview；公版判斷僅針對美國，不代表全球許可。此前階段性說明儲存在歷史輪次。",
       "previousResult": "missing-transcription",
       "scanEvidence": {
         "archiveIdentifier": "Amazing_Stories_v27n05_1953-06-07",
@@ -1498,7 +1498,7 @@
         "originalNumber": 5,
         "issueDate": "1953-06/07",
         "printedStoryStart": 4,
-        "visualReview": "逐页对照相关扫描图像，检查正文首尾、双栏顺序、跨页衔接和续页；修正OCR错字、合并断行断词、统一引号及空白。保留可辨的原刊用词和拼写，不混入后出版本。",
+        "visualReview": "逐頁對照相關掃描圖像，檢查正文首尾、雙欄順序、跨頁銜接和續頁；修正OCR錯字、合併斷行斷詞、統一引號及空白。保留可辨的原刊用詞和拼寫，不混入後出版本。",
         "printedStoryRanges": [
           [
             4,
@@ -1524,7 +1524,7 @@
       ],
       "result": "original-story-proofread-and-imported",
       "publicImport": "supported-US-only",
-      "note": "当前已按原刊完整范围逐页核对并导入英文TXT，详见englishImportReview；公版判断仅针对美国，不代表全球许可。此前阶段性说明保存在历史轮次。",
+      "note": "當前已按原刊完整範圍逐頁核對並匯入英文TXT，詳見englishImportReview；公版判斷僅針對美國，不代表全球許可。此前階段性說明儲存在歷史輪次。",
       "previousResult": "missing-transcription",
       "scanEvidence": {
         "archiveIdentifier": "Amazing_Stories_v35n06_1961-06",
@@ -1539,7 +1539,7 @@
         "originalNumber": 6,
         "issueDate": "1961-06",
         "printedStoryStart": 36,
-        "visualReview": "逐页对照相关扫描图像，检查正文首尾、双栏顺序、跨页衔接和续页；修正OCR错字、合并断行断词、统一引号及空白。保留可辨的原刊用词和拼写，不混入后出版本。",
+        "visualReview": "逐頁對照相關掃描圖像，檢查正文首尾、雙欄順序、跨頁銜接和續頁；修正OCR錯字、合併斷行斷詞、統一引號及空白。保留可辨的原刊用詞和拼寫，不混入後出版本。",
         "printedStoryRanges": [
           [
             36,
@@ -1564,7 +1564,7 @@
       ],
       "result": "no-matching-author-in-this-query",
       "publicImport": "not-cleared",
-      "note": "本次作者查询返回Arthur H. Clark（1841—1922），不是Arthur C. Clarke；不以该结果推断站内绝无其他相关条目。"
+      "note": "本次作者查詢返回Arthur H. Clark（1841—1922），不是Arthur C. Clarke；不以該結果推斷站內絕無其他相關條目。"
     },
     {
       "work": "Improving the neighbourhood",
@@ -1575,7 +1575,7 @@
       ],
       "result": "publisher-subscription-access",
       "publicImport": "not-cleared",
-      "note": "出版者页面明确显示订阅/机构访问，并标©Sir Arthur C. Clarke 1999；不是本轮确认的免费全文或开放许可来源。未绕过访问限制。"
+      "note": "出版者頁面明確顯示訂閱/機構訪問，並標©Sir Arthur C. Clarke 1999；不是本輪確認的免費全文或開放許可來源。未繞過訪問限制。"
     },
     {
       "work": "Prelude to Space",
@@ -1587,7 +1587,7 @@
       ],
       "result": "original-scan-and-ocr-file-listed",
       "publicImport": "not-cleared",
-      "note": "扉页确认书名、作者、系列第3号、出版社及Unabridged标记；版权页印1951 World Editions。书目区分1953/1954修订版；未逐页校对正文或确认本仓库中文TXT的译本底本。 已获取PDF并核对相关图像；OCR地址仅核对文件清单，尚未下载/校对。",
+      "note": "扉頁確認書名、作者、系列第3號、出版社及Unabridged標記；版權頁印1951 World Editions。書目區分1953/1954修訂版；未逐頁校對正文或確認本倉庫中文TXT的譯本底本。 已獲取PDF並核對相關圖像；OCR地址僅核對檔案清單，尚未下載/校對。",
       "scanEvidence": {
         "archiveIdentifier": "Galaxy_Science_Fiction_Novel_03_Arthur_C._Clarke_Prelude_To_Space_1951",
         "pdfUrl": "https://archive.org/download/Galaxy_Science_Fiction_Novel_03_Arthur_C._Clarke_Prelude_To_Space_1951/Galaxy_Science_Fiction_Novel_03_Arthur_C._Clarke_Prelude_To_Space_1951.pdf",
@@ -1597,7 +1597,7 @@
         "ocrUrl": "https://archive.org/download/Galaxy_Science_Fiction_Novel_03_Arthur_C._Clarke_Prelude_To_Space_1951/Galaxy_Science_Fiction_Novel_03_Arthur_C._Clarke_Prelude_To_Space_1951_djvu.txt",
         "titlePdfPage": 3,
         "copyrightPdfPage": 4,
-        "visualReview": "扉页确认书名、作者、系列第3号、出版社及Unabridged标记；版权页印1951 World Editions。书目区分1953/1954修订版；未逐页校对正文或确认本仓库中文TXT的译本底本。"
+        "visualReview": "扉頁確認書名、作者、系列第3號、出版社及Unabridged標記；版權頁印1951 World Editions。書目區分1953/1954修訂版；未逐頁校對正文或確認本倉庫中文TXT的譯本底本。"
       },
       "textImported": false,
       "checkedOn": "2026-10-21"
@@ -1612,7 +1612,7 @@
       ],
       "result": "original-scan-and-ocr-file-listed",
       "publicImport": "not-cleared",
-      "note": "目录图像核对题名、作者、卷期、起页11；UI Press书目列11—70页。它是后来The City and the Stars的前身版本，不能冒作1956年长篇正文；未逐页校对正文。 已获取PDF并核对相关图像；OCR地址仅核对文件清单，尚未下载/校对。",
+      "note": "目錄圖像核對題名、作者、卷期、起頁11；UI Press書目列11—70頁。它是後來The City and the Stars的前身版本，不能冒作1956年長篇正文；未逐頁校對正文。 已獲取PDF並核對相關圖像；OCR地址僅核對檔案清單，尚未下載/校對。",
       "scanEvidence": {
         "archiveIdentifier": "Startling_Stories_v18n02_1948-11",
         "pdfUrl": "https://archive.org/download/Startling_Stories_v18n02_1948-11/Startling_Stories_v18n02_1948-11.pdf",
@@ -1626,77 +1626,77 @@
         "originalNumber": 2,
         "issueDate": "1948-11",
         "printedStoryStart": 11,
-        "visualReview": "目录图像核对题名、作者、卷期、起页11；UI Press书目列11—70页。它是后来The City and the Stars的前身版本，不能冒作1956年长篇正文；未逐页校对正文。"
+        "visualReview": "目錄圖像核對題名、作者、卷期、起頁11；UI Press書目列11—70頁。它是後來The City and the Stars的前身版本，不能冒作1956年長篇正文；未逐頁校對正文。"
       },
       "textImported": false,
       "checkedOn": "2026-10-21"
     }
   ],
   "nextSteps": [
-    "太空漫游四部曲已由用户提供合集拆分收录，2061另保留清理后的TXT；待补优先8项中有5项找到出版方中文版本入口，其他作品逐项核定。",
-    "The Pacifist、Encounter in the Dawn、Before Eden已按原刊页段校对并导入英文TXT；后续作品继续逐篇检查完整性与权利，不据此批量导入整期。",
-    "有来源文件后逐本登记原名、译者、ISBN/版权页、来源及许可范围，核对完整性与章节后再添加真实正文和metadata。",
-    "太空漫游、拉玛、时间奥德赛分别分组；后三部拉玛和三部时间奥德赛保留合著者，不用同名短篇/节写本替代长篇。",
-    "继续查明2061的1987/1988口径，以及Time's Eye电子书2003年和纸书2004年的发行先后证据。",
-    "本地已新增3篇英文短篇；Issue #5仍待提交/发布后的访问验收及用户决定，不在本轮回复或关闭。",
-    "如决定联系权利方，先明确原作与译本、全文公开托管/下载、语言、地域和期限，再向David Higham Associates及具体中文出版方核对许可范围；本轮未发送问询。",
-    "优先向原作代理和相应中文权利方确认可公开收录的原作/译文范围；对spiritone署名版本先追溯原始译文及许可，不直接搬入转载文本。",
-    "英文版本可优先核对已找到的原刊/初版扫描及出版社电子版；版本差异、完整性、OCR校对与公开收录依据逐项核定，Against the Fall of Night不替代The City and the Stars。"
+    "太空漫遊四部曲已由使用者提供合集拆分收錄，2061另保留清理後的TXT；待補優先8項中有5項找到出版方中文版本入口，其他作品逐項核定。",
+    "The Pacifist、Encounter in the Dawn、Before Eden已按原刊頁段校對並匯入英文TXT；後續作品繼續逐篇檢查完整性與權利，不據此批次匯入整期。",
+    "有來源檔案後逐本登記原名、譯者、ISBN/版權頁、來源及許可範圍，核對完整性與章節後再新增真實正文和metadata。",
+    "太空漫遊、拉瑪、時間奧德賽分別分組；後三部拉瑪和三部時間奧德賽保留合著者，不用同名短篇/節寫本替代長篇。",
+    "繼續查明2061的1987/1988口徑，以及Time's Eye電子書2003年和紙書2004年的發行先後證據。",
+    "本地已新增3篇英文短篇；Issue #5仍待提交/釋出後的訪問驗收及使用者決定，不在本輪迴復或關閉。",
+    "如決定聯絡權利方，先明確原作與譯本、全文公開託管/下載、語言、地域和期限，再向David Higham Associates及具體中文出版方核對許可範圍；本輪未傳送問詢。",
+    "優先向原作代理和相應中文權利方確認可公開收錄的原作/譯文範圍；對spiritone署名版本先追溯原始譯文及許可，不直接搬入轉載文字。",
+    "英文版本可優先核對已找到的原刊/初版掃描及出版社電子版；版本差異、完整性、OCR校對與公開收錄依據逐項核定，Against the Fall of Night不替代The City and the Stars。"
   ],
   "chineseCollectionLeads": [
     {
-      "title": "神的九十亿个名字",
-      "publisher": "江苏文艺出版社",
+      "title": "神的九十億個名字",
+      "publisher": "江蘇文藝出版社",
       "date": "2013-04",
       "translators": [
-        "邹运旗"
+        "鄒運旗"
       ],
       "isbn": "9787539958774",
-      "provider": "读客文化",
+      "provider": "讀客文化",
       "sourceId": "db-nine-billion-cn",
       "reportedStoryCount": 18,
       "possibleWorkKey": "nine-billion-collection",
       "matchedToEnglishCollection": false,
-      "note": "平台介绍及目录显示18篇，不能仅凭同名就认定是1967年英文短篇集的完整译本。平台日期为2013-04，旧汇总为2013-03；具体版权页和选篇底本待核。",
+      "note": "平臺介紹及目錄顯示18篇，不能僅憑同名就認定是1967年英文短篇集的完整譯本。平臺日期為2013-04，舊彙總為2013-03；具體版權頁和選篇底本待核。",
       "publicRedistributionEvidence": null
     },
     {
-      "title": "阿瑟·克拉克科幻短篇全集（全三册）",
-      "provider": "读客文化",
+      "title": "阿瑟·克拉克科幻短篇全集（全三冊）",
+      "provider": "讀客文化",
       "platform": "得到",
       "date": "2021-03-01",
       "sourceId": "dedao-collected-cn",
       "reportedStoryCount": 104,
       "volumes": [
-        "岗哨",
+        "崗哨",
         "星",
-        "爱这个宇宙"
+        "愛這個宇宙"
       ],
       "matchedToEnglishCollection": false,
       "relevantContents": [
         {
           "originalTitle": "The Pacifist",
-          "chineseTitleLead": "和平主义者",
+          "chineseTitleLead": "和平主義者",
           "volume": 2
         },
         {
           "originalTitle": "Encounter in the Dawn",
-          "chineseTitleLead": "相会于黎明",
+          "chineseTitleLead": "相會於黎明",
           "volume": 2
         },
         {
           "originalTitle": "Before Eden",
-          "chineseTitleLead": "伊甸园之前",
+          "chineseTitleLead": "伊甸園之前",
           "volume": 3
         },
         {
           "originalTitle": "A Meeting with Medusa",
-          "chineseTitleLead": "与美杜莎相会",
+          "chineseTitleLead": "與美杜莎相會",
           "volume": 3
         }
       ],
-      "access": "出版方在得到提供购买、试读及会员入口；是否可读全文取决于平台权限。",
-      "note": "平台介绍称收录104篇，目录可见相关中文题名。未逐篇与英文底本校对，也未将“全集”宣传名视为覆盖作者全部短篇的证明；不将其中同名短篇当作长篇。",
+      "access": "出版方在得到提供購買、試讀及會員入口；是否可讀全文取決於平臺許可權。",
+      "note": "平臺介紹稱收錄104篇，目錄可見相關中文題名。未逐篇與英文底本校對，也未將“全集”宣傳名視為覆蓋作者全部短篇的證明；不將其中同名短篇當作長篇。",
       "publicRedistributionEvidence": null
     }
   ],
@@ -1713,20 +1713,20 @@
     ],
     "status": "not-contacted",
     "grantReceived": false,
-    "scopeNote": "官网确认作者及遗产代理关系，可作为许可问询入口。Permissions页面说明主要针对引用/节选，并不表示其在线表单已涵盖公开Git仓库托管、全文转载或中文译本权利。未来问询须明确全文、语言、文件格式、公开下载/在线阅读、地域和期限，并另核具体译本权利。"
+    "scopeNote": "官網確認作者及遺產代理關係，可作為許可問詢入口。Permissions頁面說明主要針對引用/節選，並不表示其線上表單已涵蓋公開Git倉庫託管、全文轉載或中文譯本權利。未來問詢須明確全文、語言、檔案格式、公開下載/線上閱讀、地域和期限，並另核具體譯本權利。"
   },
   "sourceReviewRounds": [
     {
       "round": 1,
       "date": "2026-10-20",
       "commit": "ced18f2",
-      "result": "26项主书目、8项优先中文版本渠道、3篇英文短篇转录线索。"
+      "result": "26項主書目、8項優先中文版本渠道、3篇英文短篇轉錄線索。"
     },
     {
       "round": 2,
       "date": "2026-10-20",
       "baselineCommit": "ced18f2",
-      "result": "中文优先版本渠道增至9项；新增中文104篇合集入口；核实3份英文原刊PDF/OCR可获取，解决The Pacifist卷期差异；找到现任代理和许可问询渠道。",
+      "result": "中文優先版本渠道增至9項；新增中文104篇合集入口；核實3份英文原刊PDF/OCR可獲取，解決The Pacifist卷期差異；找到現任代理和許可問詢渠道。",
       "novelTextsAdded": 0,
       "commit": "48084b9"
     },
@@ -1734,16 +1734,16 @@
       "round": 3,
       "date": "2026-10-21",
       "baselineCommit": "48084b9",
-      "result": "专项核对6个中文来源：1个有软件范围数字版权说明的合集入口、3个许可未明的中文正文页面、1个第三方转载的合集授权致谢、1个未核验格式的下载索引；本项目可直接公开收录的来源仍为0。",
+      "result": "專項核對6箇中文來源：1個有軟體範圍數字版權說明的合集入口、3個許可未明的中文正文頁面、1個第三方轉載的合集授權致謝、1個未核驗格式的下載索引；本專案可直接公開收錄的來源仍為0。",
       "novelTextsAdded": 0,
       "publicImportCleared": 0,
-      "limits": "这是一轮有范围的检索结果，不声称互联网不存在其他来源或任何作品均无法取得许可。"
+      "limits": "這是一輪有範圍的檢索結果，不聲稱網際網路不存在其他來源或任何作品均無法取得許可。"
     },
     {
       "round": 4,
       "date": "2026-10-21",
       "baselineCommit": "48084b9",
-      "result": "转向英文原著：核实9项出版社电子版（含短篇总集）、另记1项待验证链接；新增1951年太空序曲初版和1948年Against the Fall of Night原刊扫描，排除古登堡同名异作者作品。",
+      "result": "轉向英文原著：核實9項出版社電子版（含短篇總集）、另記1項待驗證連結；新增1951年太空序曲初版和1948年Against the Fall of Night原刊掃描，排除古登堡同名異作者作品。",
       "novelTextsAdded": 0,
       "publicImportCleared": 0
     },
@@ -1751,7 +1751,7 @@
       "round": 5,
       "date": "2026-10-21",
       "baselineCommit": "48084b9",
-      "result": "核对3篇英文短篇完整页段及独立续展汇总，按美国公版证据整理并导入3份英文TXT；两部长篇扫描与9项在售电子版未导入。主书目26项外新增3篇短篇，克拉克目录共4份正文文件。",
+      "result": "核對3篇英文短篇完整頁段及獨立續展彙總，按美國公版證據整理並匯入3份英文TXT；兩部長篇掃描與9項在售電子版未匯入。主書目26項外新增3篇短篇，克拉克目錄共4份正文件案。",
       "novelTextsAdded": 3,
       "publicImportCleared": 3,
       "jurisdictions": [
@@ -1762,7 +1762,7 @@
     {
       "round": 6,
       "date": "2026-10-21",
-      "result": "按用户最终要求收录太空漫游四部曲的4份独立EPUB及2061的TXT，舍弃旧版2061独立EPUB；合计4部作品、5份文件。四部曲合计202章，7091个源正文元素各归属一部；主书目5项已收录、21项待补，克拉克目录9份正文文件。",
+      "result": "按使用者最終要求收錄太空漫遊四部曲的4份獨立EPUB及2061的TXT，捨棄舊版2061獨立EPUB；合計4部作品、5份檔案。四部曲合計202章，7091個源正文元素各歸屬一部；主書目5項已收錄、21項待補，克拉克目錄9份正文件案。",
       "newWorksAdded": 4,
       "filesAdded": 5,
       "sourceKind": "user-provided-files-and-collection-split",
@@ -1775,7 +1775,7 @@
       "key": "shuqi-five-classics",
       "checkedOn": "2026-10-21",
       "language": "zh-CN",
-      "title": "阿瑟·克拉克：至高科幻经典（套装共5册）",
+      "title": "阿瑟·克拉克：至高科幻經典（套裝共5冊）",
       "sourceIds": [
         "shuqi-clarke-five"
       ],
@@ -1787,14 +1787,14 @@
         "songs-of-distant-earth-novel",
         "earthlight"
       ],
-      "collectionTitleLead": "神的九十亿个名字（中文选集，底本对应关系另核）",
-      "reportedProvider": "上海读客",
-      "reportedTranslators": "刘壮等",
+      "collectionTitleLead": "神的九十億個名字（中文選集，底本對應關係另核）",
+      "reportedProvider": "上海讀客",
+      "reportedTranslators": "劉壯等",
       "reportedChapterCount": 171,
-      "evidence": "公开书籍页列五册合集及目录入口，并注明数字版权由上海读客提供，授权本软件使用、制作、发行；授权范围指向该软件，未见授权本项目公开托管、下载或再分发的说明。",
+      "evidence": "公開書籍頁列五冊合集及目錄入口，並註明數字版權由上海讀客提供，授權本軟體使用、製作、發行；授權範圍指向該軟體，未見授權本專案公開託管、下載或再分發的說明。",
       "missingEvidence": [
-        "适用于本项目的原作与具体译本全文公开再分发依据",
-        "具体版次和可处理文本文件"
+        "適用於本專案的原作與具體譯本全文公開再分發依據",
+        "具體版次和可處理文字檔案"
       ],
       "textImported": false
     },
@@ -1811,11 +1811,11 @@
       "publicImport": "not-cleared",
       "reportedAuthor": "Arthur C. Clarke",
       "reportedTranslator": null,
-      "evidence": "页面确有中文故事文本，但未核到本篇的原刊/中文底本、译者署名或明确的公开转载许可。页面博客作者张志强不是已核定的小说作者或译者；相邻《我没有嘴，我要呐喊》的郑秀玉译者信息也不能移给《星》。",
+      "evidence": "頁面確有中文故事文字，但未核到本篇的原刊/中文底本、譯者署名或明確的公開轉載許可。頁面部落格作者張志強不是已核定的小說作者或譯者；相鄰《我沒有嘴，我要吶喊》的鄭秀玉譯者資訊也不能移給《星》。",
       "missingEvidence": [
-        "译者与中文底本",
-        "原作及该译文允许本项目公开收录的依据",
-        "正文完整性核对"
+        "譯者與中文底本",
+        "原作及該譯文允許本專案公開收錄的依據",
+        "正文完整性核對"
       ],
       "textImported": false
     },
@@ -1823,7 +1823,7 @@
       "key": "zhiqiang-nine-billion",
       "checkedOn": "2026-10-21",
       "language": "zh",
-      "title": "神的九十亿个名字",
+      "title": "神的九十億個名字",
       "originalTitle": "The Nine Billion Names of God",
       "workKeyLead": "nine-billion-short-story",
       "sourceIds": [
@@ -1832,12 +1832,12 @@
       "result": "chinese-text-present-permission-unverified",
       "publicImport": "not-cleared",
       "reportedAuthor": "Arthur C. Clarke",
-      "reportedTranslator": "spiritone@饮水思源",
-      "evidence": "页面确有中文短篇，并给出译者署名；未见针对原作、译文及本项目公开再分发的具体许可。保留署名线索，不将博客转载行为或署名本身视为授权。",
+      "reportedTranslator": "spiritone@飲水思源",
+      "evidence": "頁面確有中文短篇，並給出譯者署名；未見針對原作、譯文及本專案公開再分發的具體許可。保留署名線索，不將部落格轉載行為或署名本身視為授權。",
       "missingEvidence": [
-        "译者署名及原始发布来源的确认",
-        "原作与该译文允许公开收录的依据",
-        "全文校对"
+        "譯者署名及原始釋出來源的確認",
+        "原作與該譯文允許公開收錄的依據",
+        "全文校對"
       ],
       "textImported": false
     },
@@ -1845,7 +1845,7 @@
       "key": "kehuanstory-nine-billion",
       "checkedOn": "2026-10-21",
       "language": "zh",
-      "title": "神的九十亿个名字",
+      "title": "神的九十億個名字",
       "originalTitle": "The Nine Billion Names of God",
       "workKeyLead": "nine-billion-short-story",
       "sourceIds": [
@@ -1855,12 +1855,12 @@
       "result": "chinese-text-present-same-translator-credit",
       "publicImport": "not-cleared",
       "reportedAuthor": "Arthur C. Clarke",
-      "reportedTranslator": "spiritone@饮水思源",
-      "evidence": "2018年文章给出与阅微堂相同的译者署名。未计算全文一致性，也未查得原作或译文的公开再分发许可；两个转载入口不作为两份独立授权证明。",
+      "reportedTranslator": "spiritone@飲水思源",
+      "evidence": "2018年文章給出與閱微堂相同的譯者署名。未計算全文一致性，也未查得原作或譯文的公開再分發許可；兩個轉載入口不作為兩份獨立授權證明。",
       "missingEvidence": [
-        "原始译文出处及许可",
-        "原作的公开再分发依据",
-        "版本及完整性核对"
+        "原始譯文出處及許可",
+        "原作的公開再分發依據",
+        "版本及完整性核對"
       ],
       "textImported": false
     },
@@ -1868,19 +1868,19 @@
       "key": "csw-bigsf-star-permissions",
       "checkedOn": "2026-10-21",
       "language": "zh/en",
-      "title": "科幻之书1·窃星：授权声明",
-      "originalTitle": "The Star（1955年条目）",
+      "title": "科幻之書1·竊星：授權宣告",
+      "originalTitle": "The Star（1955年條目）",
       "sourceIds": [
         "csw-bigsf-permissions"
       ],
       "result": "anthology-permission-credit-not-project-grant",
       "publicImport": "not-cleared",
-      "historicalRightsLead": "转载的原书致谢将The Star列为作者遗产版权，称由遗产及Scovil Galen Ghosh Literary Agency许可再版。",
-      "evidence": "读到的是第三方网站转载的合集授权致谢，不是权利方授予本项目的许可。未取得原书版权页或权利方的一手确认；不从该段推定网站本身已获授权，更不外推为任何人均可复制中文全文。目录同时列1897年和1955年两个The Star，后续不能混用。旧书代理线索不替换DHA当前官网信息。",
+      "historicalRightsLead": "轉載的原書致謝將The Star列為作者遺產版權，稱由遺產及Scovil Galen Ghosh Literary Agency許可再版。",
+      "evidence": "讀到的是第三方網站轉載的合集授權致謝，不是權利方授予本專案的許可。未取得原書版權頁或權利方的一手確認；不從該段推定網站本身已獲授權，更不外推為任何人均可複製中文全文。目錄同時列1897年和1955年兩個The Star，後續不能混用。舊書代理線索不替換DHA當前官網資訊。",
       "missingEvidence": [
-        "原书版权页/致谢的一手版本确认",
-        "具体中文译者和底本",
-        "明确允许本项目全文公开托管的依据"
+        "原書版權頁/致謝的一手版本確認",
+        "具體中文譯者和底本",
+        "明確允許本專案全文公開託管的依據"
       ],
       "textImported": false
     },
@@ -1888,31 +1888,31 @@
       "key": "jiumo-2010-download",
       "checkedOn": "2026-10-21",
       "language": "zh-CN",
-      "title": "2010：太空漫游",
+      "title": "2010：太空漫遊",
       "workKeyLead": "2010-odyssey-two",
       "sourceIds": [
         "jiumo-2010"
       ],
       "result": "download-index-no-cleared-format-or-license",
       "publicImport": "not-cleared",
-      "evidence": "页面标题和按钮称有电子书下载入口，但正文格式栏显示暂无已核验合规下载格式。下载入口响应为HTML扫码/手机跳转页，并非本轮取得的书籍文件。未见与该作品对应、允许本项目公开再分发的许可证明；未下载文件或把模板中的公版/授权字样当作权利结论。",
+      "evidence": "頁面標題和按鈕稱有電子書下載入口，但正文格式欄顯示暫無已核驗合規下載格式。下載入口響應為HTML掃碼/手機跳轉頁，並非本輪取得的書籍檔案。未見與該作品對應、允許本專案公開再分發的許可證明；未下載檔案或把模板中的公版/授權字樣當作權利結論。",
       "missingEvidence": [
-        "可核定的实际文件及版本",
-        "原作与该译文的具体公开再分发依据"
+        "可核定的實際檔案及版本",
+        "原作與該譯文的具體公開再分發依據"
       ],
       "textImported": false
     }
   ],
   "chineseReviewNotes": {
     "checkedOn": "2026-10-21",
-    "acceptanceScope": "区分可浏览/平台内阅读、文件可获取、版本与译者可确认，以及是否有适用于本项目公开Git仓库与在线阅读的收录依据；未解决项保留not-cleared，不把未见许可写成确定侵权结论。",
-    "attribution": "博客发布者、论坛译者署名、合集作者列表和相邻文章署名分别处理；不依据页面上的单个作者字段直接认定译者或授权人。",
-    "ccScope": "本轮检索了明确授权、开放许可、公版、原文/译文转载说明等线索，未核出适用的中文全文许可。即使其他页面带CC标记，也仍需确认许可人有权许可被转载的第三方作品，不能将读书笔记或站点通用许可自动套到小说全文。",
+    "acceptanceScope": "區分可瀏覽/平臺內閱讀、檔案可獲取、版本與譯者可確認，以及是否有適用於本專案公開Git倉庫與線上閱讀的收錄依據；未解決項保留not-cleared，不把未見許可寫成確定侵權結論。",
+    "attribution": "部落格釋出者、論壇譯者署名、合集作者列表和相鄰文章署名分別處理；不依據頁面上的單個作者欄位直接認定譯者或授權人。",
+    "ccScope": "本輪檢索了明確授權、開放許可、公版、原文/譯文轉載說明等線索，未核出適用的中文全文許可。即使其他頁面帶CC標記，也仍需確認許可人有權許可被轉載的第三方作品，不能將讀書筆記或站點通用許可自動套到小說全文。",
     "referenceSourceIds": [
       "cc-faq"
     ],
-    "overallResult": "已找到中文正文与阅读渠道，但本轮6个被核对来源均缺少可直接用于本项目公开收录的充分依据。",
-    "externalContact": "未发送许可申请或联系作者、译者、出版方、代理。"
+    "overallResult": "已找到中文正文與閱讀渠道，但本輪6個被核對來源均缺少可直接用於本專案公開收錄的充分依據。",
+    "externalContact": "未傳送許可申請或聯絡作者、譯者、出版方、代理。"
   },
   "englishEditionSources": [
     {
@@ -1922,12 +1922,12 @@
       "format": "ebook",
       "isbn13": "9780575121812",
       "editionDate": "2011-09-29",
-      "dateBasis": "出版社所列本电子版发行日期，不替代原作初版年。",
+      "dateBasis": "出版社所列本電子版發行日期，不替代原作初版年。",
       "sourceIds": [
         "en-ebook-prelude-to-space"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社销售及零售商入口；页面出现试读标签不计为已取得全文。",
+      "access": "出版社銷售及零售商入口；頁面出現試讀標籤不計為已取得全文。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21"
@@ -1939,12 +1939,12 @@
       "format": "ebook",
       "isbn13": "9780575121744",
       "editionDate": "2012-03-19",
-      "dateBasis": "出版社所列本电子版发行日期，不替代原作初版年。",
+      "dateBasis": "出版社所列本電子版發行日期，不替代原作初版年。",
       "sourceIds": [
         "en-ebook-childhoods-end"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社销售及零售商入口；页面出现试读标签不计为已取得全文。",
+      "access": "出版社銷售及零售商入口；頁面出現試讀標籤不計為已取得全文。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21"
@@ -1956,12 +1956,12 @@
       "format": "ebook",
       "isbn13": "9780575098794",
       "editionDate": "2011-06-02",
-      "dateBasis": "出版社所列本电子版发行日期，不替代原作初版年。",
+      "dateBasis": "出版社所列本電子版發行日期，不替代原作初版年。",
       "sourceIds": [
         "en-ebook-the-city-and-the-stars"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社销售及零售商入口；页面出现试读标签不计为已取得全文。",
+      "access": "出版社銷售及零售商入口；頁面出現試讀標籤不計為已取得全文。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21"
@@ -1973,12 +1973,12 @@
       "format": "ebook",
       "isbn13": "9780575121768",
       "editionDate": "2012-03-19",
-      "dateBasis": "出版社所列本电子版发行日期，不替代原作初版年。",
+      "dateBasis": "出版社所列本電子版發行日期，不替代原作初版年。",
       "sourceIds": [
         "en-ebook-the-fountains-of-paradise"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社销售及零售商入口；页面出现试读标签不计为已取得全文。",
+      "access": "出版社銷售及零售商入口；頁面出現試讀標籤不計為已取得全文。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21"
@@ -1990,12 +1990,12 @@
       "format": "ebook",
       "isbn13": "9780575088009",
       "editionDate": "2012-03-05",
-      "dateBasis": "出版社所列本电子版发行日期，不替代原作初版年。",
+      "dateBasis": "出版社所列本電子版發行日期，不替代原作初版年。",
       "sourceIds": [
         "en-ebook-rendezvous-with-rama"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社销售及零售商入口；页面出现试读标签不计为已取得全文。",
+      "access": "出版社銷售及零售商入口；頁面出現試讀標籤不計為已取得全文。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21"
@@ -2007,12 +2007,12 @@
       "format": "ebook",
       "isbn13": "9780575121669",
       "editionDate": "2013-08-29",
-      "dateBasis": "出版社所列本电子版发行日期，不替代原作初版年。",
+      "dateBasis": "出版社所列本電子版發行日期，不替代原作初版年。",
       "sourceIds": [
         "en-ebook-the-garden-of-rama"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社销售及零售商入口；页面出现试读标签不计为已取得全文。",
+      "access": "出版社銷售及零售商入口；頁面出現試讀標籤不計為已取得全文。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21",
@@ -2028,12 +2028,12 @@
       "format": "ebook",
       "isbn13": "9780575121683",
       "editionDate": "2013-08-29",
-      "dateBasis": "出版社所列本电子版发行日期，不替代原作初版年。",
+      "dateBasis": "出版社所列本電子版發行日期，不替代原作初版年。",
       "sourceIds": [
         "en-ebook-rama-revealed"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社销售及零售商入口；页面出现试读标签不计为已取得全文。",
+      "access": "出版社銷售及零售商入口；頁面出現試讀標籤不計為已取得全文。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21",
@@ -2049,16 +2049,16 @@
       "format": "ebook",
       "isbn13": "9780575098770",
       "editionDate": "2011-06-02",
-      "dateBasis": "出版社所列本电子版发行日期，不替代原作初版年。",
+      "dateBasis": "出版社所列本電子版發行日期，不替代原作初版年。",
       "sourceIds": [
         "en-ebook-the-collected-stories-of-arthur-c-clarke"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社销售及零售商入口；页面出现试读标签不计为已取得全文。",
+      "access": "出版社銷售及零售商入口；頁面出現試讀標籤不計為已取得全文。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21",
-      "note": "出版社称短篇总集，以Travel by Wire开篇；尚未取得电子书目录/版权页逐篇核对，不把营销用语认定为覆盖作者所有时期的全部作品，也不等同于1967年Nine Billion合集。"
+      "note": "出版社稱短篇總集，以Travel by Wire開篇；尚未取得電子書目錄/版權頁逐篇核對，不把營銷用語認定為覆蓋作者所有時期的全部作品，也不等同於1967年Nine Billion合集。"
     },
     {
       "workKey": "2001-space-odyssey",
@@ -2067,12 +2067,12 @@
       "format": "ebook",
       "isbn13": null,
       "editionDate": "2000-09-01",
-      "dateBasis": "同一出版社页面电子版格式栏列2000-09-01；1993-08-01及ISBN9780451452733属于平装版，未挪作电子版ISBN。",
+      "dateBasis": "同一出版社頁面電子版格式欄列2000-09-01；1993-08-01及ISBN9780451452733屬於平裝版，未挪作電子版ISBN。",
       "sourceIds": [
         "en-prh-2001"
       ],
       "result": "publisher-ebook-edition-confirmed",
-      "access": "出版社版本及购买入口，未取得正文文件。",
+      "access": "出版社版本及購買入口，未取得正文件案。",
       "publicImport": "not-cleared",
       "textImported": false,
       "checkedOn": "2026-10-21"
@@ -2088,7 +2088,7 @@
         "en-rama-ii-format"
       ],
       "result": "ebook-link-found-target-not-verified",
-      "note": "平装版页链接到此电子版；目标页请求超时、网页工具未成功打开，发行日期和目标页内容暂不确认，也不计入9项已核电子版。",
+      "note": "平裝版頁連結到此電子版；目標頁請求超時、網頁工具未成功開啟，發行日期和目標頁內容暫不確認，也不計入9項已核電子版。",
       "checkedOn": "2026-10-21"
     }
   ],
@@ -2098,14 +2098,14 @@
       "sourceIds": [
         "pg-prelude-other-author"
       ],
-      "note": "古登堡30381作者为Robert W. Haseltine，底本Imagination May1954；不是Clarke的1951年长篇，不能借用该条目的美国公版结论。"
+      "note": "古登堡30381作者為Robert W. Haseltine，底本Imagination May1954；不是Clarke的1951年長篇，不能借用該條目的美國公版結論。"
     },
     {
       "result": "restricted-mirror-not-used",
       "sourceIds": [
         "ia-prelude-restricted-mirror"
       ],
-      "note": "另一上传项标CC0，但metadata同时标access-restricted-item=true且PDF/OCR为private。未获取受限文件，不以第三方上传者CC0标签视为原作授权。"
+      "note": "另一上傳項標CC0，但metadata同時標access-restricted-item=true且PDF/OCR為private。未獲取受限檔案，不以第三方上傳者CC0標籤視為原作授權。"
     }
   ],
   "englishImportReview": {
@@ -2152,11 +2152,11 @@
           "textSha256": "8dbb6719ffd24c7b4643fad7809766730c4fbb806ff3bc365960b2ba239455b4",
           "wordCount": 3765,
           "excluded": [
-            "插图及漫画",
-            "编辑导语/作者介绍",
-            "页眉页脚和页码",
-            "续页提示",
-            "相邻作品正文"
+            "插圖及漫畫",
+            "編輯導語/作者介紹",
+            "頁首頁尾和頁碼",
+            "續頁提示",
+            "相鄰作品正文"
           ]
         },
         "renewalReview": {
@@ -2224,12 +2224,12 @@
           ],
           "originalSourceCaveat": "Some issues include reprints from other publications, sometimes from outside the US.  We have not systematically checked the copyright status of those original publications."
         },
-        "basis": "UPenn按刊物列出的完整有效续展范围中，未列此篇或该期续展；UI Press初刊书目与原刊相合，未发现更早外国首发。因此按美国1964年前须续展规则及URAA美国首发条件，支持本原刊文字在美国为公版。",
-        "limits": "属于基于所列证据的项目收录判断；没有将缺少单一搜索结果当成结论。USCO公开记录站本轮返回403，未取得官方认证检索报告；不声称完成全球权利检索或存在权利人授权。",
+        "basis": "UPenn按刊物列出的完整有效續展範圍中，未列此篇或該期續展；UI Press初刊書目與原刊相合，未發現更早外國首發。因此按美國1964年前須續展規則及URAA美國首發條件，支援本原刊文字在美國為公版。",
+        "limits": "屬於基於所列證據的專案收錄判斷；沒有將缺少單一搜尋結果當成結論。USCO公開記錄站本輪返回403，未取得官方認證檢索報告；不聲稱完成全球權利檢索或存在權利人授權。",
         "textualNotes": [
-          "原刊为Vol.6 No.3、正文4—12页；未沿用Wikisource路径中的卷8。",
-          "保留原刊intricasies和geneological等可辨拼写，以及小说原文的历史用语。",
-          "9的20次方数字逐位核对为12157665459056928801。"
+          "原刊為Vol.6 No.3、正文4—12頁；未沿用Wikisource路徑中的卷8。",
+          "保留原刊intricasies和geneological等可辨拼寫，以及小說原文的歷史用語。",
+          "9的20次方數字逐位核對為12157665459056928801。"
         ]
       },
       {
@@ -2272,11 +2272,11 @@
           "textSha256": "58cfdf0e10026b33b2094ef5e9ca8f93266fe14373dfa1f9a2251cc4ebb37b80",
           "wordCount": 4353,
           "excluded": [
-            "插图及漫画",
-            "编辑导语/作者介绍",
-            "页眉页脚和页码",
-            "续页提示",
-            "相邻作品正文"
+            "插圖及漫畫",
+            "編輯導語/作者介紹",
+            "頁首頁尾和頁碼",
+            "續頁提示",
+            "相鄰作品正文"
           ]
         },
         "renewalReview": {
@@ -2314,12 +2314,12 @@
           ],
           "originalSourceCaveat": "This magazine sometimes reprinted stories, often ones that appeared in earlier issues.  We have not systematically checked copyrights for the reprints, but the Galactic Central tables of contents note known reprints and indicate where they first appeared. The renewed contributions list above includes some (but not necessarily all) reprints from sources that have active renewals, and all renewals specifically for contributions to this magazine up to 1964."
         },
-        "basis": "UPenn按刊物列出的完整有效续展范围中，未列此篇或该期续展；UI Press初刊书目与原刊相合，未发现更早外国首发。因此按美国1964年前须续展规则及URAA美国首发条件，支持本原刊文字在美国为公版。",
-        "limits": "属于基于所列证据的项目收录判断；没有将缺少单一搜索结果当成结论。USCO公开记录站本轮返回403，未取得官方认证检索报告；不声称完成全球权利检索或存在权利人授权。",
+        "basis": "UPenn按刊物列出的完整有效續展範圍中，未列此篇或該期續展；UI Press初刊書目與原刊相合，未發現更早外國首發。因此按美國1964年前須續展規則及URAA美國首發條件，支援本原刊文字在美國為公版。",
+        "limits": "屬於基於所列證據的專案收錄判斷；沒有將缺少單一搜尋結果當成結論。USCO公開記錄站本輪返回403，未取得官方認證檢索報告；不聲稱完成全球權利檢索或存在權利人授權。",
         "textualNotes": [
-          "页4只有题名和插图，小说叙事从页5起；印刷页4—16完整检查。",
-          "去掉第15页漫画图注，正文If you use it与第16页sparingly直接衔接。",
-          "Expedition to Earth为后出合集题名线索；收录保持原刊题名及原刊文字。"
+          "頁4只有題名和插圖，小說敘事從頁5起；印刷頁4—16完整檢查。",
+          "去掉第15頁漫畫圖注，正文If you use it與第16頁sparingly直接銜接。",
+          "Expedition to Earth為後出合集題名線索；收錄保持原刊題名及原刊文字。"
         ]
       },
       {
@@ -2370,11 +2370,11 @@
           "textSha256": "6e0388866e0f462da4e6608264cdd2b3a75e392aa61c68cd8f524db915c05566",
           "wordCount": 4282,
           "excluded": [
-            "插图及漫画",
-            "编辑导语/作者介绍",
-            "页眉页脚和页码",
-            "续页提示",
-            "相邻作品正文"
+            "插圖及漫畫",
+            "編輯導語/作者介紹",
+            "頁首頁尾和頁碼",
+            "續頁提示",
+            "相鄰作品正文"
           ]
         },
         "renewalReview": {
@@ -2423,12 +2423,12 @@
           ],
           "originalSourceCaveat": "This magazine sometimes reprinted stories, often ones that appeared in earlier issues.  We have not systematically checked copyrights for the reprints, but the Galactic Central tables of contents note known reprints and indicate where they first appeared. The renewed contributions list above includes some (but not necessarily all) reprints from sources that have active renewals, and all renewals specifically for contributions to this magazine up to 1964."
         },
-        "basis": "UPenn按刊物列出的完整有效续展范围中，未列此篇或该期续展；UI Press初刊书目与原刊相合，未发现更早外国首发。因此按美国1964年前须续展规则及URAA美国首发条件，支持本原刊文字在美国为公版。",
-        "limits": "属于基于所列证据的项目收录判断；没有将缺少单一搜索结果当成结论。USCO公开记录站本轮返回403，未取得官方认证检索报告；不声称完成全球权利检索或存在权利人授权。",
+        "basis": "UPenn按刊物列出的完整有效續展範圍中，未列此篇或該期續展；UI Press初刊書目與原刊相合，未發現更早外國首發。因此按美國1964年前須續展規則及URAA美國首發條件，支援本原刊文字在美國為公版。",
+        "limits": "屬於基於所列證據的專案收錄判斷；沒有將缺少單一搜尋結果當成結論。USCO公開記錄站本輪返回403，未取得官方認證檢索報告；不聲稱完成全球權利檢索或存在權利人授權。",
         "textualNotes": [
-          "46页phosphorous,衔接66页the element without which；去掉66页上半部A Time to Die的结尾。",
-          "保留原刊froced、tassles、glazing、Hutchin's及several lifetime's等可辨拼写，不用猜测的现代拼写替换。",
-          "纯文本不保留斜体及首字下沉，正文文字及原刊结尾完整。"
+          "46頁phosphorous,銜接66頁the element without which；去掉66頁上半部A Time to Die的結尾。",
+          "保留原刊froced、tassles、glazing、Hutchin's及several lifetime's等可辨拼寫，不用猜測的現代拼寫替換。",
+          "純文字不保留斜體及首字下沉，正文文字及原刊結尾完整。"
         ]
       }
     ],
@@ -2436,17 +2436,17 @@
       {
         "work": "Against the Fall of Night",
         "decision": "not-imported",
-        "reason": "UPenn明确列1948年11月Startling Stories第18卷第2期为续展期刊。未以扫描可下载认定该篇可公开收录。"
+        "reason": "UPenn明確列1948年11月Startling Stories第18卷第2期為續展期刊。未以掃描可下載認定該篇可公開收錄。"
       },
       {
         "work": "Prelude to Space",
         "decision": "not-imported",
-        "reason": "初版扫描与书目版本已定位，但独立续展/公开托管依据未核定；不能沿用古登堡同名异作者条目的公版结论。"
+        "reason": "初版掃描與書目版本已定位，但獨立續展/公開託管依據未核定；不能沿用古登堡同名異作者條目的公版結論。"
       },
       {
         "scope": "englishEditionSources",
         "decision": "not-imported",
-        "reason": "9项出版社电子版是销售渠道，尚未取得允许本项目公开托管的授权，未将购买/试读当成转载许可。"
+        "reason": "9項出版社電子版是銷售渠道，尚未取得允許本專案公開託管的授權，未將購買/試讀當成轉載許可。"
       }
     ],
     "legalSourceIds": [
@@ -2469,11 +2469,11 @@
       "txt",
       "epub"
     ],
-    "retainedVersions": "用户最终要求保留TXT，仅使用2019年合集拆分的新版EPUB；旧版独立EPUB不收录。",
+    "retainedVersions": "使用者最終要求保留TXT，僅使用2019年合集拆分的新版EPUB；舊版獨立EPUB不收錄。",
     "txtSource": {
       "kind": "user-provided-file",
-      "label": "用户提供的本地文件",
-      "originalFilename": "《2061：太空漫游》_qinkan.net.txt",
+      "label": "使用者提供的本地檔案",
+      "originalFilename": "《2061：太空漫遊》_qinkan.net.txt",
       "importedOn": "2026-10-21",
       "sourceSha256": "d9ebc63c4d009e2a6388d935275b016dcd935e78e6c16eae82560823a682b414",
       "sourceBytes": 242515,
@@ -2482,7 +2482,7 @@
       "acquisitionReview": "acquisition/arthur-c-clarke.json#userProvidedImportReview",
       "sourceEncoding": "gb18030",
       "encoding": "utf-8",
-      "normalization": "GB18030转换为UTF-8，移除2行下载站推广，换行统一为LF并清理文末多余空行；其余文字和标点保留。",
+      "normalization": "GB18030轉換為UTF-8，移除2行下載站推廣，換行統一為LF並清理文末多餘空行；其餘文字和標點保留。",
       "chapterHeadingCount": 60,
       "adCleanup": {
         "reviewedOn": "2026-10-21",
@@ -2495,8 +2495,8 @@
     },
     "epubReview": "acquisition/space-odyssey-2026-10-21.json",
     "adCleanup": "acquisition/ad-cleanup-2026-10-21.json",
-    "publication": "沿用1987/1988待核结论，未添加原作年份文件名前缀。",
-    "editionComparison": "两个保留版本均有60章，未认定译文逐段相同。"
+    "publication": "沿用1987/1988待核結論，未新增原作年份檔案名字首。",
+    "editionComparison": "兩個保留版本均有60章，未認定譯文逐段相同。"
   },
   "collectionSplitReview": "acquisition/space-odyssey-2026-10-21.json"
 }

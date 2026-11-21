@@ -30,7 +30,7 @@ def main():
     def manifest_for(owner):
         relative = owner.get('issuesFile') if owner.get('kind') == 'periodical' else owner.get('booksFile')
         if not isinstance(relative, str) or '\\' in relative or Path(relative).is_absolute() or '..' in Path(relative).parts:
-            raise SystemExit('目录清单必须是 metadata 内的相对路径。')
+            raise SystemExit('目錄清單必須是 metadata 內的相對路徑。')
         return metadata / relative
 
     def entries_key(owner):
@@ -40,26 +40,26 @@ def main():
     used_slugs = set()
     for author in owners:
         if not isinstance(author.get('id'), str) or not re.fullmatch(r'[a-z0-9][a-z0-9-]*', author['id']):
-            raise SystemExit('作者 id 只能包含小写字母、数字和连字符。')
+            raise SystemExit('作者 id 只能包含小寫字母、數字和連字元。')
         slug = author.get('slug')
         if not valid_slug(slug) or slug in author_slugs:
-            raise SystemExit('作者 slug 必须是唯一的名称，用连字符分词。')
+            raise SystemExit('作者 slug 必須是唯一的名稱，用連字元分詞。')
         author_slugs.add(slug)
         manifest = manifest_for(author)
         if manifest.exists():
             for book in json.loads(manifest.read_text(encoding='utf-8'))[entries_key(author)]:
                 if not valid_slug(book.get('slug')) or book['slug'] in used_slugs:
-                    raise SystemExit('作品 slug 必须全局唯一且有意义。请先修正 metadata。')
+                    raise SystemExit('作品 slug 必須全域性唯一且有意義。請先修正 metadata。')
                 used_slugs.add(book['slug'])
         directory = author.get('directory')
         if not isinstance(directory, str) or '\\' in directory or Path(directory).is_absolute() or '..' in Path(directory).parts:
-            raise SystemExit('作者 directory 必须是小说仓库内的相对目录。')
+            raise SystemExit('作者 directory 必須是小說倉庫內的相對目錄。')
         if not (root / directory).resolve().is_relative_to(root.resolve()):
-            raise SystemExit('作者目录不能指向小说仓库之外。')
+            raise SystemExit('作者目錄不能指向小說倉庫之外。')
     registered = {author['directory'] for author in owners}
     actual = {path.name for path in root.iterdir() if path.is_dir() and re.match(r'^\d{3} - ', path.name)}
     if actual - registered or any(not (root / path).is_dir() for path in registered):
-        raise SystemExit('请先在 metadata/authors.json 或 periodicals.json 中注册或更新目录。')
+        raise SystemExit('請先在 metadata/authors.json 或 periodicals.json 中註冊或更新目錄。')
     changed = []
     total = 0
     for author in owners:
@@ -78,7 +78,7 @@ def main():
             if path.suffix.lower() == '.md' and relative not in previous:
                 continue
             if path.is_symlink():
-                raise SystemExit(f'不支持符号链接作品：{path}')
+                raise SystemExit(f'不支援符號連結作品：{path}')
             titles = re.findall(r'《([^》]+)》', path.stem)
             book = previous.get(relative, {
                 'id': author['id'] + '-' + hashlib.sha256(relative.encode()).hexdigest()[:12],
@@ -90,7 +90,7 @@ def main():
             if author.get('kind') == 'periodical' and relative not in previous:
                 issue = re.search(r'(\d{4})年第(\d+)期', path.stem)
                 if not issue:
-                    raise SystemExit(f'新增期刊文件名须明确年份和期号，或先人工登记 publication：{relative}')
+                    raise SystemExit(f'新增期刊檔案名須明確年份和期號，或先人工登記 publication：{relative}')
                 year, number = map(int, issue.groups())
                 book.update({'title': f"{author['name']}（{year}年第{number}期）", 'contentType': 'periodical',
                              'publication': {'kind': 'periodical-issue', 'yearBasis': 'issue-publication',
@@ -98,7 +98,7 @@ def main():
             if relative not in previous:
                 base = slugify(book['title'])
                 if not base:
-                    raise SystemExit(f'请为作品设置有意义的标题：{relative}')
+                    raise SystemExit(f'請為作品設定有意義的標題：{relative}')
                 slug = base
                 if slug in used_slugs:
                     slug = f"{base}-{book['format']}"
@@ -122,8 +122,8 @@ def main():
                 manifest.write_text(json.dumps(updated, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         total += len(books)
     if changed and args.check:
-        raise SystemExit('元信息需要更新：' + ', '.join(changed))
-    print(f'{len(authors)} 位作者、{len(periodicals)} 种期刊，{total} 个文件；' + ('已更新。' if changed else '无需更新。') + '未读取正文。')
+        raise SystemExit('元資訊需要更新：' + ', '.join(changed))
+    print(f'{len(authors)} 位作者、{len(periodicals)} 種期刊，{total} 個檔案；' + ('已更新。' if changed else '無需更新。') + '未讀取正文。')
 
 
 if __name__ == '__main__':

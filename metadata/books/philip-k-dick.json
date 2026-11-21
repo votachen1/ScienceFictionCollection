@@ -19,10 +19,10 @@
         "firstPublicationDate": "1953-05",
         "sourceUrl": "https://www.gutenberg.org/ebooks/32032",
         "editionYear": null,
-        "note": "所收英文转录来自Space Science Fiction的1953年刊本；不与1957年同名合集混同。",
+        "note": "所收英文轉錄來自Space Science Fiction的1953年刊本；不與1957年同名合集混同。",
         "editionDate": "1953-05"
       },
-      "editionNote": "所收英文转录来自Space Science Fiction的1953年刊本；不与1957年同名合集混同。",
+      "editionNote": "所收英文轉錄來自Space Science Fiction的1953年刊本；不與1957年同名合集混同。",
       "textSource": {
         "kind": "public-domain-digital-edition",
         "label": "Project Gutenberg ebook 32032",
@@ -31,7 +31,7 @@
         "textSha256": "aacffa058073da03d787e7ada38d21356933482ef3d20d0584e4dc92740620a1",
         "textBytes": 90616,
         "acquisitionReview": "acquisition/classics-2026-10-21.json",
-        "review": "对照同站HTML和TXT核查章节及首尾；全部叙事段落逐一顺序匹配，并验证整段正文的字母数字序列一致。不是逐页原刊影像校勘。",
+        "review": "對照同站HTML和TXT核查章節及首尾；全部敘事段落逐一順序匹配，並驗證整段正文的字母數字序列一致。不是逐頁原刊影像校勘。",
         "sourceTextUrl": "https://www.gutenberg.org/cache/epub/32032/pg32032.txt",
         "sourceTxtSha256": "1deb05b5a08ff0454ffe285d999ed8fd6c281c6a480667162afe6848766f99d0",
         "sourceHtmlUrl": "https://www.gutenberg.org/cache/epub/32032/pg32032-images.html",
@@ -42,11 +42,11 @@
         "completeNarrativeAlphanumericSha256": "735f01b202c9aa8cb96b22afe6e518fa0e4b91b0a52052e0b70896cdd9aad55c",
         "formatDifferences": [],
         "excluded": [
-          "古登堡页首页尾和许可包装（来源另在metadata中致谢）",
-          "重复印刷目录",
-          "图片占位及编辑宣传导语"
+          "古登堡頁首頁尾和許可包裝（來源另在metadata中致謝）",
+          "重影印刷目錄",
+          "圖片佔位及編輯宣傳導語"
         ],
-        "normalization": "从正文结构提取章节标题、正文段落与场景分隔；仅归一化段内空白，不改写用词。"
+        "normalization": "從正文結構提取章節標題、正文段落與場景分隔；僅歸一化段內空白，不改寫用詞。"
       },
       "rights": {
         "status": "public-domain-US-supported",
@@ -55,14 +55,14 @@
         ],
         "globalPublicDomain": false,
         "reviewedOn": "2026-10-21",
-        "basis": "古登堡目录明确标美国公版，实际文件附有针对本1953年刊本的未续展研究说明；本项目依该数字版本的清权结论收录，不扩展到作者其他作品。",
+        "basis": "古登堡目錄明確標美國公版，實際檔案附有針對本1953年刊本的未續展研究說明；本專案依該數字版本的清權結論收錄，不擴展到作者其他作品。",
         "sourceUrls": [
           "https://www.gutenberg.org/ebooks/32032",
           "https://www.gutenberg.org/policy/license.html",
           "https://www.copyright.gov/circs/circ15a.pdf"
         ],
-        "scope": "仅针对所列英文数字版本在美国的收录依据；不适用于未经核查的译本、新导读、插图或其他地区。",
-        "redistribution": "依据古登堡许可1.C及说明，正文中去除古登堡包装和商标引用；在来源记录中保留带链接的致谢。"
+        "scope": "僅針對所列英文數字版本在美國的收錄依據；不適用於未經核查的譯本、新導讀、插圖或其他地區。",
+        "redistribution": "依據古登堡許可1.C及說明，正文中去除古登堡包裝和商標引用；在來源記錄中保留帶連結的致謝。"
       },
       "coverStyle": "full",
       "coverSource": {
@@ -87,10 +87,10 @@
         "firstPublicationDate": null,
         "sourceUrl": "https://www.gutenberg.org/ebooks/32154",
         "editionYear": null,
-        "note": "本文件对应美国Space Science Fiction 1953年9月版。另有英国版1953年7月线索，未将美国版月份标作全球首发日期；原作年份均为1953。",
+        "note": "本檔案對應美國Space Science Fiction 1953年9月版。另有英國版1953年7月線索，未將美國版月份標作全球首發日期；原作年份均為1953。",
         "editionDate": "1953-09"
       },
-      "editionNote": "本文件对应美国Space Science Fiction 1953年9月版。另有英国版1953年7月线索，未将美国版月份标作全球首发日期；原作年份均为1953。",
+      "editionNote": "本檔案對應美國Space Science Fiction 1953年9月版。另有英國版1953年7月線索，未將美國版月份標作全球首發日期；原作年份均為1953。",
       "textSource": {
         "kind": "public-domain-digital-edition",
         "label": "Project Gutenberg ebook 32154",
@@ -99,7 +99,7 @@
         "textSha256": "43004fe071223761f99527d90dedba4e1513c111765ae3ba9cfa9ceb260e7cc1",
         "textBytes": 150131,
         "acquisitionReview": "acquisition/classics-2026-10-21.json",
-        "review": "对照同站HTML和TXT核查章节及首尾；全部叙事段落逐一顺序匹配，并验证整段正文的字母数字序列一致。不是逐页原刊影像校勘。",
+        "review": "對照同站HTML和TXT核查章節及首尾；全部敘事段落逐一順序匹配，並驗證整段正文的字母數字序列一致。不是逐頁原刊影像校勘。",
         "sourceTextUrl": "https://www.gutenberg.org/cache/epub/32154/pg32154.txt",
         "sourceTxtSha256": "bbdf63a1f122510fa421f38d270eb376a7e348185c59a6f252e877c980b646d3",
         "sourceHtmlUrl": "https://www.gutenberg.org/cache/epub/32154/pg32154-images.html",
@@ -110,11 +110,11 @@
         "completeNarrativeAlphanumericSha256": "ddaeb8f41224c899f7b17b0b9723d646b73b516ae6e29f80dfa044395eec9171",
         "formatDifferences": [],
         "excluded": [
-          "古登堡页首页尾和许可包装（来源另在metadata中致谢）",
-          "重复印刷目录",
-          "图片占位及编辑宣传导语"
+          "古登堡頁首頁尾和許可包裝（來源另在metadata中致謝）",
+          "重影印刷目錄",
+          "圖片佔位及編輯宣傳導語"
         ],
-        "normalization": "从正文结构提取章节标题、正文段落与场景分隔；仅归一化段内空白，不改写用词。"
+        "normalization": "從正文結構提取章節標題、正文段落與場景分隔；僅歸一化段內空白，不改寫用詞。"
       },
       "rights": {
         "status": "public-domain-US-supported",
@@ -123,14 +123,14 @@
         ],
         "globalPublicDomain": false,
         "reviewedOn": "2026-10-21",
-        "basis": "古登堡目录明确标美国公版，实际文件附有针对本1953年刊本的未续展研究说明；本项目依该数字版本的清权结论收录，不扩展到作者其他作品。",
+        "basis": "古登堡目錄明確標美國公版，實際檔案附有針對本1953年刊本的未續展研究說明；本專案依該數字版本的清權結論收錄，不擴展到作者其他作品。",
         "sourceUrls": [
           "https://www.gutenberg.org/ebooks/32154",
           "https://www.gutenberg.org/policy/license.html",
           "https://www.copyright.gov/circs/circ15a.pdf"
         ],
-        "scope": "仅针对所列英文数字版本在美国的收录依据；不适用于未经核查的译本、新导读、插图或其他地区。",
-        "redistribution": "依据古登堡许可1.C及说明，正文中去除古登堡包装和商标引用；在来源记录中保留带链接的致谢。"
+        "scope": "僅針對所列英文數字版本在美國的收錄依據；不適用於未經核查的譯本、新導讀、插圖或其他地區。",
+        "redistribution": "依據古登堡許可1.C及說明，正文中去除古登堡包裝和商標引用；在來源記錄中保留帶連結的致謝。"
       },
       "chapterTitleCorrections": [
         {

@@ -1,26 +1,26 @@
 {
   "note": "Exact work-title aliases for cover research; not translated display names. Review imagery before applying.",
   "aliases": {
-    "超新星纪元（内地实体删节版）": [
+    "超新星紀元（內地實體刪節版）": [
       "Chao xin xing ji yuan",
       "The Supernova Era"
     ],
-    "超新星纪元（新创世纪完整版）": [
+    "超新星紀元（新創世紀完整版）": [
       "Chao xin xing ji yuan",
       "The Supernova Era"
     ],
-    "三体": [
-      "三体"
+    "三體": [
+      "三體"
     ],
-    "三体2黑暗森林": [
+    "三體2黑暗森林": [
       "The Dark Forest (The Three-Body Problem Series Book 2)"
     ],
-    "三体3死神永生": [
+    "三體3死神永生": [
       "Death’s End (The Three-Body Problem Series Book 3)",
       "Death's End (The Three-Body Problem Series Book 3)"
     ],
-    "球状闪电": [
-      "球状闪电",
+    "球狀閃電": [
+      "球狀閃電",
       "Ball Lightning"
     ],
     "沙丘": [
@@ -35,108 +35,108 @@
     "基地": [
       "Foundation"
     ],
-    "基地与帝国": [
+    "基地與帝國": [
       "Foundation and Empire"
     ],
     "第二基地": [
       "Second Foundation"
     ],
-    "基地边缘": [
+    "基地邊緣": [
       "Foundation’s Edge",
       "Foundation's Edge"
     ],
-    "基地与地球": [
+    "基地與地球": [
       "Foundation and Earth"
     ],
     "基地前奏": [
       "Prelude to Foundation"
     ],
-    "迈向基地": [
+    "邁向基地": [
       "Forward the Foundation"
     ],
-    "我，机器人": [
+    "我，機器人": [
       "I, Robot"
     ],
-    "钢穴": [
+    "鋼穴": [
       "The Caves of Steel"
     ],
-    "裸阳": [
+    "裸陽": [
       "The Naked Sun"
     ],
-    "曙光中的机器人": [
+    "曙光中的機器人": [
       "The Robots of Dawn"
     ],
-    "机器人与帝国": [
+    "機器人與帝國": [
       "Robots and Empire"
     ],
-    "繁星若尘": [
+    "繁星若塵": [
       "The Stars, Like Dust"
     ],
     "星空暗流": [
       "The Currents of Space"
     ],
-    "苍穹微石": [
+    "蒼穹微石": [
       "Pebble in the Sky"
     ],
-    "永恒的终结": [
+    "永恆的終結": [
       "The End of Eternity"
     ],
-    "神们自己": [
+    "神們自己": [
       "The Gods Themselves"
     ],
-    "复仇女神": [
+    "復仇女神": [
       "Nemesis"
     ],
     "奇妙的航程": [
       "Fantastic Voyage"
     ],
-    "九个明天": [
+    "九個明天": [
       "Nine Tomorrows"
     ],
-    "格兰特船长的儿女": [
+    "格蘭特船長的兒女": [
       "Les enfants du capitaine Grant"
     ],
-    "海底两万里": [
+    "海底兩萬裡": [
       "Vingt mille lieues sous les mers",
       "Hai di liang wan li"
     ],
-    "神秘岛": [
+    "神秘島": [
       "L’Île mystérieuse",
       "L'Île mystérieuse",
       "The Mysterious Island",
       "Shen mi dao"
     ],
-    "从地球到月球": [
+    "從地球到月球": [
       "De la terre à la lune"
     ],
-    "环绕月球": [
+    "環繞月球": [
       "Autour de la lune"
     ],
-    "气球上的五星期": [
+    "氣球上的五星期": [
       "Cinq semaines en ballon"
     ],
-    "地心游记": [
+    "地心遊記": [
       "Voyage au Centre de la Terre"
     ],
-    "哈特拉斯船长历险记": [
+    "哈特拉斯船長歷險記": [
       "Les Aventures du capitaine Hatteras",
       "The Adventures of Captain Hatteras"
     ],
-    "八十天环游地球": [
+    "八十天環遊地球": [
       "Le Tour du Monde en Quatre-Vingts Jours"
     ],
-    "太阳系历险记": [
+    "太陽系歷險記": [
       "Hector Servadac",
       "Off on a Comet"
     ],
-    "鲁滨逊学校": [
+    "魯濱遜學校": [
       "Godfrey Morgan"
     ],
-    "两年假期": [
+    "兩年假期": [
       "Deux ans de vacances",
       "Two Years Vacation"
     ],
-    "绿光": [
+    "綠光": [
       "Le Rayon vert",
       "The Green Ray"
     ],
@@ -145,15 +145,15 @@
       "Le Volcan d'or",
       "The Golden Volcano"
     ],
-    "喀尔巴阡古堡": [
+    "喀爾巴阡古堡": [
       "Le Château des Carpathes",
       "The Castle of the Carpathians"
     ],
-    "昂梯菲尔奇遇记": [
+    "昂梯菲爾奇遇記": [
       "Mirifiques aventures de maître Antifer",
       "The Adventures of Captain Antifer"
     ],
-    "机器岛": [
+    "機器島": [
       "L’Île à hélice",
       "L'Île à hélice",
       "The Floating Island",
@@ -168,24 +168,24 @@
       "L'Invasion de la mer",
       "Invasion of the Sea"
     ],
-    "多瑙河领航员": [
+    "多瑙河領航員": [
       "Le Pilote du Danube",
       "The Danube Pilot"
     ],
-    "弗兰肯斯坦": [
+    "弗蘭肯斯坦": [
       "Frankenstein; or, The Modern Prometheus"
     ],
-    "华氏451度": [
+    "華氏451度": [
       "Fahrenheit 451"
     ],
-    "安德的游戏": [
+    "安德的遊戲": [
       "Ender’s Game",
       "Ender's Game"
     ],
     "死者代言人": [
       "Speaker for the Dead"
     ],
-    "外星屠异": [
+    "外星屠異": [
       "Xenocide"
     ],
     "安德的影子": [
@@ -195,14 +195,14 @@
     "霸主的影子": [
       "Shadow of the Hegemon"
     ],
-    "商人和炼金术士之门": [
+    "商人和鍊金術士之門": [
       "The Merchant and the Alchemist’s Gate",
       "The Merchant and the Alchemist's Gate"
     ],
-    "软件体的生命周期": [
+    "軟體體的生命週期": [
       "The Lifecycle of Software Objects"
     ],
-    "挽救计划": [
+    "挽救計劃": [
       "Project Hail Mary"
     ],
     "太空序曲": [

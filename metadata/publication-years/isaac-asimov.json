@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "authorId": "003",
   "checkedOn": "2026-10-17",
-  "scope": "原先47个文件名缺失年份的条目；只填写可核实的原作初刊年或整部原文文集首版年，不使用中文译本出版年。",
+  "scope": "原先47個檔案名缺失年份的條目；只填寫可核實的原作初刊年或整部原文文集首版年，不使用中文譯本出版年。",
   "sources": {
     "shortFictionBibliography": {
       "label": "Isaac Asimov short stories bibliography",
@@ -41,18 +41,18 @@
       "url": "https://www.conandoylecollection.com/conan-doyle/exhibitions/lost-world"
     },
     "chineseGhostText": {
-      "label": "中文科幻：鬼扯译文，未提供可确认的原文初刊资料",
+      "label": "中文科幻：鬼扯譯文，未提供可確認的原文初刊資料",
       "url": "https://chinasf.com/main/noveldetail.php?ChapterID=-8&NovelID=1025"
     }
   },
   "verified": [
     {
       "bookId": "003-56c9cc89a7d5",
-      "title": "AL-76号走失记",
+      "title": "AL-76號走失記",
       "originalTitle": "Robot AL-76 Goes Astray",
       "year": 1942,
       "yearBasis": "first-original-publication",
-      "path": "[1942]《AL-76号走失记》.txt",
+      "path": "[1942]《AL-76號走失記》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -60,24 +60,24 @@
     },
     {
       "bookId": "003-060ad2b3335a",
-      "title": "一只下金蛋的鹅",
+      "title": "一隻下金蛋的鵝",
       "originalTitle": "Pâté de Foie Gras",
       "year": 1956,
       "yearBasis": "first-original-publication",
-      "path": "[1956]《一只下金蛋的鹅》.txt",
+      "path": "[1956]《一隻下金蛋的鵝》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
       ],
-      "note": "正文中的故事发生年不能代替初刊年。"
+      "note": "正文中的故事發生年不能代替初刊年。"
     },
     {
       "bookId": "003-e44386f679ca",
-      "title": "不朽的诗人",
+      "title": "不朽的詩人",
       "originalTitle": "The Immortal Bard",
       "year": 1954,
       "yearBasis": "first-original-publication",
-      "path": "[1954]《不朽的诗人》.txt",
+      "path": "[1954]《不朽的詩人》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -85,23 +85,23 @@
     },
     {
       "bookId": "003-ac40c88a9458",
-      "title": "九个明天",
+      "title": "九個明天",
       "originalTitle": "Nine Tomorrows",
       "year": 1959,
       "yearBasis": "first-original-book-publication",
-      "path": "[1959]《九个明天》.txt",
+      "path": "[1959]《九個明天》.txt",
       "sourceIds": [
         "nineTomorrows"
       ],
-      "note": "按整部原文文集首次出版年登记；各篇短篇的初刊年不同。"
+      "note": "按整部原文文集首次出版年登記；各篇短篇的初刊年不同。"
     },
     {
       "bookId": "003-6aff04ca5dd1",
-      "title": "二百岁的寿星",
+      "title": "二百歲的壽星",
       "originalTitle": "The Bicentennial Man",
       "year": 1976,
       "yearBasis": "first-original-publication",
-      "path": "[1976]《二百岁的寿星》.txt",
+      "path": "[1976]《二百歲的壽星》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -109,11 +109,11 @@
     },
     {
       "bookId": "003-cc654b3e99fc",
-      "title": "人语石",
+      "title": "人語石",
       "originalTitle": "The Talking Stone",
       "year": 1955,
       "yearBasis": "first-original-publication",
-      "path": "[1955]《人语石》.txt",
+      "path": "[1955]《人語石》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -121,24 +121,24 @@
     },
     {
       "bookId": "003-3d8e970b242a",
-      "title": "他们那时多有趣",
+      "title": "他們那時多有趣",
       "originalTitle": "The Fun They Had",
       "year": 1951,
       "yearBasis": "first-original-publication",
-      "path": "[1951]《他们那时多有趣》.txt",
+      "path": "[1951]《他們那時多有趣》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
       ],
-      "note": "1951年先发表于报纸儿童版；1954年为杂志重刊年。"
+      "note": "1951年先發表於報紙兒童版；1954年為雜誌重刊年。"
     },
     {
       "bookId": "003-54692ad43e87",
-      "title": "低能儿收容所",
+      "title": "低能兒收容所",
       "originalTitle": "Profession",
       "year": 1957,
       "yearBasis": "first-original-publication",
-      "path": "[1957]《低能儿收容所》.txt",
+      "path": "[1957]《低能兒收容所》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -158,24 +158,24 @@
     },
     {
       "bookId": "003-5e967d26f92f",
-      "title": "力量的感觉",
+      "title": "力量的感覺",
       "originalTitle": "The Feeling of Power",
       "year": 1958,
       "yearBasis": "first-original-publication",
-      "path": "[1958]《力量的感觉》.txt",
+      "path": "[1958]《力量的感覺》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
       ],
-      "note": "本地译文介绍称发表于1957年；书目记录为1958年2月 If，文件名按初刊年1958登记。"
+      "note": "本地譯文介紹稱發表於1957年；書目記錄為1958年2月 If，檔案名按初刊年1958登記。"
     },
     {
       "bookId": "003-84a7a68ffed7",
-      "title": "台球",
+      "title": "檯球",
       "originalTitle": "The Billiard Ball",
       "year": 1967,
       "yearBasis": "first-original-publication",
-      "path": "[1967]《台球》.txt",
+      "path": "[1967]《檯球》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -183,11 +183,11 @@
     },
     {
       "bookId": "003-f8e7741b6144",
-      "title": "响铃",
+      "title": "響鈴",
       "originalTitle": "The Singing Bell",
       "year": 1955,
       "yearBasis": "first-original-publication",
-      "path": "[1955]《响铃》.txt",
+      "path": "[1955]《響鈴》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -195,11 +195,11 @@
     },
     {
       "bookId": "003-357349d21c65",
-      "title": "啊，巴顿，巴顿！",
+      "title": "啊，巴頓，巴頓！",
       "originalTitle": "Button, Button",
       "year": 1953,
       "yearBasis": "first-original-publication",
-      "path": "[1953]《啊，巴顿，巴顿！》.txt",
+      "path": "[1953]《啊，巴頓，巴頓！》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -207,11 +207,11 @@
     },
     {
       "bookId": "003-61bc2aab5636",
-      "title": "地球母亲",
+      "title": "地球母親",
       "originalTitle": "Mother Earth",
       "year": 1949,
       "yearBasis": "first-original-publication",
-      "path": "[1949]《地球母亲》.txt",
+      "path": "[1949]《地球母親》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -219,22 +219,22 @@
     },
     {
       "bookId": "003-9b69547a959d",
-      "title": "复仇女神",
+      "title": "復仇女神",
       "originalTitle": "Nemesis",
       "year": 1989,
       "yearBasis": "first-original-book-publication",
-      "path": "[1989]《复仇女神》.txt",
+      "path": "[1989]《復仇女神》.txt",
       "sourceIds": [
         "nemesis"
       ]
     },
     {
       "bookId": "003-4f77650b0ee0",
-      "title": "天堂里的陌生人",
+      "title": "天堂裡的陌生人",
       "originalTitle": "Stranger in Paradise",
       "year": 1974,
       "yearBasis": "first-original-publication",
-      "path": "[1974]《天堂里的陌生人》.txt",
+      "path": "[1974]《天堂裡的陌生人》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -253,11 +253,11 @@
     },
     {
       "bookId": "003-d7b09e284aa8",
-      "title": "奇袭",
+      "title": "奇襲",
       "originalTitle": "C-Chute",
       "year": 1951,
       "yearBasis": "first-original-publication",
-      "path": "[1951]《奇袭》.txt",
+      "path": "[1951]《奇襲》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -265,11 +265,11 @@
     },
     {
       "bookId": "003-d78e66b748b3",
-      "title": "如鱼得水",
+      "title": "如魚得水",
       "originalTitle": "For the Birds",
       "year": 1980,
       "yearBasis": "first-original-publication",
-      "path": "[1980]《如鱼得水》.txt",
+      "path": "[1980]《如魚得水》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -289,11 +289,11 @@
     },
     {
       "bookId": "003-7d4bc16b0db9",
-      "title": "尼德林教授的试题",
+      "title": "尼德林教授的試題",
       "originalTitle": "A Problem of Numbers",
       "year": 1970,
       "yearBasis": "first-original-publication",
-      "path": "[1970]《尼德林教授的试题》.txt",
+      "path": "[1970]《尼德林教授的試題》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology",
@@ -302,11 +302,11 @@
     },
     {
       "bookId": "003-d8b30790bfb3",
-      "title": "怪异的谋杀案",
+      "title": "怪異的謀殺案",
       "originalTitle": "All the Troubles of the World",
       "year": 1958,
       "yearBasis": "first-original-publication",
-      "path": "[1958]《怪异的谋杀案》.txt",
+      "path": "[1958]《怪異的謀殺案》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -314,11 +314,11 @@
     },
     {
       "bookId": "003-ae7001690da0",
-      "title": "捉兔记",
+      "title": "捉兔記",
       "originalTitle": "Catch That Rabbit",
       "year": 1944,
       "yearBasis": "first-original-publication",
-      "path": "[1944]《捉兔记》.txt",
+      "path": "[1944]《捉兔記》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -326,11 +326,11 @@
     },
     {
       "bookId": "003-7cebf17073eb",
-      "title": "换个角度",
+      "title": "換個角度",
       "originalTitle": "Point of View",
       "year": 1975,
       "yearBasis": "first-original-publication",
-      "path": "[1975]《换个角度》.txt",
+      "path": "[1975]《換個角度》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -347,7 +347,7 @@
         "shortFictionBibliography",
         "jenkinsChronology"
       ],
-      "note": "本地为1941年短篇译文，不按1990年与Robert Silverberg合作扩写的长篇登记。"
+      "note": "本地為1941年短篇譯文，不按1990年與Robert Silverberg合作擴寫的長篇登記。"
     },
     {
       "bookId": "003-bf37c4753bc4",
@@ -363,11 +363,11 @@
     },
     {
       "bookId": "003-36e8f2e786f5",
-      "title": "最后的问题",
+      "title": "最後的問題",
       "originalTitle": "The Last Question",
       "year": 1956,
       "yearBasis": "first-original-publication",
-      "path": "[1956]《最后的问题》.txt",
+      "path": "[1956]《最後的問題》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -375,25 +375,25 @@
     },
     {
       "bookId": "003-ef23dae18ac3",
-      "title": "机器人的幻想",
+      "title": "機器人的幻想",
       "originalTitle": "Robot Visions",
       "year": 1990,
       "yearBasis": "first-original-publication",
-      "path": "[1990]《机器人的幻想》.txt",
+      "path": "[1990]《機器人的幻想》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology",
         "robotVisionsIdentity"
       ],
-      "note": "按时间专家派机器人Archie前往未来的情节确认是Robot Visions，不是1986年的Robot Dreams。"
+      "note": "按時間專家派機器人Archie前往未來的情節確認是Robot Visions，不是1986年的Robot Dreams。"
     },
     {
       "bookId": "003-56c7988ae747",
-      "title": "格洛里亚的好朋友",
+      "title": "格洛里亞的好朋友",
       "originalTitle": "Robbie",
       "year": 1940,
       "yearBasis": "first-original-publication",
-      "path": "[1940]《格洛里亚的好朋友》.txt",
+      "path": "[1940]《格洛里亞的好朋友》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -401,11 +401,11 @@
     },
     {
       "bookId": "003-f4418ac50158",
-      "title": "死尘",
+      "title": "死塵",
       "originalTitle": "The Dust of Death",
       "year": 1957,
       "yearBasis": "first-original-publication",
-      "path": "[1957]《死尘》.txt",
+      "path": "[1957]《死塵》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -413,16 +413,16 @@
     },
     {
       "bookId": "003-3aa25fd9003c",
-      "title": "法律之争",
+      "title": "法律之爭",
       "originalTitle": "A Loint of Paw",
       "year": 1957,
       "yearBasis": "first-original-publication",
-      "path": "[1957]《法律之争》.txt",
+      "path": "[1957]《法律之爭》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
       ],
-      "note": "按Montie Stein利用时间机器逃避追诉的情节确认是A Loint of Paw，不是1950年的Legal Rites。"
+      "note": "按Montie Stein利用時間機器逃避追訴的情節確認是A Loint of Paw，不是1950年的Legal Rites。"
     },
     {
       "bookId": "003-d5f65a07749f",
@@ -438,11 +438,11 @@
     },
     {
       "bookId": "003-73ca4eeeed83",
-      "title": "灶神星畔受困记",
+      "title": "灶神星畔受困記",
       "originalTitle": "Marooned off Vesta",
       "year": 1939,
       "yearBasis": "first-original-publication",
-      "path": "[1939]《灶神星畔受困记》.txt",
+      "path": "[1939]《灶神星畔受困記》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -450,11 +450,11 @@
     },
     {
       "bookId": "003-3a4fd3341b90",
-      "title": "真爱",
+      "title": "真愛",
       "originalTitle": "True Love",
       "year": 1977,
       "yearBasis": "first-original-publication",
-      "path": "[1977]《真爱》.txt",
+      "path": "[1977]《真愛》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -462,11 +462,11 @@
     },
     {
       "bookId": "003-6a86188722ef",
-      "title": "眼睛不仅用来看东西",
+      "title": "眼睛不僅用來看東西",
       "originalTitle": "Eyes Do More Than See",
       "year": 1965,
       "yearBasis": "first-original-publication",
-      "path": "[1965]《眼睛不仅用来看东西》.txt",
+      "path": "[1965]《眼睛不僅用來看東西》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -474,11 +474,11 @@
     },
     {
       "bookId": "003-559d0533a417",
-      "title": "确定无疑的事",
+      "title": "確定無疑的事",
       "originalTitle": "Sure Thing",
       "year": 1977,
       "yearBasis": "first-original-publication",
-      "path": "[1977]《确定无疑的事》.txt",
+      "path": "[1977]《確定無疑的事》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -486,11 +486,11 @@
     },
     {
       "bookId": "003-4e23439052fd",
-      "title": "神奇的汽车——萨莉",
+      "title": "神奇的汽車——薩莉",
       "originalTitle": "Sally",
       "year": 1953,
       "yearBasis": "first-original-publication",
-      "path": "[1953]《神奇的汽车——萨莉》.txt",
+      "path": "[1953]《神奇的汽車——薩莉》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -510,11 +510,11 @@
     },
     {
       "bookId": "003-a89a125614e4",
-      "title": "终极答案",
+      "title": "終極答案",
       "originalTitle": "The Last Answer",
       "year": 1980,
       "yearBasis": "first-original-publication",
-      "path": "[1980]《终极答案》.txt",
+      "path": "[1980]《終極答案》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -522,11 +522,11 @@
     },
     {
       "bookId": "003-1287a8dfaae6",
-      "title": "讣告",
+      "title": "訃告",
       "originalTitle": "Obituary",
       "year": 1959,
       "yearBasis": "first-original-publication",
-      "path": "[1959]《讣告》.txt",
+      "path": "[1959]《訃告》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -534,11 +534,11 @@
     },
     {
       "bookId": "003-d4bb2bed4bb3",
-      "title": "讲笑话的人",
+      "title": "講笑話的人",
       "originalTitle": "Jokester",
       "year": 1956,
       "yearBasis": "first-original-publication",
-      "path": "[1956]《讲笑话的人》.txt",
+      "path": "[1956]《講笑話的人》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -546,11 +546,11 @@
     },
     {
       "bookId": "003-14b981ff9972",
-      "title": "谁是凶手",
+      "title": "誰是兇手",
       "originalTitle": "The Dying Night",
       "year": 1956,
       "yearBasis": "first-original-publication",
-      "path": "[1956]《谁是凶手》.txt",
+      "path": "[1956]《誰是兇手》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -558,11 +558,11 @@
     },
     {
       "bookId": "003-b7e023312d34",
-      "title": "钥匙",
+      "title": "鑰匙",
       "originalTitle": "The Key",
       "year": 1966,
       "yearBasis": "first-original-publication",
-      "path": "[1966]《钥匙》.txt",
+      "path": "[1966]《鑰匙》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -570,11 +570,11 @@
     },
     {
       "bookId": "003-57c2dd69e22e",
-      "title": "镜象",
+      "title": "映象",
       "originalTitle": "Mirror Image",
       "year": 1972,
       "yearBasis": "first-original-publication",
-      "path": "[1972]《镜象》.txt",
+      "path": "[1972]《映象》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology"
@@ -582,17 +582,17 @@
     },
     {
       "bookId": "003-039309b9caf0",
-      "title": "黑鳏夫酒家的聚会",
+      "title": "黑鰥夫酒家的聚會",
       "originalTitle": "Sixty Million Trillion Combinations",
       "year": 1980,
       "yearBasis": "first-original-publication",
-      "path": "[1980]《黑鳏夫酒家的聚会》.txt",
+      "path": "[1980]《黑鰥夫酒家的聚會》.txt",
       "sourceIds": [
         "shortFictionBibliography",
         "jenkinsChronology",
         "blackWidowersIdentity"
       ],
-      "note": "本地为Pochik、Sandino与十四字母密码的单篇故事，不是1974年的Tales of the Black Widowers整部文集。"
+      "note": "本地為Pochik、Sandino與十四字母密碼的單篇故事，不是1974年的Tales of the Black Widowers整部文集。"
     }
   ],
   "unresolved": [
@@ -601,7 +601,7 @@
       "title": "鬼扯",
       "path": "鬼扯.txt",
       "year": null,
-      "reason": "未找到能消除阿西莫夫/韩松同文异署名冲突的原刊、作者或出版社记录；中文二次转载不独立构成署名证据。检索摘要中的1995年10期与相邻《黑鳏夫酒家的聚餐会》条目有关，不能移用为《鬼扯》日期。保留原文件及原署名，初刊年继续空缺。",
+      "reason": "未找到能消除阿西莫夫/韓松同文異署名衝突的原刊、作者或出版社記錄；中文二次轉載不獨立構成署名證據。檢索摘要中的1995年10期與相鄰《黑鰥夫酒家的聚餐會》條目有關，不能移用為《鬼扯》日期。保留原檔案及原署名，初刊年繼續空缺。",
       "sourceIds": [
         "chineseGhostText",
         "shortFictionBibliography"
@@ -613,11 +613,11 @@
       "bookId": "003-c056bb6968f0",
       "originalAuthorId": "003",
       "currentAuthorId": "013",
-      "path": "013 - Arthur Conan Doyle(亚瑟·柯南·道尔)/被遗忘的世界.txt",
+      "path": "013 - Arthur Conan Doyle(亞瑟·柯南·道爾)/被遺忘的世界.txt",
       "originalAuthor": "Arthur Conan Doyle",
       "originalWork": "The Lost World",
       "originalWorkPublicationYear": 1912,
-      "remainingUncertainty": "原作归属及1912年已确认。相同节写文本的二次转载出现“张荣华译”线索，但这些转载也沿用错误的阿西莫夫署名，且未提供原刊、版权页或节写者资料，不能据此确定译者或版本年份。保留正文、柯南·道尔归属和无年份文件名。",
+      "remainingUncertainty": "原作歸屬及1912年已確認。相同節寫文字的二次轉載出現“張榮華譯”線索，但這些轉載也沿用錯誤的阿西莫夫署名，且未提供原刊、版權頁或節寫者資料，不能據此確定譯者或版本年份。保留正文、柯南·道爾歸屬和無年份檔案名。",
       "verificationRecord": "verification.json"
     }
   ],
