@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>科幻小說閱讀站</title>
+<style>
+  :root { --bg:#fdfcf8; --fg:#222; --muted:#888; --card:#fff; --border:#e6e2d8; --accent:#8a6d3b; --chip:#f3efe4; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif; background:var(--bg); color:var(--fg); line-height:1.6; }
+  header { position:sticky; top:0; z-index:10; background:var(--bg); border-bottom:1px solid var(--border); padding:12px 16px; }
+  header h1 { margin:0; font-size:20px; letter-spacing:2px; }
+  header p { margin:2px 0 0; font-size:12px; color:var(--muted); }
+  main { max-width:760px; margin:0 auto; padding:16px; }
+  #search { width:100%; padding:10px 12px; font-size:16px; border:1px solid var(--border); border-radius:10px; background:var(--card); color:var(--fg); margin:4px 0 16px; }
+  h2 { font-size:16px; margin:24px 0 8px; border-left:4px solid var(--accent); padding-left:8px; }
+  .author { background:var(--card); border:1px solid var(--border); border-radius:12px; margin-bottom:12px; overflow:hidden; }
+  .author > button { width:100%; text-align:left; background:none; border:0; padding:14px 16px; font-size:17px; font-weight:600; color:var(--fg); cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+  .author > button .count { font-size:13px; color:var(--muted); font-weight:400; }
+  .books { display:none; border-top:1px solid var(--border); padding:6px 0; }
+  .author.open .books { display:block; }
+  .book { display:flex; justify-content:space-between; align-items:center; gap:8px; width:100%; text-align:left; background:none; border:0; padding:10px 16px; font-size:15px; color:var(--fg); cursor:pointer; }
+  .book:hover { background:var(--chip); }
+  .book .meta { font-size:12px; color:var(--muted); white-space:nowrap; }
+  .book .bm { color:var(--accent); }
+  .note { font-size:13px; color:var(--muted); padding:4px 16px 12px; }
+  .note a { color:var(--accent); }
+  .empty { color:var(--muted); text-align:center; padding:40px 0; }
+  #reader { display:none; }
+  #reader .toolbar { position:sticky; top:0; z-index:10; background:var(--bg); border-bottom:1px solid var(--border); padding:10px 0; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .toolbar button { border:1px solid var(--border); background:var(--card); color:var(--fg); border-radius:8px; padding:6px 12px; font-size:14px; cursor:pointer; }
+  .toolbar .title { font-weight:700; font-size:16px; flex:1 1 100%; }
+  #content { font-size:19px; line-height:1.9; padding:8px 4px 40px; white-space:pre-wrap; word-break:break-word; }
+  #content p { margin:0 0 1em; }
+  #moreBtn { display:block; margin:0 auto 40px; padding:10px 28px; font-size:15px; border-radius:10px; border:1px solid var(--border); background:var(--card); color:var(--fg); cursor:pointer; }
+  body.sepia { --bg:#f7f1e3; --fg:#3a3128; --card:#fffaf0; --border:#e2d9c2; --chip:#efe8d2; }
+  body.dark { --bg:#191919; --fg:#d8d8d8; --card:#232323; --border:#333; --muted:#999; --chip:#2a2a2a; }
+  .hidden { display:none !important; }
+</style>
+</head>
+<body>
+<header>
+  <h1>科幻小說閱讀站</h1>
+  <p>內容來自 GitHub 倉庫 votachen1/ScienceFictionCollection（繁體中文）</p>
+</header>
+<main>
+  <div id="home">
+    <input id="search" type="search" placeholder="搜尋書名或作者…" autocomplete="off">
+    <div id="continueSec"></div>
+    <div id="bookmarkSec"></div>
+    <h2>書架</h2>
+    <div id="shelf"><p class="empty">載入書目中…</p></div>
+  </div>
+  <div id="reader">
+    <div class="toolbar">
+      <span class="title" id="readerTitle"></span>
+      <button id="backBtn">← 回書架</button>
+      <button id="fontDown">A-</button>
+      <button id="fontUp">A+</button>
+      <button id="themeBtn">主題</button>
+      <button id="bmBtn">☆ 書籤</button>
+    </div>
+    <div id="content"></div>
+    <button id="moreBtn" class="hidden">繼續載入</button>
+  </div>
+</main>
+<script>
+const OWNER = 'votachen1', REPO = 'ScienceFictionCollection', BRANCH = 'master';
+const treeUrl = `https://api.github.com/repos/${OWNER}/${REPO}/git/trees/${BRANCH}?recursive=1`;
+const rawBase = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/`;
+const ghBase = `https://github.com/${OWNER}/${REPO}/tree/${BRANCH}/`;
+const $ = s => document.querySelector(s);
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+};
+let authors = [];           // {name, sort, books:[{title,path}], others:[{name,path}]}
+let current = null;         // {path,title,paras,shown}
+let fontSize = store.get('fontSize', 19);
+let theme = store.get('theme', 'light');
+
+function applyPrefs() {
+  document.body.classList.toggle('sepia', theme === 'sepia');
+  document.body.classList.toggle('dark', theme === 'dark');
+  $('#content').style.fontSize = fontSize + 'px';
+}
+function authorName(folder) { return folder.replace(/^\d+\s*-\s*/, '').trim(); }
+function authorSort(folder) { const m = folder.match(/^(\d+)/); return m ? parseInt(m[1], 10) : 999; }
+
+async function loadCatalog() {
+  const res = await fetch(treeUrl, { headers: { 'Accept': 'application/vnd.github+json' } });
+  if (!res.ok) throw new Error('GitHub API ' + res.status);
+  const data = await res.json();
+  const map = {};
+  for (const item of data.tree || []) {
+    if (item.type !== 'blob') continue;
+    const parts = item.path.split('/');
+    if (parts.length < 2) continue;
+    const folder = parts[0], file = parts.slice(1).join('/');
+    if (!map[folder]) map[folder] = { name: authorName(folder), sort: authorSort(folder), books: [], others: [] };
+    if (file.toLowerCase().endsWith('.txt')) map[folder].books.push({ title: file.replace(/\.txt$/i, ''), path: item.path });
+    else if (/\.(epub|pdf)$/i.test(file)) map[folder].others.push({ name: file, path: item.path });
+  }
+  authors = Object.values(map).sort((a, b) => a.sort - b.sort);
+  authors.forEach(a => a.books.sort((x, y) => x.title.localeCompare(y.title, 'zh-Hant')));
+  renderShelf('');
+  renderContinue(); renderBookmarks();
+}
+
+function bookMeta(path) {
+  const p = store.get('progress', {})[path];
+  const b = store.get('bookmarks', []);
+  let m = '';
+  if (p && p.ratio > 0.02 && p.ratio < 0.99) m += '已讀 ' + Math.round(p.ratio * 100) + '%';
+  if (b.includes(path)) m = (m ? m + ' · ' : '') + '★ 已加書籤';
+  return m;
+}
+function renderShelf(q) {
+  const shelf = $('#shelf');
+  const query = (q || '').trim().toLowerCase();
+  let html = '', found = 0;
+  for (const a of authors) {
+    const books = a.books.filter(b => !query || b.title.toLowerCase().includes(query) || a.name.toLowerCase().includes(query));
+    const showAuthor = !query || books.length || a.name.toLowerCase().includes(query);
+    if (!showAuthor) continue;
+    found += books.length;
+    html += `<div class="author${query ? ' open' : ''}"><button data-a="${a.name}">${a.name}<span class="count">${a.books.length} 本</span></button><div class="books">`;
+    for (const b of books) {
+      const meta = bookMeta(b.path);
+      html += `<button class="book" data-path="${encodeURIComponent(b.path)}"><span>${b.title}</span><span class="meta">${meta}</span></button>`;
+    }
+    if (!a.books.length && a.others.length) {
+      html += `<div class="note">這個作者目前只有 ${a.others.map(o => o.name.replace(/\.(epub|pdf)$/i, '').toUpperCase()).join('、')} 格式，尚未轉成可直接閱讀的文字檔。<br><a href="${ghBase + encodeURIComponent(a.name)}" target="_blank" rel="noopener">在 GitHub 上查看 →</a></div>`;
+    }
+    html += `</div></div>`;
+  }
+  shelf.innerHTML = html || `<p class="empty">${query ? '找不到「' + q + '」' : '書架是空的'}</p>`;
+  shelf.querySelectorAll('.author > button').forEach(btn => btn.addEventListener('click', () => btn.parentElement.classList.toggle('open')));
+  shelf.querySelectorAll('.book').forEach(btn => btn.addEventListener('click', () => openBook(decodeURIComponent(btn.dataset.path))));
+}
+function renderContinue() {
+  const p = store.get('progress', {});
+  const items = Object.entries(p).filter(([, v]) => v.ratio > 0.02 && v.ratio < 0.99)
+    .sort((a, b) => (b[1].updated || 0) - (a[1].updated || 0)).slice(0, 5);
+  $('#continueSec').innerHTML = items.length ? `<h2>繼續閱讀</h2>` + items.map(([path, v]) =>
+    `<button class="book" data-path="${encodeURIComponent(path)}" style="border:1px solid var(--border);border-radius:10px;margin-bottom:6px;background:var(--card)"><span>${v.title || path.split('/').pop().replace(/\.txt$/i, '')}</span><span class="meta">已讀 ${Math.round(v.ratio * 100)}%</span></button>`).join('') : '';
+  $('#continueSec').querySelectorAll('.book').forEach(btn => btn.addEventListener('click', () => openBook(decodeURIComponent(btn.dataset.path))));
+}
+function renderBookmarks() {
+  const b = store.get('bookmarks', []);
+  $('#bookmarkSec').innerHTML = b.length ? `<h2>我的書籤</h2>` + b.map(path =>
+    `<button class="book" data-path="${encodeURIComponent(path)}" style="border:1px solid var(--border);border-radius:10px;margin-bottom:6px;background:var(--card)"><span class="bm">★</span><span>${path.split('/').pop().replace(/\.txt$/i, '')}</span></button>`).join('') : '';
+  $('#bookmarkSec').querySelectorAll('.book').forEach(btn => btn.addEventListener('click', () => openBook(decodeURIComponent(btn.dataset.path))));
+}
+
+const CHUNK = 250;
+async function openBook(path) {
+  const title = path.split('/').pop().replace(/\.txt$/i, '');
+  $('#home').classList.add('hidden'); $('#reader').style.display = 'block';
+  $('#readerTitle').textContent = title;
+  $('#content').innerHTML = '<p class="empty">載入內文中…</p>';
+  $('#moreBtn').classList.add('hidden');
+  updateBmBtn(path);
+  try {
+    const res = await fetch(rawBase + path.split('/').map(encodeURIComponent).join('/'));
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const text = await res.text();
+    const paras = text.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+    current = { path, title, paras, shown: 0 };
+    renderChunk(true);
+    const p = store.get('progress', {})[path];
+    if (p && p.scroll > 100) setTimeout(() => window.scrollTo(0, p.scroll), 50);
+    window.scrollTo(0, 0);
+    if (p && p.scroll > 100) setTimeout(() => window.scrollTo(0, p.scroll), 300);
+  } catch (e) {
+    $('#content').innerHTML = '<p class="empty">內文載入失敗，請檢查網路後再試一次。</p>';
+  }
+}
+function renderChunk(first) {
+  if (!current) return;
+  const end = Math.min(current.paras.length, current.shown + CHUNK);
+  let html = first ? '' : $('#content').innerHTML;
+  for (let i = current.shown; i < end; i++) html += `<p>${escapeHtml(current.paras[i])}</p>`;
+  $('#content').innerHTML = html;
+  current.shown = end;
+  $('#moreBtn').classList.toggle('hidden', current.shown >= current.paras.length);
+}
+function escapeHtml(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function updateBmBtn(path) {
+  const b = store.get('bookmarks', []);
+  $('#bmBtn').textContent = b.includes(path) ? '★ 已加書籤' : '☆ 書籤';
+}
+function saveProgress() {
+  if (!current) return;
+  const total = document.documentElement.scrollHeight - window.innerHeight;
+  const ratio = total > 0 ? Math.min(1, window.scrollY / total) : 0;
+  const p = store.get('progress', {});
+  p[current.path] = { title: current.title, ratio, scroll: window.scrollY, updated: Date.now() };
+  store.set('progress', p);
+}
+let saveTimer = null;
+window.addEventListener('scroll', () => { clearTimeout(saveTimer); saveTimer = setTimeout(saveProgress, 500); }, { passive: true });
+
+$('#backBtn').addEventListener('click', () => { saveProgress(); current = null; $('#reader').style.display = 'none'; $('#home').classList.remove('hidden'); renderShelf($('#search').value); renderContinue(); renderBookmarks(); window.scrollTo(0, 0); });
+$('#moreBtn').addEventListener('click', () => renderChunk(false));
+$('#fontDown').addEventListener('click', () => { fontSize = Math.max(15, fontSize - 2); store.set('fontSize', fontSize); applyPrefs(); });
+$('#fontUp').addEventListener('click', () => { fontSize = Math.min(26, fontSize + 2); store.set('fontSize', fontSize); applyPrefs(); });
+$('#themeBtn').addEventListener('click', () => { theme = theme === 'light' ? 'sepia' : theme === 'sepia' ? 'dark' : 'light'; store.set('theme', theme); applyPrefs(); });
+$('#bmBtn').addEventListener('click', () => {
+  if (!current) return;
+  let b = store.get('bookmarks', []);
+  b = b.includes(current.path) ? b.filter(x => x !== current.path) : [...b, current.path];
+  store.set('bookmarks', b); updateBmBtn(current.path);
+});
+$('#search').addEventListener('input', e => renderShelf(e.target.value));
+
+applyPrefs();
+loadCatalog().catch(() => {
+  $('#shelf').innerHTML = '<p class="empty">書目載入失敗（可能是 GitHub API 暫時達到未登入使用上限）。<br>請稍等一分鐘再重新整理頁面。</p>';
+});
+</script>
+</body>
+</html>
